@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  transition: all 0.3s;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #000;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.bg-prime {
+  background: linear-gradient(
+    90deg,
+    rgba(245, 9, 11, 1) 0%,
+    rgba(255, 45, 75, 1) 100%
+  );
+}
+
+.bg-second {
+  background: linear-gradient(
+    0deg,
+    rgba(245, 9, 11, 1) 0%,
+    rgba(255, 45, 75, 1) 100%
+  );
+}
+
+.bg-third {
+  background: linear-gradient(
+    0deg,
+    rgba(245, 9, 11, 1) 0%,
+    rgba(255, 45, 75, 1) 40%
+  );
+}
+
+.rotateY {
+  transform: rotateY(-180deg);
+}
+
+/* scroll bar css start */
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #272727;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f5090b;
+}
+
+/* ================================== */
+
+/* width */
+.buzzflick::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.buzzflick::-webkit-scrollbar-track {
+  background: #272727;
+}
+
+/* Handle */
+.buzzflick::-webkit-scrollbar-thumb {
+  background: #f5090b;
+}
+
+/* scroll bar css End */
+
+/* service slider start */
+
+.servicesConcept .slick-prev {
+  left: -22px;
+  top: 103%;
+}
+
+.servicesConcept .slick-prev:before {
+  content: url(../../public/icons/arrow-left.png);
+}
+
+.servicesConcept .slick-next:before {
+  content: url(../../public/icons/arrow-right.png);
+}
+
+.servicesConcept .slick-next {
+  right: 115px;
+  top: 105%;
+  bottom: inherit;
+}
+
+/* testi slider start */
+
+.testiSlider .slick-slide {
+  height: 300px;
+}
+
+.testiSlider .slick-prev {
+  left: -200px;
+  top: 35%;
+  z-index: 999;
+}
+
+.testiSlider .slick-prev:before {
+  content: url(../../public/icons/arrow.png);
+  opacity: 1;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  transform: rotate(270deg);
+}
+
+.testiSlider .slick-next {
+  right: -155px;
+  top: 35%;
+  z-index: 999;
+}
+
+.testiSlider .slick-next:before {
+  content: url(../../public/icons/arrow.png);
+  opacity: 1;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  transform: rotate(90deg);
+}
+
+/* Blogs Slider start */
+
+.blogsSlider .slick-prev {
+  left: 0;
+  top: inherit;
+  bottom: -39px;
+}
+
+.blogsSlider .slick-prev:before {
+  content: url(../../public/icons/red-arrow-l.png);
+}
+
+.blogsSlider .slick-next {
+  right: 43px;
+  bottom: -39px;
+  top: inherit;
+}
+
+.blogsSlider .slick-next:before {
+  content: url(../../public/icons/red-arrow-r.png);
+}
+
+/* Blogs Slider End */
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1920px) {
+  .blogsSlider .slick-dots {
+    position: absolute;
+    bottom: -42px;
+    display: block;
+    width: 9%;
+    padding: 0;
+    text-align: right;
+    z-index: 9999;
+    margin-right: auto;
+    right: 71px;
+    background: #000;
+    font-family: sans-serif;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .blogsSlider .slick-dots {
+    width: 9%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .blogsSlider .slick-dots {
+    width: 11%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .servicesConcept .slick-next {
+    right: 50px;
+  }
+
+  .servicesConcept .slick-prev {
+    top: 106%;
+  }
+
+  .blogsSlider .slick-dots {
+    width: 22%;
+  }
+
+  .testiSlider .slick-prev {
+    left: 120px;
+    top: inherit;
+    bottom: -90px;
+  }
+
+  .testiSlider .slick-next {
+    right: 200px;
+    top: inherit;
+    bottom: -90px;
+  }
+
+  .slideBg {
+    background-size: 550px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .wantbg {
+    background: linear-gradient(
+      0deg,
+      rgba(245, 9, 11, 1) 0%,
+      rgba(255, 45, 75, 1) 40%
+    );
+  }
+
+  .blogsSlider .slick-next {
+    right: 27px;
+  }
+
+  .blogsSlider .slick-prev {
+    left: 5px;
+  }
+
+  .blogsSlider .slick-dots {
+    display: none;
+  }
+
+  .testiSlider .slick-prev {
+    left: -42px;
+    top: inherit;
+    bottom: -64px;
+  }
+
+  .testiSlider .slick-next {
+    right: 20px;
+    top: inherit;
+    bottom: -64px;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+/* Media Query End */
