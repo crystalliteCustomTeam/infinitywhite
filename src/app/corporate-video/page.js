@@ -12,7 +12,8 @@ import Testimonial from '@/components/testimonial/Testimonial';
 import Faqs from "@/components/faqs/Faqs";
 import Contact from '@/components/contact/Contact';
 // Import Images
-import LookingFlodImg from "media/images/boost-img.png";//==== Boost Images
+import LookingFlodImg from "media/images/boost-img.png";
+//==== Boost Images
 import BoostFlodImg from "media/corporate-video/company-Image.png";
 //===== Tech Type Images
 import TechImage1 from "media/tech-type/techtype4.png"

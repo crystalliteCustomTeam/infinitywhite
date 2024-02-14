@@ -12,7 +12,8 @@ import Faqs from "@/components/faqs/Faqs";
 import Contact from '@/components/contact/Contact';
 // Import Images
 import LookingFlodImg from "media/educational-video/looking-img.png";
-import ProductImg from "media/educational-video/product-img.png";//==== Boost Images
+import ProductImg from "media/educational-video/product-img.png";
+//==== Boost Images
 import BoostFlodImg from "media/educational-video/boost-img.png";
 // ==== Service Concept Images 
 import FoldBg from 'media/images/fold-bg.png'
