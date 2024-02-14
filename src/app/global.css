@@ -15,9 +15,9 @@ body {
 }
 
 body {
-  color: #fff;
+  color: #000;
   overflow-x: hidden;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .borderinset {
