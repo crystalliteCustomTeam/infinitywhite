@@ -113,8 +113,7 @@ function MegaMenu() {
             >
                 <MenuHandler>
                     <Link href="#" variant="small" className="font-medium">
-                        <span
-                            className="flex items-center px-2 gap-2 py-2 font-sans text-[14px] xl:text-[16px] font-bold leading-[20px]"
+                        <span className="flex items-center px-2 gap-2 py-2 font-sans text-[14px] xl:text-[16px] font-bold leading-[20px] text-black"
                             selected={isMenuOpen || isMobileMenuOpen}
                             onClick={() => {
                                 if (window.innerWidth <= 991) {
@@ -145,7 +144,7 @@ function MegaMenu() {
                 </MenuList>
             </Menu>
             <div className={megamenu ? `absolute left-[0%] top-0 pt-5 bg-black w-full h-full transition-all duration-300 ease-in-out` : `lg:hidden absolute left-[-130%] top-0 pt-5 bg-black w-full h-full transition-all duration-300 ease-in-out`}>
-                <Collapse open={isMobileMenuOpen}>{renderItems}</Collapse>
+                <Collapse open={isMobileMenuOpen} className="h-full overflow-visible">{renderItems}</Collapse>
                 <div className="absolute top-[10px] right-[10px] bg-white rounded-full p-1" onClick={() => handleMegaMenu()}>
                     <XMarkIcon
                         strokeWidth={2.5}
@@ -166,7 +165,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2">Home</span>
+                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Home</span>
             </Link>
             <Link
                 href="/why-us"
@@ -174,7 +173,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2">Why Us</span>
+                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Why Us</span>
             </Link>
             <MegaMenu />
             <Link
@@ -183,7 +182,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2">Portfolio</span>
+                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Portfolio</span>
             </Link>
             <Link
                 href="/process"
@@ -191,7 +190,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2">Process</span>
+                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Process</span>
             </Link>
             <Link
                 href="/pricing"
@@ -199,7 +198,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2">Pricing</span>
+                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Pricing</span>
             </Link>
             <Link
                 href="/blog"
@@ -207,7 +206,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2">Blog</span>
+                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Blog</span>
             </Link>
             <Link
                 href="/contact-us"
@@ -215,7 +214,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2">Contact Us</span>
+                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Contact Us</span>
             </Link>
         </List>
     );
@@ -255,18 +254,13 @@ const Header = () => {
                                 href="#"
                             />
                         </div>
-                        <IconButton
-                            variant="text"
-                            color="blue-gray"
-                            className="lg:hidden flex items-center justify-center pr-5"
-                            onClick={() => setOpenNav(!openNav)}
-                        >
+                        <button onClick={() => setOpenNav(!openNav)} className="block lg:hidden">
                             {openNav ? (
                                 <XMarkIcon className="h-[40px] w-[40px]" strokeWidth={2} />
                             ) : (
                                 <Bars3Icon className="h-[40px] w-[40px]" strokeWidth={2} />
                             )}
-                        </IconButton>
+                        </button>
                     </div>
                     {openNav && (
                         <Collapse open={openNav} className="block lg:hidden">
