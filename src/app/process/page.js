@@ -6,8 +6,10 @@ import Want from '@/components/want/Want';
 import Testimonial from '@/components/testimonial/Testimonial';
 import Contact from '@/components/contact/Contact';
 //==== StoryLine Images
-import StoryLine1 from "media/home/storyline1.png";
-import StoryLine2 from "media/home/storyline2.png";
+import StoryLine1 from "media/storyline/storyLine1.jpg";
+import StoryLine2 from "media/storyline/storyLine2.jpg";
+import StoryLine3 from "media/storyline/storyLine3.jpg";
+import StoryLine4 from "media/storyline/storyLine4.jpg";
 //==== Testimonial Images
 import icon1 from "media/images/client.png"
 import icon2 from "media/icons/stars.png"
@@ -24,22 +26,22 @@ export default function Page() {
         {
             question: 'Art of Storytelling',
             answer: "The art of storytelling is a timeless craft, flawlessly interlacing together words, emotions, and imagination. A skilled storyteller steers the intricate terrain of plot, character, and theme, guiding the audience through a transformative journey. Through the mastery of narrative techniques, storytellers evoke empathy, capture attention, and etch their tales into the annals of human experience.",
-            StoryLineImg: StoryLine2
+            StoryLineImg: StoryLine1
         },
         {
             question: 'Clear & Crisp Audio',
             answer: "Clear and crisp audio is an indispensable component of effective communication. It transcends mere sound, delivering pristine clarity that ensures every word is heard with precision. In professional settings, it nurtures an environment where information flows impeccably, fostering understanding and engagement among listeners. Superior audio quality leaves an indelible mark on the listener's experience.",
-            StoryLineImg: StoryLine1
+            StoryLineImg: StoryLine2
         },
         {
             question: 'Vision to Animation',
             answer: "The transformation from vision to animation is an intricate process, requiring a careful blend of artistic prowess and technical finesse. Animators breathe life into concepts, effortlessly translating ideas into dynamic visuals. Through a harmonious fusion of creativity and technology, they capture imagination delivering fascinating narratives that resonate with audiences worldwide.",
-            StoryLineImg: StoryLine2
+            StoryLineImg: StoryLine3
         },
         {
             question: 'Touch of Finesse',
             answer: "A touch of finesse is the hallmark of refined craftsmanship, uplifting the ordinary to the extraordinary. It's an artful blend of skill and sophistication, resulting in a product, performance, or creation that exudes excellence. This nuanced touch adds an element of grace, distinction, and perfection that is both subtle and profound.",
-            StoryLineImg: StoryLine1
+            StoryLineImg: StoryLine4
         },
     ];
     const storyLine = {

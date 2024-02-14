@@ -4,12 +4,12 @@ export const metadata = {
     title: "Affordable Logo Animation Services | Infinity Animations",
     description: "Logo animation emerges as a fascinating symphony of motion and design, a visual ballet where brand identities accentuate and leap across the screen.",
     // Canonical
-    alternates: { canonical: 'https://infinity-animation.vercel.app/logo-animation' },
+    alternates: { canonical: 'https://infinityanimationspro.com/logo-animation' },
     // OG Metas
     openGraph: {
         title: "Affordable Logo Animation Services | Infinity Animations",
         description: "Logo animation emerges as a fascinating symphony of motion and design, a visual ballet where brand identities accentuate and leap across the screen.",
-        url: 'https://infinity-animation.vercel.app/logo-animation',
+        url: 'https://infinityanimationspro.com/logo-animation',
         siteName: 'Infinity Animation',
         locale: 'en_US',
         type: 'website',

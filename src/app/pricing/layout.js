@@ -4,12 +4,12 @@ export const metadata = {
     title: "Prioritizing Affordability Above All | Infinity Animations",
     description: "Infinity Animations firmly believes that everybody deserves the best when it comes to art and creativity. Hence, they offer the most affordable animation services.",
     // Canonical
-    alternates: { canonical: 'https://infinity-animation.vercel.app/pricing/' },
+    alternates: { canonical: 'https://infinityanimationspro.com/pricing/' },
     // OG Metas
     openGraph: {
         title: 'Prioritizing Affordability Above All | Infinity Animations',
         description: 'Infinity Animations firmly believes that everybody deserves the best when it comes to art and creativity. Hence, they offer the most affordable animation services.',
-        url: 'https://infinity-animation.vercel.app/pricing/',
+        url: 'https://infinityanimationspro.com/pricing/',
         siteName: 'Infinity Animation',
         locale: 'en_US',
         type: 'website',

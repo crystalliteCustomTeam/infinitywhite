@@ -4,12 +4,12 @@ export const metadata = {
     title: "Architectural Visualization Services | Infinity Animations",
     description: "When it comes to architectural visualization, where precision marries artistry, one encounters a transcendent form of expression that transcends technical prowess.",
     // Canonical
-    alternates: { canonical: 'https://infinity-animation.vercel.app/architectural-services' },
+    alternates: { canonical: 'https://infinityanimationspro.com/architectural-services' },
     // OG Metas
     openGraph: {
         title: "Architectural Visualization Services | Infinity Animations",
         description: "When it comes to architectural visualization, where precision marries artistry, one encounters a transcendent form of expression that transcends technical prowess.",
-        url: 'https://infinity-animation.vercel.app/architectural-services',
+        url: 'https://infinityanimationspro.com/architectural-services',
         siteName: 'Infinity Animation',
         locale: 'en_US',
         type: 'website',

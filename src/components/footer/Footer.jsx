@@ -159,9 +159,9 @@ const Footer = () => {
                                             return (
                                                 <li key={i} className="flex items-center gap-2 mb-3 last:mb-0">
                                                     <Image src={e.icon} className="w-[15px] invert" alt="Infinity Animation" />
-                                                    <Link href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:opacity-50">
+                                                    <a href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:opacity-50">
                                                         {e.text}
-                                                    </Link>
+                                                    </a>
                                                 </li>
                                             );
                                         })
@@ -174,7 +174,7 @@ const Footer = () => {
                                         socialLinks.map((e, i) => {
                                             return (
                                                 <li key={i} className="bg-[#22212D] hover:bg-second w-[45px] h-[45px] rounded-[5px] flex items-center justify-center p-1 hover:bg-second">
-                                                    <Link href={e.link}>
+                                                    <Link href={e.link} target="_blank">
                                                         <Image src={e.icon} className="w-[20px]" alt="Infinity Animation" />
                                                     </Link>
                                                 </li>

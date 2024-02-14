@@ -1,3 +1,6 @@
+/* font family */
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,9 +15,21 @@ body {
 }
 
 body {
-  color: #000;
+  color: #fff;
   overflow-x: hidden;
-  background-color: #fff;
+  background-color: #000;
+}
+
+.borderinset {
+  border: inset 3px black;
+}
+
+.montserrat {
+  font-family: montserrat, sans-serif;
+}
+
+.poppins {
+  font-family: poppins, sans-serif;
 }
 
 .bg-prime {
@@ -45,7 +60,7 @@ body {
   transform: rotateY(-180deg);
 }
 
-/* scroll bar css start */
+/*=============== scroll bar css start ===============*/
 
 /* width */
 ::-webkit-scrollbar {
@@ -79,9 +94,9 @@ body {
   background: #f5090b;
 }
 
-/* scroll bar css End */
+/*=============== scroll bar css End ===============*/
 
-/* service slider start */
+/*=============== service slider start ===============*/
 
 .servicesConcept .slick-prev {
   left: -22px;
@@ -102,7 +117,7 @@ body {
   bottom: inherit;
 }
 
-/* testi slider start */
+/*=============== testi slider start ===============*/
 
 .testiSlider .slick-slide {
   height: 300px;
@@ -148,7 +163,7 @@ body {
   transform: rotate(90deg);
 }
 
-/* Blogs Slider start */
+/*=============== Blogs Slider start ===============*/
 
 .blogsSlider .slick-prev {
   left: 0;
@@ -170,9 +185,75 @@ body {
   content: url(../../public/icons/red-arrow-r.png);
 }
 
-/* Blogs Slider End */
+/*=============== Blogs Slider End ===============*/
 
-/* Media Query Start */
+/*=============== Brands Slider start ===============*/
+
+.brandsSlider .slick-prev {
+  left: inherit;
+  right: 11%;
+  top: inherit;
+  bottom: -65px;
+}
+
+.brandsSlider .slick-prev:before {
+  content: url(../../public/icons/arrow-left.png);
+}
+
+.brandsSlider .slick-next {
+  right: 80px;
+  bottom: -65px;
+  top: inherit;
+}
+
+.brandsSlider .slick-next:before {
+  content: url(../../public/icons/arrow-right.png);
+}
+
+/* Brands Slider End */
+
+.grid.place-items-center.fixed.w-screen.h-screen.bg-black.bg-opacity-60.backdrop-blur-sm {
+  height: 100% !important;
+  background: transparent !important;
+  position: fixed;
+  width: 100% !important;
+}
+
+/* popup end */
+
+/* Video Explainer Animation Start */
+
+.animation {
+  animation: animated 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes animated {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.testi {
+  animation: testi 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes testi {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+/* Video Explainer Animation End */
+
+/*=============== Media Query Start ===============*/
 
 @media only screen and (max-width: 1920px) {
   .blogsSlider .slick-dots {
@@ -203,6 +284,10 @@ body {
 }
 
 @media only screen and (max-width: 991px) {
+  .popupBg {
+    background: #260868;
+  }
+
   .servicesConcept .slick-next {
     right: 50px;
   }
@@ -270,4 +355,4 @@ body {
   }
 }
 
-/* Media Query End */
+/*=============== Media Query End ===============*/

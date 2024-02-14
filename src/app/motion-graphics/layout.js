@@ -4,12 +4,12 @@ export const metadata = {
     title: "Motion Graphics Services | Infinity Animations",
     description: "In the intricate ballet of pixels and vectors, motion graphics emerge as a symphony of visual splendor, where artistry and digital innovation intertwine with grace.",
     // Canonical
-    alternates: { canonical: 'https://infinity-animation.vercel.app/motion-graphics' },
+    alternates: { canonical: 'https://infinityanimationspro.com/motion-graphics' },
     // OG Metas
     openGraph: {
         title: "Motion Graphics Services | Infinity Animations",
         description: "In the intricate ballet of pixels and vectors, motion graphics emerge as a symphony of visual splendor, where artistry and digital innovation intertwine with grace.",
-        url: 'https://infinity-animation.vercel.app/motion-graphics',
+        url: 'https://infinityanimationspro.com/motion-graphics',
         siteName: 'Infinity Animation',
         locale: 'en_US',
         type: 'website',

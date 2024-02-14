@@ -27,7 +27,8 @@ export default {
         '3xl': '1900px',
       },
       fontFamily: {
-        sans: ["var(--font-primary)"]
+        sans: ["var(--font-primary)"],
+        poppins: ["var"]
       },
       colors: {
         "primary": { 100: "#f5090b" },

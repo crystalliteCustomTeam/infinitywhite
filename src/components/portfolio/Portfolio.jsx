@@ -1,11 +1,12 @@
 "use client"
 import { useState } from 'react';
-import Image from "next/image";
+// Import Components
+import CTA from '../cta/CTA';
 // Import Css
 import styles from "./PortFolio.module.css"
 
 const Portfolio = ({ content }) => {
-    const { title, para, tabInfo, tabContents } = content;
+    const { title, para, tabInfo, tabContents, tabsInfo } = content;
     //Tabs
     const [activeTab, setActiveTab] = useState(0);
     const handleTabClick = (index) => {
@@ -37,21 +38,27 @@ const Portfolio = ({ content }) => {
                         </ul>
                         <div className="tabs-content pt-7 md:pt-12">
                             {tabContents[activeTab] && (
-                                <div className='flex flex-col sm:flex-row justify-center items-center gap-3 md:gap-10'>
+                                <div className='grid grid-cols-3 gap-3 md:gap-8'>
                                     {tabContents[activeTab].map((item, index) => (
                                         <div key={index}>
-                                            {Array.isArray(item) ? (
-                                                item.map((innerImage, innerIndex) => (
-                                                    <Image key={innerIndex} src={innerImage} className={`my-4 w-full ${styles.shadow}`} alt='Infinity Animation' />
-                                                ))
-                                            ) : (
-                                                <Image src={item} className={`${styles.shadow} w-full`} alt='Infinity Animation' />
-                                            )}
+                                            <video className={`${styles.shadow} w-full h-full`} muted="muted" autoPlay src={item}></video>
                                         </div>
                                     ))}
                                 </div>
                             )}
                         </div>
+                        {tabInfo ?
+                            <div className='flex items-center justify-center lg:mt-8 mt-4'>
+                                <CTA
+                                    text="View All"
+                                    icon1={true}
+                                    href="#"
+                                    css="text-white hover:bg-transparent border-[#f5090b] hover:border-[#ffffff] sm:w-max md:w-[160px]"
+                                    bg="bg-prime"
+                                />
+                            </div>
+                            : null
+                        }
                     </div>
                 </div>
             </section>
