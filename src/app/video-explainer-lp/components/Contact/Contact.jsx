@@ -170,7 +170,7 @@ const Contact = () => {
                                     </div>
                                     <div className="message relative">
                                         <ChatAlt2 className='text-[#b2b2b2] text-[16px] absolute top-[10px] left-[8px] w-[20px] h-[20px]' />
-                                        <textarea placeholder='Message' className='text-[14px] text-black placeholder:text-black montserrat py-[10px] px-[35px] w-full mb-[10px] font-[500]'></textarea>
+                                        <textarea name='message' placeholder='Message' className='text-[14px] text-black placeholder:text-black montserrat py-[10px] px-[35px] w-full mb-[10px] font-[500]' onChange={handleDataChange}></textarea>
                                     </div>
                                     <div className="btn mt-3">
                                         <button type='submit' className='py-[10px] px-[30px] border-0 text-white text-[16px] uppercase font-[600] bg-[#231f20] poppins' onClick={handleFormSubmit} disabled={isDisabled}>
@@ -185,19 +185,19 @@ const Contact = () => {
                             <div className="address_detail">
                                 <ul>
                                     <li className='py-[10px]'>
-                                        <Link href="tel:+1-833-666-6689" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
+                                        <a href="tel:+1-833-666-6689" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
                                             <Phone className='bg-[#fc0] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> +1-833-666-6689
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className='py-[10px]'>
-                                        <Link href="mailto:queries@infinityanimations.com" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
+                                        <a href="mailto:queries@infinityanimations.com" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
                                             <EnvelopeIcon className='bg-[#fc0] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> queries@infinityanimations.com
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className='py-[10px]'>
-                                        <Link href="https://infinityanimations.com" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
+                                        <a href="https://infinityanimations.com" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
                                             <Globe className='bg-[#fc0] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> www.infinityanimations.com
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                                 <Image src={Payment} alt='Payment-Methods' className='w-5/12 lg:w-full mt-3 object-contain' />

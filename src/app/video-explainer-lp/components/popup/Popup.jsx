@@ -174,7 +174,7 @@ const Popup = ({ }) => {
                                         )}
                                     </div>
                                     <div className="message relative">
-                                        <textarea placeholder='Message' className='text-[14px] text-black placeholder:text-black montserrat py-[10px] lg:py-[15px] px-[18px] w-full font-[500] rounded-[6px]'></textarea>
+                                        <textarea name='message' placeholder='Message' className='text-[14px] text-black placeholder:text-black montserrat py-[10px] lg:py-[15px] px-[18px] w-full font-[500] rounded-[6px]' onChange={handleDataChange}></textarea>
                                     </div>
                                     <div className="btn mt-3">
                                         <button type='submit' className='py-[15px] px-[30px] border-0 text-black text-[16px] uppercase font-[600] bg-white poppins w-full rounded-[6px]' onClick={handleFormSubmit} disabled={isDisabled}>
