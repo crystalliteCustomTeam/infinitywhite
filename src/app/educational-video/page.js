@@ -144,7 +144,6 @@ const tabContents = [
         title: (<> BuzzFlick’s Educational Video Production Projects </>),
         para: (<> We stand out among all educational video companies for our creative and distinctive portfolio. </>),
         tabContents: tabContents,
-        tabsInfo: false,
         tabInfo: tabInfo
     };
     //===== buzzflick Fold=====//

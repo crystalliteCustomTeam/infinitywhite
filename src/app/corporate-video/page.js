@@ -1,9 +1,9 @@
 // Import Page Components
 import Hero from "@/components/hero/Hero";
 import Review from "@/components/review/Review";
-import Looking from '@/components/looking/Looking'; 
+import Looking from '@/components/looking/Looking';
 import Company from '@/components/company/Company';
-import Portfolio from '@/components/portfolio/Portfolio'; 
+import Portfolio from '@/components/portfolio/Portfolio';
 import Tech from "@/components/tech-type/Tech";
 import Production from "@/components/productionprocess/Production";
 import Brand from "@/components/branding/Brand";
@@ -18,7 +18,7 @@ import BoostFlodImg from "media/corporate-video/company-Image.png";
 //===== Tech Type Images
 import TechImage1 from "media/tech-type/techtype4.png"
 import TechImage2 from "media/tech-type/techtype5.png"
-import TechImage3 from "media/tech-type/techtype6.png"  
+import TechImage3 from "media/tech-type/techtype6.png"
 //==== Testimonial Images
 import icon1 from "media/images/client.png"
 import icon2 from "media/icons/stars.png"
@@ -89,7 +89,7 @@ export default function Page() {
         { label: "3D Modeling", index: 8 },
         { label: "Music Video", index: 9 },
     ];
-const tabContents = [
+    const tabContents = [
         [
             "https://player.vimeo.com/progressive_redirect/playback/907828567/rendition/1080p/file.mp4?loc=external&signature=2cb0c1bd0ce7278cfcc88931f949d2a4df4a28555c8e3a5dd73de49eeb9934e9",
             "https://player.vimeo.com/progressive_redirect/playback/907828734/rendition/1080p/file.mp4?loc=external&signature=c6da013ddb686dfc7be1b15b94eda413bc5fa963be1fd91775347155025326ee",
@@ -134,8 +134,7 @@ const tabContents = [
     const portfolio = {
         title: (<> Corporate Video Production Company That Buzz </>),
         para: (<> We are corporate video production company with a diverse portfolio. From corporate and business explainer videos to corporate demo videos we have done it all. Go through our splendid work here: </>),
-         tabContents: tabContents,
-        tabsInfo: true,
+        tabContents: tabContents,
         tabInfo: tabInfo
     };
     //======Tech Type Fold======//
