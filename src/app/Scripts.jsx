@@ -4,12 +4,19 @@ import { useEffect } from 'react'
 const Scripts = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
-            const script = document.createElement("script");
-            script.id = "ze-snippet";
-            script.src = "https://static.zdassets.com/ekr/snippet.js?key=a3b9dc66-9fe2-4cb3-87a3-1e7c830425af";
-            script.async = true;
-            script.defer = true;
-            document.body.appendChild(script);
+            const luckyOrange = document.createElement("script");
+            luckyOrange.id = "luckyOrange";
+            luckyOrange.src = "https://tools.luckyorange.com/core/lo.js?site-id=1cfb1cde";
+            luckyOrange.async = true;
+            luckyOrange.defer = true;
+            document.body.appendChild(luckyOrange);
+
+            const zenDesk = document.createElement("script");
+            zenDesk.id = "ze-snippet";
+            zenDesk.src = "https://static.zdassets.com/ekr/snippet.js?key=a3b9dc66-9fe2-4cb3-87a3-1e7c830425af";
+            zenDesk.async = true;
+            zenDesk.defer = true;
+            document.body.appendChild(zenDesk);
 
             const gtmScript = document.createElement("script");
             gtmScript.id = "google-tag-manager";
