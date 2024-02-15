@@ -43,7 +43,7 @@ const Tech = ({ content }) => {
                                 />
                                 <CTA
                                     text="See Portfolio"
-                                    icon="/icons/chat.png"
+                                    icon="/icons/arrow-red.png"
                                     iconCss="w-[40px]"
                                     bg="bg-[#000]"
                                     color={`text-white`}
