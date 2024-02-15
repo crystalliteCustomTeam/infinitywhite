@@ -4,13 +4,6 @@ import { useEffect } from 'react'
 const Scripts = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
-            const luckyOrange = document.createElement("script");
-            script.id = "luckyOrange";
-            script.src = "https://tools.luckyorange.com/core/lo.js?site-id=1cfb1cde";
-            script.async = true;
-            script.defer = true;
-            document.body.appendChild(luckyOrange);
-
             const script = document.createElement("script");
             script.id = "ze-snippet";
             script.src = "https://static.zdassets.com/ekr/snippet.js?key=a3b9dc66-9fe2-4cb3-87a3-1e7c830425af";
