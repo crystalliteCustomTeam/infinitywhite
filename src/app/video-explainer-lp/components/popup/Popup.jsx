@@ -7,9 +7,7 @@ import { Dialog } from "@material-tailwind/react";
 import usePopup from '@/app/configs/store/Popup';
 
 const Popup = ({ }) => {
-    // popup start
-    // const [open, setOpen] = React.useState(true);
-    // const handleOpen = () => setOpen(!open);
+
     const { popup, togglePopup } = usePopup()
     const popupHandle = () => {
         togglePopup(popup)

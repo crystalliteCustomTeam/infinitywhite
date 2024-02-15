@@ -5,7 +5,7 @@ import Image from "next/image";
 // Import Components
 import CTA from "@/components/cta/CTA";
 import {
-    Navbar, Collapse, IconButton, List, Menu, MenuHandler, MenuList, MenuItem,
+    Navbar, Collapse, List, Menu, MenuHandler, MenuList, MenuItem,
 } from "@material-tailwind/react";
 import {
     ChevronDownIcon, Bars3Icon, XMarkIcon, ChevronRightIcon,
@@ -113,7 +113,7 @@ function MegaMenu() {
             >
                 <MenuHandler>
                     <Link href="#" variant="small" className="font-medium">
-                        <span className="flex items-center px-2 gap-2 py-2 font-sans text-[14px] xl:text-[16px] font-bold leading-[20px] text-black"
+                        <span className="flex items-center px-2 gap-2 py-2 font-sans text-[14px] xl:text-[16px] font-bold leading-[20px] xl:leading-[24px] text-black"
                             selected={isMenuOpen || isMobileMenuOpen}
                             onClick={() => {
                                 if (window.innerWidth <= 991) {

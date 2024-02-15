@@ -1,7 +1,7 @@
 //===== Import Fonts =====
 import { primary } from "./configs/fonts";
-import Script from 'next/script'
 //===== Import Components =====
+import Scripts from "./Scripts";
 import ConditionalLayout from "./ConditionalLayout";
 //===== Import Css =====
 import "./global.css";
@@ -26,20 +26,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a3b9dc66-9fe2-4cb3-87a3-1e7c830425af" strategy="afterInteractive" />
-      {/*===== google-tag-manager =====*/}
-      <Script id="google-tag-manager"
-        src="https://www.googletagmanager.com/gtag/js?id=AW-10860906782"
-        strategy="afterInteractive">
-      </Script>
-      <Script id="google-tag-manager-one" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-10860906782');
-        `}
-      </Script>
+      <Scripts />
       <meta name="robots" content="noindex "></meta>
       <body className={`${primary.variable}`}>
         <ConditionalLayout>

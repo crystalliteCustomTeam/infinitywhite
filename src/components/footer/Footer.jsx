@@ -125,7 +125,7 @@ const Footer = () => {
                                     quickLinks.map((e, i) => {
                                         return (
                                             <li key={i}>
-                                                <Link href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:opacity-50 leading-8 xl:leading-8">
+                                                <Link href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:text-primary-100 leading-8 xl:leading-8">
                                                     {e.text}
                                                 </Link>
                                             </li>
@@ -141,7 +141,7 @@ const Footer = () => {
                                     servicesLinks.map((e, i) => {
                                         return (
                                             <li key={i}>
-                                                <Link href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:opacity-50 leading-8 xl:leading-8">
+                                                <Link href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:text-primary-100 leading-8 xl:leading-8">
                                                     {e.text}
                                                 </Link>
                                             </li>
@@ -159,7 +159,7 @@ const Footer = () => {
                                             return (
                                                 <li key={i} className="flex items-center gap-2 mb-3 last:mb-0">
                                                     <Image src={e.icon} className="w-[15px] invert" alt="Infinity Animation" />
-                                                    <a href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:opacity-50">
+                                                    <a href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:text-primary-100">
                                                         {e.text}
                                                     </a>
                                                 </li>
@@ -173,7 +173,7 @@ const Footer = () => {
                                     {
                                         socialLinks.map((e, i) => {
                                             return (
-                                                <li key={i} className="bg-[#22212D] hover:bg-second w-[45px] h-[45px] rounded-[5px] flex items-center justify-center p-1 hover:bg-second">
+                                                <li key={i} className="bg-[#22212D] hover:bg-second w-[45px] h-[45px] rounded-[5px] flex items-center justify-center p-1">
                                                     <Link href={e.link} target="_blank">
                                                         <Image src={e.icon} className="w-[20px]" alt="Infinity Animation" />
                                                     </Link>
@@ -197,7 +197,7 @@ const Footer = () => {
                                     otherLinks.map((e, i) => {
                                         return (
                                             <li key={i}>
-                                                <Link href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:opacity-50 leading-8 xl:leading-8">
+                                                <Link href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:text-primary-100 leading-8 xl:leading-8">
                                                     {e.text}
                                                 </Link>
                                             </li>
