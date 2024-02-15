@@ -68,6 +68,9 @@ const Hero = ({ content }) => {
         case '/tech-videos':
             backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/tech-videos/banner-bg.png")]'
             break;
+        case '/corporate-video':
+            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/corporate-video/banner-bg.png")]'
+            break;
         default:
             break;
     }
@@ -76,11 +79,11 @@ const Hero = ({ content }) => {
             <section className={`w-full h-[100vh] flex items-center justify-start sm:pb-5 bg-none bg-no-repeat ${backgroundImage}`}>
                 <div className="container">
                     <div className='flex'>
-                        <div className='w-[600px]'>
+                        <div className='w-full lg:w-[550px] xl:w-[600px]'>
                             <h1 className={`text-[40px] md:text-[50px] xl:text-[60px] font-bold font-sans leading-none mb-5 mt-32 ${margin}`}>
                                 {title}
                             </h1>
-                            <p className="text-[16px] font-semibold font-sans leading-snug tracking-wider text-justify mb-5">
+                            <p className="text-[14px] xl:text-[16px] font-normal font-sans leading-normal tracking-wider text-justify mb-5">
                                 {para}
                             </p>
                             <div className="flex gap-6">
