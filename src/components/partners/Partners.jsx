@@ -5,8 +5,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import slide1 from 'media/icons/partner1.png'
-import slide2 from 'media/icons/partner2.png'
+import slide1 from 'media/icons/partner4.png'
+import slide2 from 'media/icons/partner5.png'
 
 const Testimonial = () => {
     // Slider Setting
