@@ -1,15 +1,15 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Video Explainer",
-    description: "Video Explainer",
+    title: "Build Brands with Expert Explainer Video Services",
+    description: "We specialize in dynamic video animation, delivering captivating animated marketing and commercial videos for unparalleled storytelling and engagement.",
     // Canonical
-    alternates: { canonical: 'https://infinityanimationspro.com/video-explainer/' },
+    alternates: { canonical: 'https://infinityanimationspro.com/video-explainer-lp-new/' },
     // OG Metas
     openGraph: {
-        title: 'Video Explainer',
-        description: 'Video Explainer',
-        url: 'https://infinityanimationspro.com/video-explainer/',
+        title: 'Build Brands with Expert Explainer Video Services',
+        description: 'We specialize in dynamic video animation, delivering captivating animated marketing and commercial videos for unparalleled storytelling and engagement.',
+        url: 'https://infinityanimationspro.com/video-explainer-lp-new/',
         siteName: 'InFinity Animation',
         locale: 'en_US',
         type: 'website',
