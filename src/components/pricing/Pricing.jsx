@@ -4,8 +4,8 @@ import Link from "next/link";
 // Import Images
 import star from "media/icons/star.png"
 import chat from "media/icons/chat.png"
-import arrow from "media/icons/arrow-w.png"
-import arrowB from "media/icons/arrow-b.png"
+import arrow from "media/icons/arrow-red.png"
+import arrowB from "media/icons/arrow.png"
 import tickP from "media/icons/tick-p.png"
 import tickW from "media/icons/tick-w.png"
 
@@ -28,8 +28,19 @@ const packages = [
             { text: 'Invisible Point', isVisible: true },
         ],
         buttons: [
-            { text: 'Get Started', color: 'bg-prime text-white', image: arrow, href: "tel:833-666-6689" },
-            { text: 'Live Chat', color: 'bg-black text-white border border-white', image: chat, href: "javascript:$zopim.livechat.window.show();" },
+            {
+                text: 'Get Started',
+                color: 'bg-prime text-white border border-white',
+                image: arrow,
+                href: "tel:833-666-6689",
+                imgColor: "bg-white w-[25px] h-[25px] xl:w-[30px] xl:h-[30px] rounded-full p-2"
+            },
+            {
+                text: 'Live Chat',
+                color: 'bg-black text-white border border-white',
+                image: chat,
+                href: "javascript:$zopim.livechat.window.show();"
+            },
         ],
     },
     {
@@ -51,8 +62,19 @@ const packages = [
             'Dedicated Support',
         ],
         buttons: [
-            { text: 'Get Started', color: 'bg-white text-black font-semibold', image: arrowB, href: "tel:833-666-6689" },
-            { text: 'Live Chat', color: 'bg-black text-white border border-white', image: chat, href: "javascript:$zopim.livechat.window.show();" },
+            {
+                text: 'Get Started',
+                color: 'bg-white text-black font-semibold border border-white',
+                image: arrowB,
+                href: "tel:833-666-6689",
+                imgColor: "bg-black w-[25px] h-[25px] xl:w-[30px] xl:h-[30px] rounded-full p-[8.5px] rotate-[90deg]"
+            },
+            {
+                text: 'Live Chat',
+                color: 'bg-black text-white border border-white',
+                image: chat,
+                href: "javascript:$zopim.livechat.window.show();"
+            },
         ],
     },
     {
@@ -73,8 +95,19 @@ const packages = [
             'Dedicated Support',
         ],
         buttons: [
-            { text: 'Get Started', color: 'bg-prime text-white', image: arrow, href: "tel:833-666-6689" },
-            { text: 'Live Chat', color: 'bg-black text-white border border-white', image: chat, href: "javascript:$zopim.livechat.window.show();" },
+            {
+                text: 'Get Started',
+                color: 'bg-prime text-white border border-white',
+                image: arrow,
+                href: "tel:833-666-6689",
+                imgColor: "bg-white w-[25px] h-[25px] xl:w-[30px] xl:h-[30px] rounded-full p-2"
+            },
+            {
+                text: 'Live Chat',
+                color: 'bg-black text-white border border-white',
+                image: chat,
+                href: "javascript:$zopim.livechat.window.show();"
+            },
         ],
     },
 ];
@@ -137,7 +170,7 @@ const Pricing = ({ content }) => {
                                                 {pkg.buttons.map((button, i) => (
                                                     <a key={i} href={button.href} className={`flex items-center justify-between font-sans ${button.color} py-2 px-3 xl:px-5 w-[45%] xl:w-[40%] rounded-lg`}>
                                                         <span>{button.text}</span>
-                                                        <Image src={button.image} className={button.text === 'Get Started' ? 'w-[30px]' : 'w-[40px]'} alt="Infinity Animation" />
+                                                        <Image src={button.image} className={`${button.imgColor} ${button.text === 'Get Started' ? 'w-[30px]' : button.text === 'Live Chat' ? 'w-[40px]' : ''}`} alt="Infinity Animation" />
                                                     </a>
                                                 ))}
                                             </div>

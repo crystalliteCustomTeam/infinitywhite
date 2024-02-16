@@ -7,8 +7,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 // ==== Images 
-import Payment from "media/video-explainer/payment-img.png"
-import UpArrow from "media/video-explainer/up-arrow.png"
+import Payment from "media/video-explainer2/payment-img.png"
+import UpArrow from "media/video-explainer2/up-arrow.png"
 
 const Contact = () => {
 
@@ -131,7 +131,7 @@ const Contact = () => {
 
     return (
         <>
-            <section className='py-[50px] bg-cover bg-center bg-[url("../../public/video-explainer/footer-bg.jpg")]'>
+            <section className='py-[50px] bg-cover bg-center bg-[url("../../public/video-explainer2/footerBg.png")]'>
                 <div className="px-4 sm:px-8 lg:max-w-7xl mx-auto">
                     <div className="grid grid-cols-12 gap-4">
                         <div className="col-span-12 lg:col-span-6">
@@ -139,7 +139,7 @@ const Contact = () => {
                             <p className='text-[#231f20] text-[16px] lg:text-[18px] montserrat font-[400] py-[17px] leading-[22px] pb-[60px]'>Its High Time to Showcase Your Store to the World</p>
                             <div className="form">
                                 <form action="javascript:;">
-                                    <div className="flex-wrap flex items-center lg:gap-4 ">
+                                    <div className="flex items-center lg:gap-4 ">
                                         <div className="name relative w-full">
                                             <User className='text-[#b2b2b2] text-[16px] absolute top-[10px] left-[8px] w-[20px] h-[20px]' />
                                             <input type="text" name="name" placeholder='Enter your name' className='text-[14px] text-black placeholder:text-black montserrat py-[10px] px-[35px] w-full mb-[10px] font-[500]' onChange={handleDataChange} required />
@@ -170,10 +170,10 @@ const Contact = () => {
                                     </div>
                                     <div className="message relative">
                                         <ChatAlt2 className='text-[#b2b2b2] text-[16px] absolute top-[10px] left-[8px] w-[20px] h-[20px]' />
-                                        <textarea name='message' placeholder='Message' className='text-[14px] text-black placeholder:text-black montserrat py-[10px] px-[35px] w-full mb-[10px] font-[500]' onChange={handleDataChange}></textarea>
+                                        <textarea name='message' placeholder='Message' rows={4} className='text-[14px] text-black placeholder:text-black montserrat py-[10px] px-[35px] w-full mb-[10px] font-[500]' onChange={handleDataChange}></textarea>
                                     </div>
                                     <div className="btn mt-3">
-                                        <button type='submit' className='py-[10px] px-[30px] border-0 text-white text-[16px] uppercase font-[600] bg-[#231f20] poppins' onClick={handleFormSubmit} disabled={isDisabled}>
+                                        <button type='submit' className='py-[10px] px-[30px] border-0 text-white text-[16px] uppercase font-[600] bg-[#231f20] hover:bg-[#1C2A49] poppins' onClick={handleFormSubmit} disabled={isDisabled}>
                                             {formStatus}
                                         </button>
                                     </div>
@@ -182,21 +182,21 @@ const Contact = () => {
                         </div>
                         <div className=" lg:col-span-2"></div>
                         <div className="col-span-12 lg:col-span-4">
-                            <div className="address_detail">
+                            <div className="address_detail bg-[#666873] p-[20px] rounded-[20px]">
                                 <ul>
                                     <li className='py-[10px]'>
-                                        <a href="tel:833-666-6689" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
-                                            <Phone className='bg-[#fc0] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> 833-666-6689
+                                        <a href="tel:833-666-6689" className='text-[16px] text-white montserrat flex items-center gap-2'>
+                                            <Phone className='bg-[#fc0] text-[#000] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> 833-666-6689
                                         </a>
                                     </li>
                                     <li className='py-[10px]'>
-                                        <a href="mailto:queries@infinityanimations.com" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
-                                            <EnvelopeIcon className='bg-[#fc0] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> queries@infinityanimations.com
+                                        <a href="mailto:queries@infinityanimations.com" className='text-[16px] text-white montserrat flex items-center gap-2'>
+                                            <EnvelopeIcon className='bg-[#fc0] text-[#000] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> queries@infinityanimations.com
                                         </a>
                                     </li>
                                     <li className='py-[10px]'>
-                                        <a href="https://infinityanimations.com" className='text-[15px] md:text-[20px] text-white montserrat flex items-center gap-2'>
-                                            <Globe className='bg-[#fc0] text-[#222] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> www.infinityanimations.com
+                                        <a href="https://infinityanimations.com" className='text-[16px] text-white montserrat flex items-center gap-2'>
+                                            <Globe className='bg-[#fc0] text-[#000] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> www.infinityanimations.com
                                         </a>
                                     </li>
                                 </ul>
@@ -208,9 +208,9 @@ const Contact = () => {
             </section>
             <div className="copyright py-[20px]">
                 <div className="px-4 sm:px-8 lg:max-w-7xl mx-auto relative">
-                    <p className='text-[14px] pb-[12px] text-[#333] montserrat text-center'>Copyright © 2024, Infinity Animations All Rights Reserved</p>
+                    <p className='text-[14px] text-[#333] montserrat text-center'>Copyright © 2024, Infinity Animations All Rights Reserved</p>
                     <div className="top-icon absolute right-0 top-[-40px]">
-                        <Link href="#" className='bg-[#18d689] w-[80px] h-[80px] text-center text-white font-[500] uppercase rounded-[60%] align-middle border-[5px] border-white absolute right-0 lg:flex flex-col justify-center items-center md:block hidden'>
+                        <Link href="#" className='bg-black w-[80px] h-[80px] text-center text-white font-[500] uppercase rounded-[60%] align-middle border-[5px] border-white absolute right-0 lg:flex flex-col justify-center items-center md:block hidden'>
                             <Image src={UpArrow} alt='upArrow' className='mx-auto' />
                             <p className='text-[14px] text-center poppins'>Top</p>
                         </Link>

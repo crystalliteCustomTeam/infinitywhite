@@ -132,8 +132,8 @@ const Popup = ({ }) => {
     return (
         <>
             <Dialog open={popup} handler={popupHandle} className='popup h-full w-full' style={{ background: 'rgba(0, 0, 0, 0.4)', backdropFilter: 'blur(8px)' }}>
-                <section className='h-full lg:w-full py-12 px-6'>
-                    <div className='bg-cover bg-center popupBg lg:bg-[url("../../public/video-explainer/popup-bg2.png")] max-w-5xl mx-auto relative top-0 bottom-0 left-0 right-0 pt-[40px] lg:pt-[90px] pb-[50px] lg:pb-[100px] h-full w-full'>
+                <section className='h-full lg:w-full px-6'>
+                    <div className='bg-cover bg-center popupBg lg:bg-[url("../../public/video-explainer/popup-bg2.png")] max-w-5xl mx-auto relative top-0 left-0 pt-[40px] h-full w-full flex justify-center items-center'>
                         <button
                             variant="text"
                             onClick={popupHandle}
@@ -141,12 +141,12 @@ const Popup = ({ }) => {
                         >
                             <span>X</span>
                         </button>
-                        <div className="grid grid-cols-12">
+                        <div className="grid grid-cols-12 mb-10">
                             <div className="col-span-12">
                                 <h3 className='text-[20px] md:text-[26px] text-white font-[500] text-center p-0 montserrat'>Fill This Form to Avail</h3>
                                 <h2 className='text-[28px] md:text-[40px] text-white text-center font-[700] montserrat'>Amazing Discounts</h2>
                                 <h4 className='text-[20px] md:text-[26px] text-white text-center font-[700] montserrat'>on Video Animation Services</h4>
-                                <form action="javascript:;" className='mx-auto px-5 lg:w-6/12 mt-5 h-full'>
+                                <form action="javascript:;" className='mx-auto px-5 w-[550px] mt-5'>
                                     <div className="name relative w-full">
                                         <input type="text" name="name" placeholder='Enter your name' className='text-[14px] text-black placeholder:text-black montserrat py-[10px] lg:py-[15px] px-[18px] w-full mb-[10px] font-[500] rounded-[6px]' onChange={handleDataChange} required />
                                         {errors.name && (

@@ -1,16 +1,12 @@
 "use client"
-
 import Image from 'next/image';
 import React, { useState } from 'react'
-
-import arrowDown from "media/icons/arrow-down.png";
-import arrowUp from "media/icons/arrow-up.png";
-import { ArrowCircleDown } from 'heroicons-react';
 import { HiChevronUp } from "react-icons/hi";
 import { HiChevronDown } from "react-icons/hi";
-
 // Images 
 import Faq from "media/video-explainer/faq-side-img.png"
+// Import CSS
+import styles from "./faqs.module.css"
 
 const Faqs = ({ content }) => {
 
@@ -42,7 +38,7 @@ const Faqs = ({ content }) => {
                                     </div>
                                     {activeIndex === index && (
                                         <div className='pt-5'>
-                                            <div className={` text-[14px] sm:text-[16px] font-normal montserrat text-black pb-1`}>{item.answer}</div>
+                                            <div className={` text-[14px] sm:text-[16px] font-normal montserrat text-black pb-1 ${styles.ani}`}>{item.answer}</div>
 
                                             <ul>
                                                 {accordionData.map((index) => (
