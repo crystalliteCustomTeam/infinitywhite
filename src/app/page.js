@@ -33,7 +33,7 @@ import icon2 from "media/icons/stars.png"
 export default function Page() {
     //=====Banner Fold=====//
     const hero = {
-        title: (<> We <span className='text-primary-100'>Animate</span>Your <br /> Stories and Ideas </>),
+        title: (<> We <span className='text-primary-100'>Animate</span> Your <br /> Stories and Ideas </>),
         para: "In a world where dreams paint the sky, animation is the bridge between vivid imaginations and palpable realities. Each frame, a splash of creativity, brings to life stories untold, emotions unexpressed. At Infinity Animations, colors dance, characters breathe, and every stroke of the artist's pen ignites a universe, turning the canvas of fantasy into a symphony of visual wonder.",
         btnBg: "bg-prime",
     };

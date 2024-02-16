@@ -4,7 +4,7 @@ import React from 'react'
 import CTA from '../cta/CTA'
 
 const Want = ({ content }) => {
-    const { title, wantDesc} = content;
+    const { title, wantDesc } = content;
 
     return (
         <>
@@ -29,7 +29,7 @@ const Want = ({ content }) => {
                             iconCss="w-[40px]"
                             bg="bg-[#000]"
                             color={`text-white`}
-                            border={`border-0`}
+                            border={`border-2`}
                             hover="hover:bg-prime"
                             href="javascript:$zopim.livechat.window.show();"
                         />

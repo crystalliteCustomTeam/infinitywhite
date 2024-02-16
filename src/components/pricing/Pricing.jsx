@@ -16,8 +16,8 @@ const packages = [
         backgroundColor: '#2f2f2fd1',
         tickImage: tickP,
         color: "text-black",
-        ctaColor:"text-black",
-        titleColor:"text-black",
+        ctaColor: "text-black",
+        titleColor: "text-black",
         features: [
             '60 Seconds Duration',
             'Script Writing',
@@ -28,8 +28,8 @@ const packages = [
             { text: 'Invisible Point', isVisible: true },
         ],
         buttons: [
-            { text: 'Get Started', color: 'bg-prime text-white', image: arrow },
-            { text: 'Live Chat', color: 'bg-black text-white border border-white', image: chat },
+            { text: 'Get Started', color: 'bg-prime text-white', image: arrow, href: "tel:833-666-6689" },
+            { text: 'Live Chat', color: 'bg-black text-white border border-white', image: chat, href: "javascript:$zopim.livechat.window.show();" },
         ],
     },
     {
@@ -39,8 +39,8 @@ const packages = [
         color: "text-white",
         tickImage: tickW,
         mblSpc: 'my-10 md:my-0',
-        ctaColor:"text-white",
-        titleColor:"text-white",
+        ctaColor: "text-white",
+        titleColor: "text-white",
         features: [
             '60 Seconds Duration',
             'Script Writing',
@@ -51,8 +51,8 @@ const packages = [
             'Dedicated Support',
         ],
         buttons: [
-            { text: 'Get Started', color: 'bg-white text-black font-semibold', image: arrowB },
-            { text: 'Live Chat', color: 'bg-black text-white border border-white', image: chat },
+            { text: 'Get Started', color: 'bg-white text-black font-semibold', image: arrowB, href: "tel:833-666-6689" },
+            { text: 'Live Chat', color: 'bg-black text-white border border-white', image: chat, href: "javascript:$zopim.livechat.window.show();" },
         ],
     },
     {
@@ -61,8 +61,8 @@ const packages = [
         backgroundColor: '#2f2f2fd1',
         color: "text-black",
         tickImage: tickP,
-        ctaColor:"text-black",
-        titleColor:"text-black",
+        ctaColor: "text-black",
+        titleColor: "text-black",
         features: [
             '60 Seconds Duration',
             'Script Writing',
@@ -73,8 +73,8 @@ const packages = [
             'Dedicated Support',
         ],
         buttons: [
-            { text: 'Get Started', color: 'bg-prime text-white', image: arrow },
-            { text: 'Live Chat', color: 'bg-black text-white border border-white', image: chat },
+            { text: 'Get Started', color: 'bg-prime text-white', image: arrow, href: "tel:833-666-6689" },
+            { text: 'Live Chat', color: 'bg-black text-white border border-white', image: chat, href: "javascript:$zopim.livechat.window.show();" },
         ],
     },
 ];
@@ -126,19 +126,19 @@ const Pricing = ({ content }) => {
                                             <div className="flex justify-between px-6 mt-5 pt-4">
                                                 <div>
                                                     <p className={`text-[15px] ${pkg.ctaColor} font-bold font-sans`}>Speak With Us</p>
-                                                    <Link href="#" className={`font-sans ${pkg.ctaColor} text-[14px]`}>+1-000-000-0000</Link>
+                                                    <a href="tel:833-666-6689" className={`font-sans ${pkg.ctaColor} text-[14px]`}>833-666-6689</a>
                                                 </div>
                                                 <div>
                                                     <p className={`text-[15px] ${pkg.ctaColor} font-bold font-sans`}>Want To Discuss</p>
-                                                    <Link href="#" className={`font-sans ${pkg.ctaColor} text-[14px]`}>Live Chat Now</Link>
+                                                    <a href="javascript:$zopim.livechat.window.show();" className={`font-sans ${pkg.ctaColor} text-[14px]`}>Live Chat Now</a>
                                                 </div>
                                             </div>
                                             <div className="flex justify-between px-6 mt-5">
                                                 {pkg.buttons.map((button, i) => (
-                                                    <Link key={i} href="#" className={`flex items-center justify-between font-sans ${button.color} py-2 px-3 xl:px-5 w-[45%] xl:w-[40%] rounded-lg`}>
+                                                    <a key={i} href={button.href} className={`flex items-center justify-between font-sans ${button.color} py-2 px-3 xl:px-5 w-[45%] xl:w-[40%] rounded-lg`}>
                                                         <span>{button.text}</span>
                                                         <Image src={button.image} className={button.text === 'Get Started' ? 'w-[30px]' : 'w-[40px]'} alt="Infinity Animation" />
-                                                    </Link>
+                                                    </a>
                                                 ))}
                                             </div>
                                         </div>

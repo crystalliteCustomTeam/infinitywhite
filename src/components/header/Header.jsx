@@ -18,12 +18,12 @@ import logo from "../../../public/images/logo.png";
 
 const megaMenuItems = [
     {
-        title: "2d Animation",
+        title: "2D Animation",
         icon: SquaresPlusIcon,
         href: "/2d-animation",
     },
     {
-        title: "3d Animation",
+        title: "3D Animation",
         icon: UserGroupIcon,
         href: "/3d-animation",
     },
@@ -38,7 +38,7 @@ const megaMenuItems = [
         href: "/cgi-and-vfx",
     },
     {
-        title: "Hybrid & cel Animations",
+        title: "Hybrid & Cel Animations",
         icon: GlobeAmericasIcon,
         href: "/hybrid-&-cel-animations",
     },
