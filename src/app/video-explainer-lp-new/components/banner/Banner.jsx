@@ -176,9 +176,9 @@ const Banner = () => {
                         </div>
                         <div className="col-span-12 lg:col-span-6">
                             <form action="javascript:;" className={`${styles.banForm} pt-[20px] md:mr-[98px] md:ml-[40px] relative border-[1px] border-white lg:w-8/12`}>
-                                <h3 className='text-white text-[20px] md:text-[25px] leading-[30px] montserrat font-[700] text-left py-[10px] px-[20px]'>Got an <br className='block' />
+                                <h3 className='text-white text-[20px] md:text-[25px] leading-[30px] montserrat font-[700] text-left py-[10px] px-[20px]'>Share Your <br className='block' />
                                     <strong className='text-[30px] font-extrabold '>
-                                        Epiphany?
+                                        Animation Idea
                                     </strong>
                                 </h3>
 
