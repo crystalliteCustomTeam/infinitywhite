@@ -143,19 +143,23 @@ const Banner = () => {
                             <ul>
                                 <li className='flex items-start gap-x-2'>
                                     <CheckCircle className='text-[#A70A0E]' />
-                                    <span className='text-white font-[400] pb-[10px] montserrat'>Tailored Brilliance</span>
+                                    <span className='text-white font-[400] pb-[10px] montserrat'>Product Explainer Videos</span>
                                 </li>
                                 <li className='flex items-start gap-x-2'>
                                     <CheckCircle className='text-[#A70A0E]' />
-                                    <span className='text-white font-[400] pb-[10px] montserrat'>Engagement Amplified</span>
+                                    <span className='text-white font-[400] pb-[10px] montserrat'>Animated Business Videos</span>
                                 </li>
                                 <li className='flex items-start gap-x-2'>
                                     <CheckCircle className='text-[#A70A0E]' />
-                                    <span className='text-white font-[400] pb-[10px] montserrat'>Strategic Impact</span>
+                                    <span className='text-white font-[400] pb-[10px] montserrat'>Animated Marketing Videos</span>
                                 </li>
                                 <li className='flex items-start gap-x-2'>
                                     <CheckCircle className='text-[#A70A0E]' />
-                                    <span className='text-white font-[400] pb-[10px] montserrat'>Versatility Unleashed</span>
+                                    <span className='text-white font-[400] pb-[10px] montserrat'>Corporate Animated Videos</span>
+                                </li>
+                                <li className='flex items-start gap-x-2'>
+                                    <CheckCircle className='text-[#A70A0E]' />
+                                    <span className='text-white font-[400] pb-[10px] montserrat'>Commercial Animations</span>
                                 </li>
                             </ul>
                             <Image src={BannerLogos} alt='banner-logos' className='object-contain mt-4 mb-6' />
