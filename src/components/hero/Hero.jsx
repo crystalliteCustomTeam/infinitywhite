@@ -12,6 +12,8 @@ const Hero = ({ content }) => {
     const router = usePathname();
     let backgroundImage;
     let margin;
+    let color;
+    let border;
     switch (router) {
         case "/":
             backgroundImage = 'bg-[length:100%_70%] bg-bottom lg:items-end xxl:items-center lg:bg-[url("../../public/home/banner-img.png")]'
@@ -24,10 +26,12 @@ const Hero = ({ content }) => {
             backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/portfolio/banner-bg.png")]'
             break;
         case '/process':
-            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/process/banner-bg.png")]'
+            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/process/banner-bg.gif")]'
+            color = 'text-white'
+            border = 'border-2'
             break;
         case '/pricing':
-            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/pricing/banner-bg.png")]'
+            backgroundImage = 'bg-[length:100%_140%] bg-center lg:bg-[url("../../public/pricing/banner-bg.gif")]'
             break;
         case '/blog':
             backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/blogs/banner-bg.png")]'
@@ -80,10 +84,10 @@ const Hero = ({ content }) => {
                 <div className="container">
                     <div className='flex'>
                         <div className='w-full lg:w-[550px] xl:w-[600px]'>
-                            <h1 className={`text-[40px] md:text-[50px] xl:text-[60px] font-bold font-sans leading-none mb-5 mt-32 ${margin}`}>
+                            <h1 className={`text-[40px] md:text-[50px] xl:text-[60px] font-bold font-sans leading-none mb-5 mt-32 ${margin} ${color}`}>
                                 {title}
                             </h1>
-                            <p className="text-[14px] xl:text-[16px] font-normal font-sans leading-normal tracking-wider text-justify mb-5">
+                            <p className={`text-[14px] xl:text-[16px] font-normal font-sans leading-normal tracking-wider text-justify mb-5 ${color}`}>
                                 {para}
                             </p>
                             <div className="flex gap-6">
@@ -103,7 +107,7 @@ const Hero = ({ content }) => {
                                     iconCss="w-[40px]"
                                     bg="bg-[#000]"
                                     color={`text-white`}
-                                    border={`border-0`}
+                                    border={`border-0 ${border}`}
                                     hover="hover:bg-prime"
                                     href="javascript:$zopim.livechat.window.show();"
                                 />

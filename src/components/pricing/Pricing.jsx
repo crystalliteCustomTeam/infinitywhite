@@ -126,7 +126,7 @@ const Pricing = ({ content }) => {
                             <p className="text-[16px] font-normal font-sans leading-snug tracking-wider text-center mb-5">
                                 {para}
                             </p>
-                            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-20 md:mt-32">
+                            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 md:gap-28 mt-20 md:mt-32">
                                 {packages.map((pkg, index) => (
                                     <div key={index} className={`relative ${pkg.mblSpc}`}>
                                         <div key={index} className={`absolute top-[-7%] md:top-[-10%] lg:top-[-7%] xl:top-[-8%] left-[12%] h-[115px] w-[75%] -z-10 rounded-3xl flex items-start justify-center pt-4 gap-2 ${index === 1 ? 'bg-[#262626]' : 'bg-third'}`}>

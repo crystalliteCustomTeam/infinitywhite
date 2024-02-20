@@ -6,16 +6,16 @@ import Icon2 from 'media/icons/core-icon2.png'
 import Icon3 from 'media/icons/core-icon3.png'
 import Icon4 from 'media/icons/core-icon4.png'
 import Icon5 from 'media/icons/core-icon5.png'
-import coreImage from 'media/why-us/core-bg.png'
+import coreImage from 'media/why-us/core-bg.gif'
 
 const Features = () => {
     return (
         <>
-            <section className='relative pb-8 lg:pb-16'>
+            <section className='relative py-8 lg:pb-16'>
                 <div className="container">
                     <div className="grid grid-cols-12 items-center gap-4">
                         <div className="col-span-12">
-                            <div className="mb-3 lg:mb-[150px]">
+                            <div className="mb-3 lg:mb-[50px]">
                                 <h2 className='text-[40px] md:text-[60px] font-semibold font-sans leading-tight text-center mb-3'>The Core Features</h2>
                                 <p className='text-[16px] font-normal font-sans leading-snug tracking-wider text-center lg:w-8/12 mx-auto'>Infinity Animations prioritizes affordability and quality above everything else. Our aim is to treat our clients the way we want to be treated. We, as creative service providers, firmly believe that client satisfaction is paramount.</p>
                             </div>
@@ -53,8 +53,8 @@ const Features = () => {
                             </div>
                         </div>
                         <div className="col-span-12 lg:col-span-6">
-                            <div className="absolute right-0 lg:right-[170px] top-[18%] -z-1 md:block hidden">
-                                <Image src={coreImage} alt='Infinity Animation' width={1030} height={811} />
+                            <div className="absolute right-0 lg:right-[170px] top-[15%] -z-1 md:block hidden">
+                                <Image src={coreImage} alt='Infinity Animation' className='w-full' />
                             </div>
                         </div>
                         <div className="col-span-12">

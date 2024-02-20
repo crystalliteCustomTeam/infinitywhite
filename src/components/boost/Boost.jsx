@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import CTA from "@/components/cta/CTA";
 
 const Boost = ({ content }) => {
-    const { title, para, btnBg, btnColor, btnBorder, btnHover, flodImg, boostContent } = content;
+    const { title, para, flodImg, boostContent } = content;
     // Set styling
     const router = usePathname();
     let padding;
@@ -62,7 +62,7 @@ const Boost = ({ content }) => {
                             </div>
                         </div>
                         <div className="w-full sm:w-[400px] lg:w-[500px]">
-                            <Image src={flodImg} className="mx-auto" alt="Infinity Animation" />
+                            <Image src={flodImg} className="mx-auto w-full" alt="Infinity Animation" />
                         </div>
                     </div>
                 </div>

@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from 'next/navigation';
 // Import Components
 import CTA from "@/components/cta/CTA";
 import {
@@ -15,6 +16,9 @@ import {
 } from "@heroicons/react/24/solid";
 // Import Images
 import logo from "../../../public/images/logo.png";
+import logoWhite from "../../../public/images/logo-white.png";
+// Path
+
 
 const megaMenuItems = [
     {
@@ -70,6 +74,17 @@ const megaMenuItems = [
 ];
 
 function MegaMenu() {
+    const router = usePathname();
+    //path
+    let color;
+    switch (router) {
+        case '/process':
+            color = 'text-white'
+            break;
+        default:
+            break;
+    }
+    //
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
     const renderItems = megaMenuItems.map(
@@ -113,7 +128,7 @@ function MegaMenu() {
             >
                 <MenuHandler>
                     <Link href="#" variant="small" className="font-medium">
-                        <span className="flex items-center px-2 gap-2 py-2 font-sans text-[14px] xl:text-[16px] font-bold leading-[20px] xl:leading-[24px] text-black"
+                        <span className={`flex items-center px-2 gap-2 py-2 font-sans text-[14px] xl:text-[16px] font-bold leading-[20px] xl:leading-[24px] text-black ${color}`}
                             selected={isMenuOpen || isMobileMenuOpen}
                             onClick={() => {
                                 if (window.innerWidth <= 991) {
@@ -157,6 +172,16 @@ function MegaMenu() {
 }
 
 function NavList() {
+    const router = usePathname();
+    //path
+    let color;
+    switch (router) {
+        case '/process':
+            color = 'text-white'
+            break;
+        default:
+            break;
+    }
     return (
         <List className="mt-4 lg:mt-0 mb-0 p-0 pb-4 lg:pb-0 lg:flex-row lg:p-1 gap-3 bg-white lg:bg-transparent border-b-2 border-[prime/100] lg:border-0">
             <Link
@@ -165,7 +190,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Home</span>
+                <span className={`flex items-center gap-2 p-2 xl:px-4 py-2 text-black ${color}`}>Home</span>
             </Link>
             <Link
                 href="/why-us"
@@ -173,7 +198,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Why Us</span>
+                <span className={`flex items-center gap-2 p-2 xl:px-4 py-2 text-black ${color}`}>Why Us</span>
             </Link>
             <MegaMenu />
             <Link
@@ -182,7 +207,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Portfolio</span>
+                <span className={`flex items-center gap-2 p-2 xl:px-4 py-2 text-black ${color}`}>Portfolio</span>
             </Link>
             <Link
                 href="/process"
@@ -190,7 +215,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Process</span>
+                <span className={`flex items-center gap-2 p-2 xl:px-4 py-2 text-black ${color}`}>Process</span>
             </Link>
             <Link
                 href="/pricing"
@@ -198,7 +223,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Pricing</span>
+                <span className={`flex items-center gap-2 p-2 xl:px-4 py-2 text-black ${color}`}>Pricing</span>
             </Link>
             <Link
                 href="/blog"
@@ -206,7 +231,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Blog</span>
+                <span className={`flex items-center gap-2 p-2 xl:px-4 py-2 text-black ${color}`}>Blog</span>
             </Link>
             <Link
                 href="/contact-us"
@@ -214,7 +239,7 @@ function NavList() {
                 color="black"
                 className="font-sans text-[14px] xl:text-[16px] font-bold"
             >
-                <span className="flex items-center gap-2 p-2 xl:px-4 py-2 text-black">Contact Us</span>
+                <span className={`flex items-center gap-2 p-2 xl:px-4 py-2 text-black ${color}`}>Contact Us</span>
             </Link>
         </List>
     );
@@ -222,6 +247,7 @@ function NavList() {
 
 const Header = () => {
     const [openNav, setOpenNav] = React.useState(false);
+    const router = usePathname();
 
     React.useEffect(() => {
         window.addEventListener(
@@ -229,7 +255,6 @@ const Header = () => {
             () => window.innerWidth >= 960 && setOpenNav(false),
         );
     }, []);
-
     return (
         <header className="w-full absolute top-0 left-0 z-[9999] rounded-none bg-transparent">
             <div className="container">
@@ -240,7 +265,7 @@ const Header = () => {
                             variant="h6"
                             className="mr-4 cursor-pointer py-1.5 lg:ml-2 lg:w-[315px]"
                         >
-                            <Image src={logo} className="w-[50%]" alt="Infinity Animation" />
+                            <Image src={router === "/process" ? logoWhite : logo} className="w-[50%]" alt="Infinity Animation" />
                         </Link>
                         <div className="hidden lg:flex gap-5">
                             <NavList />

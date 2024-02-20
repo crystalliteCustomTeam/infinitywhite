@@ -6,7 +6,7 @@ import Want from '@/components/want/Want';
 import Testimonial from '@/components/testimonial/Testimonial';
 import Contact from '@/components/contact/Contact';
 // Import Images
-import LookingFlodImg from "media/why-us/history-img.png";
+import LookingFlodImg from "media/why-us/history-img.gif";
 //==== Testimonial Images
 import icon1 from "media/images/client.png"
 import icon2 from "media/icons/stars.png"

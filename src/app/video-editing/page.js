@@ -10,7 +10,7 @@ import Want from '@/components/want/Want';
 import Testimonial from '@/components/testimonial/Testimonial';
 import Contact from '@/components/contact/Contact';
 // Import Images
-import LookingFlodImg from "media/video-editing/looking-img.png";
+import LookingFlodImg from "media/video-editing/looking-img.gif";
 //==== Boost Images
 import BoostFlodImg from "media/images/boost-img.png";
 import boosticon1 from "media/icons/boost-icon4.png"

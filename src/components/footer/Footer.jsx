@@ -68,8 +68,8 @@ const Footer = () => {
             icon: telephone
         },
         {
-            text: "info@infinityanimations.com",
-            link: "mailto:info@infinityanimations.com",
+            text: "info@infinityanimationspro.com",
+            link: "mailto:info@infinityanimationspro.com",
             icon: envelope
         },
         {

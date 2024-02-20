@@ -41,7 +41,7 @@ export default function Page() {
     };
     //=====Looking Fold=====//
     const paraArray = [
-        "BuzzFlick knows how to convert boring educational material into engaging educational videos by streamlining the concepts and personifying them through educational videos.",
+        "Infinity Animations Pro knows how to convert boring educational material into engaging educational videos by streamlining the concepts and personifying them through educational videos.",
 
         "Neither kids nor professionals like boring lectures filled with jargon. So, why not opt for education video production to teach someone something? Whether you want it for students or C-level executives, we are perfect for the job as we create the best educational videos in the USA for you.",
     ];
@@ -58,7 +58,7 @@ export default function Page() {
 
         "That is why educational video production is valuable, instructive, and shareable way to help you and your firm become an authority or thought leader in your industry.",
 
-        "BuzzFlick provides educational video marketing through short TikTok videos, a series of quick how-to guides, tutorials, and even complicated full-scale corporate training videos.",
+        "Infinity Animations Pro provides educational video marketing through short TikTok videos, a series of quick how-to guides, tutorials, and even complicated full-scale corporate training videos.",
     ];
     const product = {
         title: (<> What is Educational Video Content? </>),
@@ -141,7 +141,7 @@ const tabContents = [
         ]
     ];
     const portfolio = {
-        title: (<> BuzzFlick’s Educational Video Production Projects </>),
+        title: (<> Infinity Animations Pro’s Educational Video Production Projects </>),
         para: (<> We stand out among all educational video companies for our creative and distinctive portfolio. </>),
         tabContents: tabContents,
         tabInfo: tabInfo
@@ -152,7 +152,7 @@ const tabContents = [
             ImageOne: conceptIcon1,
             sliderNumber: 1,
             slideTitle: "Our Videos Are Engaging",
-            paraOne: "Covering technology-based content in videos is not easy. You have to be creative, thoughtful, and less complicated to convey the information effectively. That is why BuzzFlick makes sure the tech video production involves all the creative elements to make the videos more engaging for the viewer. ",
+            paraOne: "Covering technology-based content in videos is not easy. You have to be creative, thoughtful, and less complicated to convey the information effectively. That is why Infinity Animations Pro makes sure the tech video production involves all the creative elements to make the videos more engaging for the viewer. ",
             paraTwo: "Not only does it compellingly present tech product or information, but also keep audiences hooked to the chair till the end of the video. A win-win situation. Our team of communicators is best at storytelling through videos. And hence, people like a good story, we have to be better at it to make your videos well-received.",
         },
         {
@@ -160,7 +160,7 @@ const tabContents = [
             sliderNumber: 2,
             slideTitle: "Our Videos Create an Emotional Connection",
             paraOne: "Written words can’t connect with people on the level that videos carry with them. According to MarTech Series, the study conducted by Motista states that the success key for any brand is the emotional connection. The report revealed that emotionally connected customers of brands have a higher lifetime value by 306% than merely satisfied customers. ",
-            paraTwo: "And what’s better than BuzzFlick’s technology video production to connect with customers and prospect buyers emotionally? Our videos are far more effective than a text-based piece of content. Using video instead of other content types significantly increases the likelihood of establishing an emotional connection with your audience.",
+            paraTwo: "And what’s better than Infinity Animations Pro’s technology video production to connect with customers and prospect buyers emotionally? Our videos are far more effective than a text-based piece of content. Using video instead of other content types significantly increases the likelihood of establishing an emotional connection with your audience.",
         },
         {
             ImageOne: conceptIcon3,
@@ -177,7 +177,7 @@ const tabContents = [
             ImageOne: conceptIcon4,
             sliderNumber: 4,
             slideTitle: "Our Videos Are Exceptional",
-            paraOne: "With videos all over the internet, BuzzFlick strives to be exceptionally unique and stand out. We have taken tech video production to the next level by hiring a team full of design, animation, and tech enthusiasts to deliver you the exceptional content you were looking for.",
+            paraOne: "With videos all over the internet, Infinity Animations Pro strives to be exceptionally unique and stand out. We have taken tech video production to the next level by hiring a team full of design, animation, and tech enthusiasts to deliver you the exceptional content you were looking for.",
             paraTwo: "With creativity, excellence, aesthetics, and a unique storytelling approach, we are making tech video content digestible, easy to understand, and flawless. Now give your tech products the creative edge they need through our tech-based videos and elevate your brand identity like never before.",
         },
     ]
@@ -211,8 +211,8 @@ const tabContents = [
     ]
 
     const buzzflick = {
-        title: "Why BuzzFlick is an Ideal Company for Educational Video Production?",
-        para: "BuzzFlick stands among the top educational video production companies and has been providing its educational video production services around the globe since 2016.",
+        title: "Why Infinity Animations Pro is an Ideal Company for Educational Video Production?",
+        para: "Infinity Animations Pro stands among the top educational video production companies and has been providing its educational video production services around the globe since 2016.",
         conceptContent: buzzflickContent,
         educateBuzz: educateBuzz,
         foldBg: FoldBg,
@@ -298,11 +298,11 @@ const tabContents = [
             answer: "The cost for tech video production depends on how complicated your information to be converted into video is. Usually, the cost for a 2D animated video starts from $1000, and the same goes for technology videos. But the amount may vary on length and video style.",
         },
         {
-            question: 'What Is The BuzzFlick’s Video Delivery Timeframe?',
+            question: 'What Is The Infinity Animations Pro’s Video Delivery Timeframe?',
             answer: "Step into a realm of immersive storytelling with our cutting-edge 3D animations. Elevate your visual narratives, whether for product showcases, virtual tours, or cinematic experiences.",
         },
         {
-            question: 'What Kind Of Videos BuzzFlick Provides With Tech Video Production Services?',
+            question: 'What Kind Of Videos Infinity Animations Pro Provides With Tech Video Production Services?',
             answer: "Simplify the complex and engage your audience with our whiteboard animations. Each stroke unfolds a nuanced narrative, turning ideas into visually compelling stories.",
         }
     ];

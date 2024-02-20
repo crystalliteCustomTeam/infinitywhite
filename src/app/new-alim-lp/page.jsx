@@ -35,8 +35,8 @@ const page = () => {
                             <ul class="navbar-nav mr-auto newlinkhead">
                                 <li class="nav-item talk">
                                     <a class="nav-link fontmontserratsemibold font12 colorwhite"
-                                        href="mailto:sales.infinityanimations.com"><img src="https://crojungle-clone.cryscampus.com/infinity/assets/images/email.png"
-                                            alt="" />sales.infinityanimations.com</a>
+                                        href="mailto:sales.infinityanimationspro.com"><img src="https://crojungle-clone.cryscampus.com/infinity/assets/images/email.png"
+                                            alt="" />sales.infinityanimationspro.com</a>
                                 </li>
                                 <li class="nav-item talk">
                                     <a class="nav-link fontmontserratsemibold font12 colorwhite" href="tel:+10000000000"> <img
@@ -1325,9 +1325,9 @@ const page = () => {
                                     <li class="fontmontserratregular  pb-3"><a class="colorwhite" href=""><i
                                                 class="fa-solid fa-phone"></i> +1-000-000-0000</a></li>
                                     <li class="fontmontserratregular  pb-3"><a class="colorwhite" href=""><i
-                                                class="fa-regular fa-envelope"></i> sales.infinityanimations.com</a></li>
+                                                class="fa-regular fa-envelope"></i> sales.infinityanimationspro.com</a></li>
                                     <li class="fontmontserratregular  pb-3"><a class="colorwhite" href=""><i
-                                                class="fa-solid fa-globe"></i> www.infinityanimations.com</a></li>
+                                                class="fa-solid fa-globe"></i> www.infinityanimationspro.com</a></li>
                                     <li><img src="https://crojungle-clone.cryscampus.com/infinity/assets/images/payment.png" class="img-fluid" alt=""></li>
                                 </ul>
                             </div>

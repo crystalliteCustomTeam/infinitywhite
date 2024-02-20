@@ -13,7 +13,7 @@ const Looking = ({ content }) => {
     switch (router) {
         case '/why-us':
             lookinImage = 'lg:min-w-[1000px] mr-auto'
-            lookingSecCol = 'md:absolute right-[54px] top-[18%]'
+            lookingSecCol = 'md:absolute right-[54px] top-[30%]'
             break;
         default:
             break;
@@ -25,7 +25,7 @@ const Looking = ({ content }) => {
                 <div className="container">
                     <div className='flex flex-col-reverse lg:flex-row items-center justify-around gap-y-7'>
                         <div className={`w-full lg:w-[500px] ${lookinImage}`}>
-                            <Image src={flodImg} className="w-9/12 lg:w-full mx-auto" alt="Infinity Animation" quality={85} />
+                            <Image src={flodImg} className="w-full mx-auto" alt="Infinity Animation" quality={85} />
                         </div>
                         <div className={`w-full lg:w-[800px] ${lookingSecCol}`}>
                             <h1 className="text-[35px] sm:text-[40px] lg:text-[50px] font-bold font-sans leading-tight mb-5">
