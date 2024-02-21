@@ -2,7 +2,7 @@
 import Image from "next/image";
 // Import Components
 import styles from '@/app/explainer-videos-animations/component/header/header.module.css';
-import icon1 from "media/banner/logo.png"
+import icon1 from "media/banner/logo.gif"
 import email from "media/banner/email.png"
 import lang from "media/banner/lang.png"
 import chat from "media/banner/chat.png"
