@@ -16,7 +16,7 @@ import React, { useEffect, useRef, useState } from 'react';
 SwiperCore.use([Navigation, Autoplay]);
 import { usePathname } from 'next/navigation'
 // icons
-import PlayIcon from "media/icons/play.png"
+import PlayIcon from "media/icons/video-icon.png"
 import usePopup from "@/app/configs/store/Popup";
 
 const Banner = () => {
