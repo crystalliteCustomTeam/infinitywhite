@@ -9,7 +9,7 @@ import Icon3 from "media/video-explainer2/why-ex-icon3.png"
 const Explainer = () => {
     return (
         <>
-            <section className='py-[60px] bg-cover bg-center bg-[url("../../public/video-explainer/why-ex-bg.jpg")]'>
+            <section className='py-[50px] lg:py-[60px] bg-cover bg-center bg-[url("../../public/video-explainer/why-ex-bg.jpg")]'>
                 <div className='px-4 sm:px-8 lg:max-w-7xl mx-auto'>
                     <div className="grid grid-cols-12 gap-4">
                         <div className="col-span-12 mb-[20px] sm:mb-[40px]">

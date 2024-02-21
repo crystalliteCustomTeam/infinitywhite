@@ -1,5 +1,5 @@
 "use client"
-import React, { useCallback, useEffect, useState } from 'react';
+import React from 'react';
 // Import Components
 import HeaderLP from './components/Header/Header'
 import Banner from './components/banner/Banner'

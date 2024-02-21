@@ -26,3 +26,19 @@
   background: #00000059;
   backdrop-filter: blur(100px);
 }
+
+@media screen and (max-width: 991px) {
+  .discountbg {
+    top: -8%;
+    right: -10%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .discountbg {
+    top: -4%;
+    right: -2%;
+    width: 25%;
+  }
+}

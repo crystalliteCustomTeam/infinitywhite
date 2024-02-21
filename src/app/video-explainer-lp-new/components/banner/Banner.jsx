@@ -134,7 +134,7 @@ const Banner = () => {
 
     return (
         <>
-            <section className='bg-cover bg-right bg-[url("../../public/video-explainer2/banner.png")] h-[100%] pt-[150px] lg:pt-[190px] pb-[60px] md:pb-[100px] mt-[-85px] xl:mt-[-75px]'>
+            <section className='bg-cover bg-right bg-primary-100/60 lg:bg-[url("../../public/video-explainer2/banner.png")] h-[100%] pt-[150px] lg:pt-[190px] pb-[60px] md:pb-[100px] mt-[-85px] xl:mt-[-75px]'>
                 <div className="px-4 sm:px-8 lg:max-w-7xl mx-auto">
                     <div className="grid grid-cols-12 gap-y-12">
                         <div className="col-span-12 lg:col-span-6">
@@ -163,14 +163,14 @@ const Banner = () => {
                                 </li>
                             </ul>
                             <Image src={BannerLogos} alt='banner-logos' className='object-contain mt-4 mb-6' />
-                            <div className="flex-wrap flex gap-4 md:gap-2">
+                            <div className="flex gap-4 md:gap-2">
                                 <div className="btn">
-                                    <button onClick={popupHandle} className='flex items-center text-[16px] text-white font-[700] montserrat bg-[#A70A0E] py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
+                                    <button onClick={popupHandle} className='flex items-center text-[14px] text-white font-[700] montserrat bg-[#A70A0E] py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                         Get Started
                                     </button>
                                 </div>
                                 <a href="javascript:$zopim.livechat.window.show();" className="chat flex items-center gap-2">
-                                    <Image src={chatIcon} alt='chat-icon' className='ml-[10px]' />
+                                    <Image src={chatIcon} alt='chat-icon' className='w-[25px] ml-[10px]' />
                                     <div className="text">
                                         <span className='block montserrat text-[14px] font-[400] text-white leading-[14px]'>Talk to our Expert</span>
                                         <span className='text-white text-[16px] montserrat font-[700]'>Live Chat</span>

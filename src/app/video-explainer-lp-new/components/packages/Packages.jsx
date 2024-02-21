@@ -63,13 +63,13 @@ const Packages = () => {
                                             <span className='text-[#231f20] text-[16px] pt-2'>Live Chat Now</span>
                                         </a>
                                     </div>
-                                    <div className="flex-wrap gap-y-3 flex items-center justify-center md:justify-between mt-[35px] mb-[20px]">
+                                    <div className="flex-wrap flex items-center justify-between mt-[35px] mb-[20px]">
                                         <button onClick={popupHandle} className='flex items-center text-[16px] text-white font-[700] poppins bg-[#A70A0E] group-hover:bg-[#1c2a49] py-[12px] px-3 xl:px-5 w-[45%] h-[50px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Get Started
                                         </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className='flex items-center justify-between text-[16px] text-black group-hover:text-white font-[700] poppins bg-transparent group-hover:bg-[#231f20] border border-[#231f20] py-[12px] px-3 xl:px-5 w-[45%] xl:w-[45%] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
-                                            <span>Live Chat</span>
-                                            <Image src={chat} alt='Infinity Animation' className='w-[22%] group-hover:brightness-[50] group-hover:invert-1' />
+                                            <span className='text-[16px]'>Live Chat</span>
+                                            <Image src={chat} alt='Infinity Animation' className='w-[18%] md:w-[12%] lg:w-[20%] group-hover:brightness-[50] group-hover:invert-1' />
                                         </a>
                                     </div>
                                 </div>
@@ -118,13 +118,13 @@ const Packages = () => {
                                             <span className='text-[#231f20] text-[16px] pt-2'>Live Chat Now</span>
                                         </a>
                                     </div>
-                                    <div className="flex-wrap gap-y-3 flex items-center justify-center md:justify-between mt-[35px] mb-[20px]">
+                                    <div className="flex-wrap flex items-center justify-between mt-[35px] mb-[20px]">
                                         <button onClick={popupHandle} className='flex items-center text-[16px] text-white font-[700] poppins bg-[#A70A0E] group-hover:bg-[#1c2a49] py-[12px] px-3 xl:px-5 w-[45%] h-[50px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Get Started
                                         </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className='flex items-center justify-between text-[16px] text-black group-hover:text-white font-[700] poppins bg-transparent group-hover:bg-[#231f20] border border-[#231f20] py-[12px] px-3 xl:px-5 w-[45%] xl:w-[45%] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
-                                            <span>Live Chat</span>
-                                            <Image src={chat} alt='Infinity Animation' className='w-[22%] group-hover:brightness-[50] group-hover:invert-1' />
+                                            <span className='text-[16px]'>Live Chat</span>
+                                            <Image src={chat} alt='Infinity Animation' className='w-[18%] md:w-[12%] lg:w-[20%] group-hover:brightness-[50] group-hover:invert-1' />
                                         </a>
                                     </div>
                                 </div>
@@ -173,13 +173,13 @@ const Packages = () => {
                                             <span className='text-[#231f20] text-[16px] pt-2'>Live Chat Now</span>
                                         </a>
                                     </div>
-                                    <div className="flex-wrap gap-y-3 flex items-center justify-center md:justify-between mt-[35px] mb-[20px]">
+                                    <div className="flex-wrap flex items-center justify-between mt-[35px] mb-[20px]">
                                         <button onClick={popupHandle} className='flex items-center text-[16px] text-white font-[700] poppins bg-[#A70A0E] group-hover:bg-[#1c2a49] py-[12px] px-3 xl:px-5 w-[45%] h-[50px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Get Started
                                         </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className='flex items-center justify-between text-[16px] text-black group-hover:text-white font-[700] poppins bg-transparent group-hover:bg-[#231f20] border border-[#231f20] py-[12px] px-3 xl:px-5 w-[45%] xl:w-[45%] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
-                                            <span>Live Chat</span>
-                                            <Image src={chat} alt='Infinity Animation' className='w-[22%] group-hover:brightness-[50] group-hover:invert-1' />
+                                            <span className='text-[16px]'>Live Chat</span>
+                                            <Image src={chat} alt='Infinity Animation' className='w-[18%] md:w-[12%] lg:w-[20%] group-hover:brightness-[50] group-hover:invert-1' />
                                         </a>
                                     </div>
                                 </div>

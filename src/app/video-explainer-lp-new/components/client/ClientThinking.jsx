@@ -21,7 +21,7 @@ const ClientThinking = () => {
                             <p className='text-white text-[16px] lg:text-[18px] montserrat font-[400] py-[17px] text-center pb-[40px] md:pb-[60px]'>Our experts leave no stone unturned in providing the desired outcome of our clients</p>
                         </div>
                         <div className="col-span-12 lg:col-span-4">
-                            <div className="card h-full bg-white rounded-[3px] shadow-lg md:mx-[12px] relative p-0 translate-y-0 hover:translate-y-[-20px] duration-700 hover:duration-700 flex flex-col justify-between">
+                            <div className="card h-full bg-white rounded-[3px] shadow-lg md:mx-[12px] relative p-0 translate-y-0 lg:hover:translate-y-[-20px] duration-700 hover:duration-700 flex flex-col justify-between">
                                 <span className='text-[#222] text-[50px] md:text-[75px] relative left-[18px] top-[20px]'>
                                     <FaQuoteLeft />
                                 </span>
@@ -44,7 +44,7 @@ const ClientThinking = () => {
                             </div>
                         </div>
                         <div className="col-span-12 lg:col-span-4">
-                            <div className="card h-full bg-white rounded-[3px] shadow-lg md:mx-[12px] relative p-0 translate-y-0 hover:translate-y-[-20px] duration-700 hover:duration-700 flex flex-col justify-between">
+                            <div className="card h-full bg-white rounded-[3px] shadow-lg md:mx-[12px] relative p-0 translate-y-0 lg:hover:translate-y-[-20px] duration-700 hover:duration-700 flex flex-col justify-between">
                                 <span className='text-[#222] text-[50px] md:text-[75px] relative left-[18px] top-[20px]'>
                                     <FaQuoteLeft />
                                 </span>
@@ -67,7 +67,7 @@ const ClientThinking = () => {
                             </div>
                         </div>
                         <div className="col-span-12 lg:col-span-4">
-                            <div className="card h-full bg-white rounded-[3px] shadow-lg md:mx-[12px] relative p-0 translate-y-0 hover:translate-y-[-20px] duration-700 hover:duration-700 flex flex-col justify-between">
+                            <div className="card h-full bg-white rounded-[3px] shadow-lg md:mx-[12px] relative p-0 translate-y-0 lg:hover:translate-y-[-20px] duration-700 hover:duration-700 flex flex-col justify-between">
                                 <span className='text-[#222] text-[50px] md:text-[75px] relative left-[18px] top-[20px]'>
                                     <FaQuoteLeft />
                                 </span>

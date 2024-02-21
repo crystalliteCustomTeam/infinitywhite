@@ -85,9 +85,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -103,9 +103,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -121,9 +121,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -139,9 +139,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -157,9 +157,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -175,9 +175,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -193,9 +193,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -211,9 +211,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -229,9 +229,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -247,9 +247,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -265,9 +265,9 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -283,15 +283,15 @@ const Blogs = () => {
                                         <p className='text-[13px] sm:text-[14px] font-light font-sans leading-[18px] pt-3 xl:w-8/12'>How Whiteboard Explainer Videos Inspire Audiences In today’s fast-paced world, capturing and keeping your audience’s</p>
                                     </div>
                                     <div className="card_bottom bg-second px-5 pt-5 pb-5 rounded-b-[30px] border-t border-white flex flex-wrap gap-4 justify-center sm:justify-between items-center">
-                                        <p className='text-[13px] font-sans font-light'>December 13, 2023 </p>
+                                        <p className='text-[13px] font-sans font-light text-white'>December 13, 2023 </p>
                                         <div className="btn">
-                                            <Link href="javascript:;" className='bg-primary-100 text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
+                                            <Link href="javascript:;" className='bg-primary-100 text-white text-[16px] px-7 py-2 border-2 border-white font-sans rounded-[5px] shadow-2xl'>Read More</Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </Slider>
-                        <hr className="border border-[#707070] absolute bottom-[34px] left-[46%] 2xl:left-[48%] translate-x-[-48%] w-[75%] xl:w-[85%] 3xl:w-[68%] mx-auto z-0 sm:block hidden" />
+                        <hr className="border border-[#707070] absolute bottom-[34px] left-[46%] 2xl:left-[44%] translate-x-[-48%] w-[75%] xl:w-[80%] 3xl:w-[65%] mx-auto z-0 sm:block hidden" />
                     </div>
                 </div>
             </section>

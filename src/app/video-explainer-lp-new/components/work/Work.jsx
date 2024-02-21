@@ -8,7 +8,7 @@ import InnerImage from "media/video-explainer2/process-inner-bg.png"
 const Work = () => {
     return (
         <>
-            <section className='py-[50px] bg-cover bg-center bg-[url("../../public/video-explainer/process-bg.jpg")]'>
+            <section className='pt-0 pb-[50px] lg:py-[50px] bg-cover bg-center bg-[url("../../public/video-explainer/process-bg.jpg")]'>
                 <div className="px-4 sm:px-8 lg:max-w-7xl mx-auto">
                     <div className="grid grid-cols-12">
                         <div className="col-span-12">

@@ -2,6 +2,8 @@
 import Hero from "@/components/hero/Hero";
 import Review from "@/components/review/Review";
 import Looking from '@/components/looking/Looking';
+import Features from "@/components/features/Features";
+import Partners from "@/components/partners/Partners";
 import Want from '@/components/want/Want';
 import Testimonial from '@/components/testimonial/Testimonial';
 import Contact from '@/components/contact/Contact';
@@ -10,8 +12,6 @@ import LookingFlodImg from "media/why-us/history-img.gif";
 //==== Testimonial Images
 import icon1 from "media/images/client.png"
 import icon2 from "media/icons/stars.png"
-import Features from "@/components/features/Features";
-import Partners from "@/components/partners/Partners";
 
 export default function Page() {
     //=====Banner Fold=====//

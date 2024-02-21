@@ -31,7 +31,7 @@ const Boost = ({ content }) => {
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-y-4 md:gap-10 my-8 xl:my-12">
                                 {boostContent.map((item, index) => (
                                     <div key={index} className="relative">
-                                        <div className="absolute left-[-10%] w-[1px] h-full bg-white text-white"></div>
+                                        <div className="absolute left-[-10%] w-[1px] h-full bg-black text-black"></div>
                                         <Image src={item.icon} className="w-[18%] h-[22%] mb-3 object-contain" alt='Infinity Animation' />
                                         <h3 className="text-[18px] xl:text-[20px] font-sans font-bold tracking-wide mb-2">{item.heading}</h3>
                                         <p className="text-[12px] xl:text-[16px] font-sans font-normal tracking-wider line">{item.text}</p>

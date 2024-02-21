@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import slide1 from 'media/icons/partner4.png'
 import slide2 from 'media/icons/partner5.png'
 
-const Testimonial = () => {
+const Partners = () => {
     // Slider Setting
     // const testiSlider = {
     //     rows: 2,
@@ -64,4 +64,4 @@ const Testimonial = () => {
     )
 }
 
-export default Testimonial
+export default Partners

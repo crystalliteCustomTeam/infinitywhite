@@ -27,9 +27,9 @@ const HeaderLP = () => {
                             <div className="nav_lists">
                                 <ul className='flex items-center gap-x-4 xl:gap-x-7'>
                                     <li>
-                                        <a href="mailto:queries@infinityanimationspro.com" className='flex items-center'>
+                                        <a href="mailto:queries@infinityanimations.com" className='flex items-center'>
                                             <EnvelopeIcon className='w-[25px] h-[25px] text-white' />
-                                            <span className='text-[13px] text-white py-[10px] px-[8px] font-[700] font-sans'>queries@infinityanimationspro.com</span>
+                                            <span className='text-[13px] text-white py-[10px] px-[8px] font-[700] font-sans'>queries@infinityanimations.com</span>
                                         </a>
                                     </li>
                                     <li>

@@ -139,7 +139,7 @@ const Contact = () => {
                             <p className='text-[#231f20] text-[16px] lg:text-[18px] montserrat font-[400] py-[17px] leading-[22px] pb-[60px]'>Its High Time to Showcase Your Store to the World</p>
                             <div className="form">
                                 <form action="javascript:;">
-                                    <div className="flex items-center lg:gap-4 ">
+                                    <div className="flex flex-col lg:flex-row items-center lg:gap-4 ">
                                         <div className="name relative w-full">
                                             <User className='text-[#b2b2b2] text-[16px] absolute top-[10px] left-[8px] w-[20px] h-[20px]' />
                                             <input type="text" name="name" placeholder='Enter your name' className='text-[14px] text-black placeholder:text-black montserrat py-[10px] px-[35px] w-full mb-[10px] font-[500]' onChange={handleDataChange} required />
@@ -190,8 +190,8 @@ const Contact = () => {
                                         </a>
                                     </li>
                                     <li className='py-[10px]'>
-                                        <a href="mailto:queries@infinityanimationspro.com" className='text-[16px] text-white montserrat flex items-center gap-2'>
-                                            <EnvelopeIcon className='bg-[#fc0] text-[#000] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> queries@infinityanimationspro.com
+                                        <a href="mailto:queries@infinityanimations.com" className='text-[16px] text-white montserrat flex items-center gap-2'>
+                                            <EnvelopeIcon className='bg-[#fc0] text-[#000] rounded-[60%] p-[4px] text-[15px] w-[26px] h-[26px]' /> queries@infinityanimations.com
                                         </a>
                                     </li>
                                     <li className='py-[10px]'>

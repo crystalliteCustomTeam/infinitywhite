@@ -34,16 +34,16 @@ const Hero = ({ content }) => {
             backgroundImage = 'bg-[length:100%_140%] bg-center lg:bg-[url("../../public/pricing/banner-bg.gif")]'
             break;
         case '/blog':
-            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/blogs/banner-bg.png")]'
+            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/blogs/banner-bg.gif")]'
             break;
         case '/contact-us':
-            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/contact/banner-bg.png")]'
+            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/contact/banner-bg.gif")]'
             break;
         case '/logo-animation':
             backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/logo-animation/banner-bg.png")]'
             break;
         case '/architectural-services':
-            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/architectural-services/banner-bg.png")]'
+            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/architectural-services/banner-bg.gif")]'
             break;
         case '/cgi-and-vfx':
             backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/cgi-and-vfx/banner-bg.png")]'
@@ -58,7 +58,9 @@ const Hero = ({ content }) => {
             backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/2d-animation/banner-bg.png")]'
             break;
         case '/3d-animation':
-            backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/3d-animation/banner-bg.png")]'
+            backgroundImage = 'bg-[length:100%_100%] bg-center lg:bg-[url("../../public/3d-animation/banner-bg.gif")]'
+            color = 'text-white'
+            border = 'border-2'
             break;
         case '/whiteboard-animation':
             backgroundImage = 'bg-cover bg-center lg:bg-[url("../../public/whiteboard/banner-bg.png")]'

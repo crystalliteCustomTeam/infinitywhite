@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image";
-import Link from "next/link";
 // Import Images
 import star from "media/icons/star.png"
 import chat from "media/icons/chat.png"
@@ -33,7 +32,7 @@ const packages = [
                 color: 'bg-prime text-white border border-white',
                 image: arrow,
                 href: "tel:833-666-6689",
-                imgColor: "bg-white w-[25px] h-[25px] xl:w-[30px] xl:h-[30px] rounded-full p-2"
+                imgColor: "bg-white w-[25px] h-[25px] xl:w-[28px] xl:h-[28px] rounded-full p-2 ms-1"
             },
             {
                 text: 'Live Chat',
@@ -67,7 +66,7 @@ const packages = [
                 color: 'bg-white text-black font-semibold border border-white',
                 image: arrowB,
                 href: "tel:833-666-6689",
-                imgColor: "bg-black w-[25px] h-[25px] xl:w-[30px] xl:h-[30px] rounded-full p-[8.5px] rotate-[90deg]"
+                imgColor: "bg-black w-[25px] h-[25px] xl:w-[28px] xl:h-[28px] rounded-full p-[8.5px] rotate-[90deg]"
             },
             {
                 text: 'Live Chat',
@@ -100,7 +99,7 @@ const packages = [
                 color: 'bg-prime text-white border border-white',
                 image: arrow,
                 href: "tel:833-666-6689",
-                imgColor: "bg-white w-[25px] h-[25px] xl:w-[30px] xl:h-[30px] rounded-full p-2"
+                imgColor: "bg-white w-[25px] h-[25px] xl:w-[28px] xl:h-[28px] rounded-full p-2 ms-1"
             },
             {
                 text: 'Live Chat',
@@ -126,7 +125,7 @@ const Pricing = ({ content }) => {
                             <p className="text-[16px] font-normal font-sans leading-snug tracking-wider text-center mb-5">
                                 {para}
                             </p>
-                            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 md:gap-28 mt-20 md:mt-32">
+                            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-20 md:mt-32">
                                 {packages.map((pkg, index) => (
                                     <div key={index} className={`relative ${pkg.mblSpc}`}>
                                         <div key={index} className={`absolute top-[-7%] md:top-[-10%] lg:top-[-7%] xl:top-[-8%] left-[12%] h-[115px] w-[75%] -z-10 rounded-3xl flex items-start justify-center pt-4 gap-2 ${index === 1 ? 'bg-[#262626]' : 'bg-third'}`}>
@@ -168,9 +167,9 @@ const Pricing = ({ content }) => {
                                             </div>
                                             <div className="flex justify-between px-6 mt-5">
                                                 {pkg.buttons.map((button, i) => (
-                                                    <a key={i} href={button.href} className={`flex items-center justify-between font-sans ${button.color} py-2 px-3 xl:px-5 w-[45%] xl:w-[40%] rounded-lg`}>
-                                                        <span>{button.text}</span>
-                                                        <Image src={button.image} className={`${button.imgColor} ${button.text === 'Get Started' ? 'w-[30px]' : button.text === 'Live Chat' ? 'w-[40px]' : ''}`} alt="Infinity Animation" />
+                                                    <a key={i} href={button.href} className={`flex items-center justify-between font-sans ${button.color} w-max py-2 px-3 xl:px-5 gap-2 rounded-lg`}>
+                                                        <span className="text-[14px] xl:text-[16px]">{button.text}</span>
+                                                        <Image src={button.image} className={`${button.imgColor} ${button.text === 'Get Started' ? '' : button.text === 'Live Chat' ? 'w-[30px]' : ''}`} alt="Infinity Animation" />
                                                     </a>
                                                 ))}
                                             </div>

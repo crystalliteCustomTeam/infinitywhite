@@ -60,7 +60,7 @@ body {
   transform: rotateY(-180deg);
 }
 
-/*=============== scroll bar css start ===============*/
+/*=============== scroll bar css ===============*/
 
 /* width */
 ::-webkit-scrollbar {
@@ -94,37 +94,55 @@ body {
   background: #f5090b;
 }
 
-/*=============== scroll bar css End ===============*/
-
-/*=============== service slider start ===============*/
+/*=============== service slider ===============*/
 
 .servicesConcept .slick-prev {
-  left: -22px;
-  top: 103%;
+  left: -2%;
+  top: 108%;
 }
 
 .servicesConcept .slick-prev:before {
-  content: url(../../public/icons/arrow-left.png);
+  content: url(../../public/icons/arrow.png);
+  opacity: 1;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  transform: rotate(270deg);
 }
 
 .servicesConcept .slick-next:before {
-  content: url(../../public/icons/arrow-right.png);
+  content: url(../../public/icons/arrow.png);
+  opacity: 1;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  transform: rotate(90deg);
 }
 
 .servicesConcept .slick-next {
-  right: 115px;
-  top: 105%;
+  right: 9%;
+  top: 108%;
   bottom: inherit;
 }
 
-/*=============== testi slider start ===============*/
+/*=============== testi slider ===============*/
 
 .testiSlider .slick-slide {
   height: 300px;
 }
 
 .testiSlider .slick-prev {
-  left: -200px;
+  left: -190px;
   top: 35%;
   z-index: 999;
 }
@@ -137,8 +155,8 @@ body {
   align-items: center;
   justify-content: center;
   line-height: 0;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   transform: rotate(270deg);
 }
@@ -157,13 +175,13 @@ body {
   align-items: center;
   justify-content: center;
   line-height: 0;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   transform: rotate(90deg);
 }
 
-/*=============== Blogs Slider start ===============*/
+/*=============== Blogs Slider ===============*/
 
 .blogsSlider .slick-prev {
   left: 0;
@@ -173,6 +191,7 @@ body {
 
 .blogsSlider .slick-prev:before {
   content: url(../../public/icons/red-arrow-l.png);
+  opacity: 1;
 }
 
 .blogsSlider .slick-next {
@@ -183,11 +202,15 @@ body {
 
 .blogsSlider .slick-next:before {
   content: url(../../public/icons/red-arrow-r.png);
+  opacity: 1;
 }
 
-/*=============== Blogs Slider End ===============*/
+.blogsSlider .slick-dots li{
+  color: #000 !important;
+  opacity: 1 !important;
+}
 
-/*=============== Brands Slider start ===============*/
+/*=============== Brands Slider ===============*/
 
 .brandsSlider .slick-prev {
   left: inherit;
@@ -210,7 +233,7 @@ body {
   content: url(../../public/icons/arrow-right.png);
 }
 
-/* Brands Slider End */
+/*=============== Popup ===============*/
 
 .grid.place-items-center.fixed.w-screen.h-screen.bg-black.bg-opacity-60.backdrop-blur-sm {
   height: 100% !important;
@@ -219,9 +242,7 @@ body {
   width: 100% !important;
 }
 
-/* popup end */
-
-/* Video Explainer Animation Start */
+/*=============== Video Explainer Animation ===============*/
 
 .animation {
   animation: animated 1.5s infinite ease-in-out alternate;
@@ -251,8 +272,6 @@ body {
   }
 }
 
-/* Video Explainer Animation End */
-
 /*=============== Media Query Start ===============*/
 
 @media only screen and (max-width: 1920px) {
@@ -266,7 +285,7 @@ body {
     z-index: 9999;
     margin-right: auto;
     right: 71px;
-    background: #000;
+    background: transparent;
     font-family: sans-serif;
   }
 }
@@ -365,7 +384,7 @@ body {
     top: auto;
     bottom: -40%;
   }
-  
+
   .testiSlider .slick-next {
     right: 0px;
     top: auto;
