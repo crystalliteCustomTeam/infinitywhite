@@ -10,7 +10,7 @@ export const metadata = {
         title: 'Thank You - Infinity Animation',
         description: 'Learn more about the passionate team driving innovation, precision, and storytelling mastery in every animated frame. ',
         url: 'https://infinityanimationspro.com/why-us/',
-     siteName: 'InFinity Animation',
+     siteName: 'Infinity Animation',
         locale: 'en_US',
         type: 'website',
     },

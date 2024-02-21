@@ -111,7 +111,7 @@ const Contact = () => {
 
                 let bodyContent = JSON.stringify({
                     IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
-                    Brand: "Infinity ANimation",
+                    Brand: "Infinity Animation",
                     Page: `${page}`,
                     Date: setDate,
                     Time: setTime,

@@ -10,7 +10,7 @@ export const metadata = {
         title: 'Unearth Unlimited Potential with Our 2D Animation Services',
         description: 'Tech Videos - Infinity Animation',
         url: 'https://infinityanimationspro.com/tech-videos',
-        siteName: 'InFinity Animation',
+        siteName: 'Infinity Animation',
         locale: 'en_US',
         type: 'website',
     },
