@@ -64,7 +64,7 @@ const Footer = () => {
     const contactLinks = [
         {
             text: "833-666-6689",
-            link: "tel:+8336666689",
+            link: "tel:833-666-6689",
             icon: telephone
         },
         {

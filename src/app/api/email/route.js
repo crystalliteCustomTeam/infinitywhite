@@ -16,8 +16,8 @@ export async function POST(request) {
         });
         const mailOptions = {
             from: "leads@infinityanimations.com",
-            to: "queries@infinityanimations.com",
-            subject: `Infinity Animations Lead`,
+            to: ['queries@infinityanimations.com', 'harrykennedy.cs@gmail.com'],
+            subject: `Infinity Animations Pro Lead`,
             html: `
             <table>
                 <tr>

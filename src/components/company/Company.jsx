@@ -46,7 +46,7 @@ const Company = ({ content }) => {
                                         color={`text-white`}
                                         border={`border-0`}
                                         hover="hover:bg-transparent"
-                                        href="tel:+8336666689"
+                                        href="tel:833-666-6689"
                                     />
 
                                 </div>

@@ -9,12 +9,11 @@ import 'slick-carousel/slick/slick-theme.css';
 import CTA from '../cta/CTA'
 
 const BuzzFlick = ({ content }) => {
-    const { title, para, conceptContent, foldBg } = content;
+    const { title, para, conceptContent } = content;
 
     return (
         <>
             <section className='xl:pt-36 lg:pb-16 md:pb-12 pb-8 relative'>
-                <Image src={foldBg} alt='Infinity Animation' className='absolute top-[-125px] right-0 w-full' />
                 <div className="container">
                     <div className="grid grid-cols-12">
                         <div className="col-span-10">

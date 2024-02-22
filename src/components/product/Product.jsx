@@ -42,7 +42,7 @@ const Product = ({ content }) => {
                                     color={`text-white`}
                                     border={`border-0`}
                                     hover="hover:bg-transparent"
-                                    href="tel:+8336666689"
+                                    href="javascript:$zopim.livechat.window.show();"
                                 />
                             </div>
                         </div>
