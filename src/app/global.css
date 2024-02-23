@@ -498,10 +498,6 @@ div#ty7 {
 }
 
 @media only screen and (max-width: 991px) {
-  .popupBg {
-    background: #ffcc00;
-  }
-
   .servicesConcept .slick-next {
     right: 50px;
   }
@@ -528,6 +524,10 @@ div#ty7 {
 
   .slideBg {
     background-size: 550px;
+  }
+
+  .popupBg {
+    background-color: #ffcc00;
   }
 }
 
