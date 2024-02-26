@@ -188,7 +188,7 @@ const Footer = () => {
                     <div className="flex gap-x-5 py-5 flex-wrap sm:flex-nowrap gap-y-2 sm:gap-y-0 items-center border-b-[1px] border-[#707070]">
                         <div className="basis-full sm:basis-1/2">
                             <p className="text-sm font-sans text-black leading-6 text-center sm:text-left">
-                                © Infinity Animations Pro 2024. All Rights Reserved
+                                © 2024 - All Rights Reserved <Link target="_blank" className="no-underline" href="https://bhaooinc.com/">Bhaoo INC</Link>
                             </p>
                         </div>
                         <div className="basis-full sm:basis-1/2">
