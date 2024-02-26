@@ -130,7 +130,7 @@ const Pricing = ({ content }) => {
                                     <div key={index} className={`relative ${pkg.mblSpc}`}>
                                         <div key={index} className={`absolute top-[-7%] md:top-[-10%] lg:top-[-7%] xl:top-[-8%] left-[12%] h-[115px] w-[75%] -z-10 rounded-3xl flex items-start justify-center pt-4 gap-2 ${index === 1 ? 'bg-[#262626]' : 'bg-third'}`}>
                                             {Array.from({ length: index + 1 }).map((_, i) => (
-                                                <Image key={i} src={star} className="w-[6%]" alt="Infinity Animation" />
+                                                <Image key={i} src={star} className="w-[6%]" alt="Infinity Animation Pro" />
                                             ))}
                                         </div>
                                         <div className={`relative ${pkg.backgroundColor === '#262626' ? 'bg-second' : 'backdrop-blur-sm bg-[#ffffff]/75'} border-2 border-[rgba(245,_9,_11,_1)] flex flex-col justify-start py-12 h-auto rounded-[35px]`}>
@@ -142,13 +142,13 @@ const Pricing = ({ content }) => {
                                                 {pkg.features.map((feature, i) => (
                                                     typeof feature === 'string' ? (
                                                         <li key={i} className="flex items-center gap-3 my-2 xl:my-3 text-[16px] font-normal font-sans leading-snug tracking-wider">
-                                                            <Image src={pkg.tickImage} className="w-[3%]" alt="Infinity Animation" />
+                                                            <Image src={pkg.tickImage} className="w-[3%]" alt="Infinity Animation Pro" />
                                                             <span className={pkg.color}>{feature}</span>
                                                         </li>
                                                     ) : (
                                                         (feature.isVisible && (
                                                             <li key={i} className="flex items-center gap-3 my-2 xl:my-3 text-[16px] font-normal font-sans leading-snug tracking-wider invisible">
-                                                                <Image src={pkg.tickImage} className="w-[3%]" alt="Infinity Animation" />
+                                                                <Image src={pkg.tickImage} className="w-[3%]" alt="Infinity Animation Pro" />
                                                                 <span className="text-white">{feature.text}</span>
                                                             </li>
                                                         ))
@@ -169,7 +169,7 @@ const Pricing = ({ content }) => {
                                                 {pkg.buttons.map((button, i) => (
                                                     <a key={i} href={button.href} className={`flex items-center justify-between font-sans ${button.color} w-max py-2 px-3 xl:px-5 gap-2 rounded-lg`}>
                                                         <span className="text-[14px] xl:text-[16px]">{button.text}</span>
-                                                        <Image src={button.image} className={`${button.imgColor} ${button.text === 'Get Started' ? '' : button.text === 'Live Chat' ? 'w-[30px]' : ''}`} alt="Infinity Animation" />
+                                                        <Image src={button.image} className={`${button.imgColor} ${button.text === 'Get Started' ? '' : button.text === 'Live Chat' ? 'w-[30px]' : ''}`} alt="Infinity Animation Pro" />
                                                     </a>
                                                 ))}
                                             </div>

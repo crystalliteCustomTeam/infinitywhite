@@ -178,7 +178,7 @@ const Form = () => {
                                 return (
                                     <li key={i} className="bg-second hover:bg-[#22212D] w-[45px] h-[45px] rounded-[5px] flex items-center justify-center p-1 hover:bg-second">
                                         <Link href={e.link} target="_blank">
-                                            <Image src={e.icon} className="w-[20px]" alt="Infinity Animation" />
+                                            <Image src={e.icon} className="w-[20px]" alt="Infinity Animation Pro" />
                                         </Link>
                                     </li>
                                 );

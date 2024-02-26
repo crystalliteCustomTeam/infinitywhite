@@ -7,7 +7,7 @@ const Review = () => {
     return (
         <>
             <section className="flex items-center justify-center sm:pt-5 sm:pb-8 md:pb-16">
-                <Image src={trustPlatforms} className="w-[80%] invert" alt="Infinity Animation" />
+                <Image src={trustPlatforms} className="w-[80%] invert" alt="Infinity Animation Pro" />
             </section>
         </>
     )

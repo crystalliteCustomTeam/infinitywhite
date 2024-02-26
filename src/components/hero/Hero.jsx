@@ -114,7 +114,7 @@ const Hero = ({ content }) => {
                                     href="javascript:$zopim.livechat.window.show();"
                                 />
                             </div>
-                            <Image src={trustPlatforms} className="mt-10 md:mt-20" alt="Infinity Animation" />
+                            <Image src={trustPlatforms} className="mt-10 md:mt-20" alt="Infinity Animation Pro" />
                         </div>
                     </div>
                 </div>

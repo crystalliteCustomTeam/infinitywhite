@@ -271,7 +271,7 @@ const Header = () => {
                             variant="h6"
                             className="mr-4 cursor-pointer py-1.5 lg:ml-2 lg:w-[315px]"
                         >
-                            <Image src={router === "/process" || router === "/3d-animation" ? logoWhite : logo} className="w-[50%]" alt="Infinity Animation" />
+                            <Image src={router === "/process" || router === "/3d-animation" ? logoWhite : logo} className="w-[50%]" alt="Infinity Animation Pro" />
                         </Link>
                         <div className="hidden lg:flex gap-5">
                             <NavList />

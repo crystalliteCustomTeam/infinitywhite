@@ -47,7 +47,7 @@ const Product = ({ content }) => {
                             </div>
                         </div>
                         <div className={`w-full lg:w-[600px] ${lookinImage}`}>
-                            <Image src={flodImg} className="w-full mx-auto" alt="Infinity Animation" quality={85} />
+                            <Image src={flodImg} className="w-full mx-auto" alt="Infinity Animation Pro" quality={85} />
                         </div>
                     </div>
                 </div>
