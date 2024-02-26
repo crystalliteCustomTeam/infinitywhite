@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import CTA from "@/components/cta/CTA";
 // Import Images
 import trustPlatforms from "media/icons/trust.png";
+import trustPlatforms2 from "media/icons/trust2.png";
 
 const Hero = ({ content }) => {
     const { title, para, } = content;
@@ -114,7 +115,11 @@ const Hero = ({ content }) => {
                                     href="javascript:$zopim.livechat.window.show();"
                                 />
                             </div>
-                            <Image src={trustPlatforms} className="mt-10 md:mt-20" alt="Infinity Animation Pro" />
+                            <Image
+                                src={(router === "/" || router === "/process" || router === "/3d-animation") ? trustPlatforms2 : trustPlatforms}
+                                className="mt-10 md:mt-20"
+                                alt="Infinity Animation Pro"
+                            />
                         </div>
                     </div>
                 </div>
