@@ -147,7 +147,7 @@ const Video = () => {
             <section className={styles.longton}>
                 <div className={`container mx-auto `}>
                     <div className={`md:grid md:grid-cols-1 items-center ${styles.world1}`}>
-                        <p>Copyright © 2024, Infinity Animations All Rights Reserved</p>
+                        <p>Copyright © 2024, Infinity Animations Pro All Rights Reserved</p>
                     </div>
 
                 </div>
