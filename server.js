@@ -2,7 +2,7 @@ const { createServer } = require('http');
 const { parse } = require('url');
 const next = require('next');
 const express = require('express');
-const geoLocationMiddleware = require('./app/middleware/Geolocation');
+const geoLocationMiddleware = require('./app/middleware/Geolocation').default;
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
@@ -18,8 +18,9 @@ app.prepare().then(() => {
         handle(req, res, parsedUrl);
     });
 
-    createServer(server).listen(80, (err) => {
-        if (err) throw err;
-        console.log('> Ready on http://infinityanimationspro.com/');
-    });
+    const port = process.env.PORT ||
+        createServer(server).listen(port, (err) => {
+            if (err) throw err;
+            console.log(`> Ready on http://localhost:${port}`);
+        });
 });

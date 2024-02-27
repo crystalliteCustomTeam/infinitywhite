@@ -3,7 +3,12 @@ import geoip from 'geoip-lite';
 const BLOCKED_COUNTRY = 'PK';
 
 export default function geoLocationMiddleware(req, res, next) {
-    const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+    let ip = req.headers['x-forwarded-for'] || req.headers['x-real-ip'] || req.connection.remoteAddress;
+    
+    if(ip && ip.includes(',')) {
+        ip = ip.split(',')[0].trim();
+    }
+
     const geo = geoip.lookup(ip);
 
     if (geo && geo.country === BLOCKED_COUNTRY) {
