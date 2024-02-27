@@ -41,7 +41,7 @@ const Form = () => {
     //creating function to load ip address from the API
     const getIPData = async () => {
         const res = await Axios.get(
-            "https://api.ip2location.io/?key=F9B01293761EF666EB54678698AC8682"
+            "https://api.ip2location.io/?key=5FEAAE971B4D53957B308B13B675FCAF"
         );
         setIP(res);
     };
