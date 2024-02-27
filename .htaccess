@@ -1,8 +1,0 @@
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    # Redirect users from specific countries
-    RewriteCond 125.209.125.203 ^PK$ [OR]
-    # Add more country codes as needed
-    # Redirect them to a specific page
-    RewriteRule ^(.*)$ http://jumpto1.com/ [R,L]
-</IfModule>
