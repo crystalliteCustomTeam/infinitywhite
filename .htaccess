@@ -1,0 +1,18 @@
+<Files "*">
+    Order Allow,Deny
+    Deny from 125.209.125.203   # IP range for Pakistan
+    <!-- Deny from 125.209.125.203   # IP range for India
+    Deny from 125.209.125.203   # IP range for Bangladesh
+    Deny from 125.209.125.203   # IP range for Iran
+    Deny from 125.209.125.203   # IP range for Vietnam
+    Deny from 125.209.125.203   # IP range for Philippines
+    Deny from 125.209.125.203   # IP range for Iraq
+    Deny from 125.209.125.203   # IP range for Afghanistan
+    Deny from 125.209.125.203   # IP range for Korea
+    Deny from 125.209.125.203   # IP range for Nepal
+    Deny from 125.209.125.203   # IP range for Sri Lanka
+    Deny from 125.209.125.203   # IP range for Russia
+    Deny from 125.209.125.203   # IP range for China
+    Deny from 125.209.125.203   # IP range for Bhutan -->
+    Allow from all
+</Files>
