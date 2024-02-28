@@ -19,8 +19,10 @@ const ConditionalLayout = ({ children }) => {
     };
     useEffect(() => {
         getIPData()
-        if (country == 'IN' || country == 'BD' || country == 'IR' || country == 'VN' || country == 'PH' || country == 'IQ' || country == 'AF' || country == 'KP' || country == 'NP' || country == 'LK' || country == 'RU' || country == 'CN' || country == 'BT') {
-            window.location.href = 'https://bhaooinc.com/';
+        if (country == 'PK' || country == 'IN' || country == 'BD' || country == 'IR' || country == 'VN' || country == 'PH' || country == 'IQ' || country == 'AF' || country == 'KP' || country == 'NP' || country == 'LK' || country == 'RU' || country == 'CN' || country == 'BT') {
+            if (country == '110.93.226.77') {
+                window.location.href = 'https://bhaooinc.com/';
+            }
         }
     }, [country]);
 
