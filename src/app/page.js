@@ -1,65 +1,66 @@
+import React from 'react';
 // Import Page Components
-import Hero from "@/components/hero/Hero";
-import Review from "@/components/review/Review";
-import Looking from '@/components/looking/Looking';
-import StoryLine from '@/components/storyline/StoryLine';
-import Portfolio from '@/components/portfolio/Portfolio';
-import Concept from '@/components/concept/Concept';
-import Boost from '@/components/boost/Boost';
-import Testimonial from '@/components/testimonial/Testimonial';
-import Contact from '@/components/contact/Contact';
+const Hero = React.lazy(() => import('@/components/hero/Hero'));
+const Review = React.lazy(() => import('@/components/review/Review'));
+const Looking = React.lazy(() => import('@/components/looking/Looking'));
+const StoryLine = React.lazy(() => import('@/components/storyline/StoryLine'));
+const Portfolio = React.lazy(() => import('@/components/portfolio/Portfolio'));
+const Concept = React.lazy(() => import('@/components/concept/Concept'));
+const Boost = React.lazy(() => import('@/components/boost/Boost'));
+const Testimonial = React.lazy(() => import('@/components/testimonial/Testimonial'));
+const Contact = React.lazy(() => import('@/components/contact/Contact'));
 //==== Looking Images
-import LookingFlodImg from "media/home/looking-img.png";
+const LookingFlodImg = await import("media/home/looking-img.png");
 //==== StoryLine Images
-import StoryLine1 from "media/storyline/storyLine1.jpg";
-import StoryLine2 from "media/storyline/storyLine2.jpg";
-import StoryLine3 from "media/storyline/storyLine3.jpg";
-import StoryLine4 from "media/storyline/storyLine4.jpg";
-import StoryLine5 from "media/storyline/storyLine5.jpg";
-import StoryLine6 from "media/storyline/storyLine6.jpg";
-import StoryLine7 from "media/storyline/storyLine7.jpg";
-import StoryLine8 from "media/storyline/storyLine8.jpg";
-import StoryLine9 from "media/storyline/storyLine9.jpg";
-import StoryLine10 from "media/storyline/storyLine10.jpg";
+const StoryLine1 = await import("media/storyline/storyLine1.jpg");
+const StoryLine2 = await import("media/storyline/storyLine2.jpg");
+const StoryLine3 = await import("media/storyline/storyLine3.jpg");
+const StoryLine4 = await import("media/storyline/storyLine4.jpg");
+const StoryLine5 = await import("media/storyline/storyLine5.jpg");
+const StoryLine6 = await import("media/storyline/storyLine6.jpg");
+const StoryLine7 = await import("media/storyline/storyLine7.jpg");
+const StoryLine8 = await import("media/storyline/storyLine8.jpg");
+const StoryLine9 = await import("media/storyline/storyLine9.jpg");
+const StoryLine10 = await import("media/storyline/storyLine10.jpg");
 //==== Boost Images
-import BoostFlodImg from "media/images/boost-img.gif";
-import boosticon1 from "media/icons/boost-icon1.png"
-import boosticon2 from "media/icons/boost-icon2.png"
-import boosticon3 from "media/icons/boost-icon3.png"
+const BoostFlodImg = await import("media/images/boost-img.gif");
+const boosticon1 = await import("media/icons/boost-icon1.png");
+const boosticon2 = await import("media/icons/boost-icon2.png");
+const boosticon3 = await import("media/icons/boost-icon3.png");
 //==== Testimonial Images
-import icon1 from "media/images/client.png"
-import icon2 from "media/icons/stars.png"
+const icon1 = await import("media/images/client.png");
+const icon2 = await import("media/icons/stars.png");
 // ==== Thumnail Image
-import Thumbnail1 from "media/thumbnails/2d-animation/1.jpg"
-import Thumbnail2 from "media/thumbnails/2d-animation/2.jpg"
-import Thumbnail3 from "media/thumbnails/2d-animation/3.jpg"
-import Thumbnail4 from "media/thumbnails/2d-animation/4.jpg"
-import Thumbnail5 from "media/thumbnails/2d-animation/5.jpg"
-import Thumbnail6 from "media/thumbnails/2d-animation/6.jpg"
-import Thumbnail7 from "media/thumbnails/3d-animation/1.jpg"
-import Thumbnail8 from "media/thumbnails/3d-animation/2.jpg"
-import Thumbnail9 from "media/thumbnails/3d-animation/3.jpg"
-import Thumbnail10 from "media/thumbnails/3d-animation/4.jpg"
-import Thumbnail11 from "media/thumbnails/3d-animation/5.jpg"
-import Thumbnail12 from "media/thumbnails/3d-animation/6.jpg"
-import Thumbnail13 from "media/thumbnails/whiteboard/1.jpg"
-import Thumbnail14 from "media/thumbnails/whiteboard/2.jpg"
-import Thumbnail15 from "media/thumbnails/whiteboard/3.jpg"
-import Thumbnail16 from "media/thumbnails/whiteboard/4.jpg"
-import Thumbnail17 from "media/thumbnails/whiteboard/5.jpg"
-import Thumbnail18 from "media/thumbnails/whiteboard/6.jpg"
-import Thumbnail19 from "media/thumbnails/motion-graphics/1.jpg"
-import Thumbnail20 from "media/thumbnails/motion-graphics/2.jpg"
-import Thumbnail21 from "media/thumbnails/motion-graphics/3.jpg"
-import Thumbnail22 from "media/thumbnails/motion-graphics/4.jpg"
-import Thumbnail23 from "media/thumbnails/motion-graphics/5.jpg"
-import Thumbnail24 from "media/thumbnails/motion-graphics/6.jpg"
-import Thumbnail25 from "media/thumbnails/hybrid/1.jpg"
-import Thumbnail26 from "media/thumbnails/hybrid/2.jpg"
-import Thumbnail27 from "media/thumbnails/hybrid/3.jpg"
-import Thumbnail28 from "media/thumbnails/hybrid/4.jpg"
-import Thumbnail29 from "media/thumbnails/hybrid/5.jpg"
-import Thumbnail30 from "media/thumbnails/hybrid/6.jpg"
+const Thumbnail1 = await import("media/thumbnails/2d-animation/1.jpg");
+const Thumbnail2 = await import("media/thumbnails/2d-animation/2.jpg");
+const Thumbnail3 = await import("media/thumbnails/2d-animation/3.jpg");
+const Thumbnail4 = await import("media/thumbnails/2d-animation/4.jpg");
+const Thumbnail5 = await import("media/thumbnails/2d-animation/5.jpg");
+const Thumbnail6 = await import("media/thumbnails/2d-animation/6.jpg");
+const Thumbnail7 = await import("media/thumbnails/3d-animation/1.jpg");
+const Thumbnail8 = await import("media/thumbnails/3d-animation/2.jpg");
+const Thumbnail9 = await import("media/thumbnails/3d-animation/3.jpg");
+const Thumbnail10 = await import("media/thumbnails/3d-animation/4.jpg");
+const Thumbnail11 = await import("media/thumbnails/3d-animation/5.jpg");
+const Thumbnail12 = await import("media/thumbnails/3d-animation/6.jpg");
+const Thumbnail13 = await import("media/thumbnails/whiteboard/1.jpg");
+const Thumbnail14 = await import("media/thumbnails/whiteboard/2.jpg");
+const Thumbnail15 = await import("media/thumbnails/whiteboard/3.jpg");
+const Thumbnail16 = await import("media/thumbnails/whiteboard/4.jpg");
+const Thumbnail17 = await import("media/thumbnails/whiteboard/5.jpg");
+const Thumbnail18 = await import("media/thumbnails/whiteboard/6.jpg");
+const Thumbnail19 = await import("media/thumbnails/motion-graphics/1.jpg");
+const Thumbnail20 = await import("media/thumbnails/motion-graphics/2.jpg");
+const Thumbnail21 = await import("media/thumbnails/motion-graphics/3.jpg");
+const Thumbnail22 = await import("media/thumbnails/motion-graphics/4.jpg");
+const Thumbnail23 = await import("media/thumbnails/motion-graphics/5.jpg");
+const Thumbnail24 = await import("media/thumbnails/motion-graphics/6.jpg");
+const Thumbnail25 = await import("media/thumbnails/hybrid/1.jpg");
+const Thumbnail26 = await import("media/thumbnails/hybrid/2.jpg");
+const Thumbnail27 = await import("media/thumbnails/hybrid/3.jpg");
+const Thumbnail28 = await import("media/thumbnails/hybrid/4.jpg");
+const Thumbnail29 = await import("media/thumbnails/hybrid/5.jpg");
+const Thumbnail30 = await import("media/thumbnails/hybrid/6.jpg");
 
 export default function Page() {
     //=====Banner Fold=====//

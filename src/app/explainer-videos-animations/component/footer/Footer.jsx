@@ -1,4 +1,7 @@
 "use client"
+import React, { useEffect, useState } from 'react';
+import Axios from "axios";
+import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from 'next/navigation';
 // Import Components
@@ -8,8 +11,6 @@ import top from "media/banner/top.png"
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaGlobe } from "react-icons/fa";
-import React, { useEffect, useState } from 'react';
-import Axios from "axios";
 
 const Video = () => {
 

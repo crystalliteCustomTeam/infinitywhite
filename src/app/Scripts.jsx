@@ -35,7 +35,7 @@ const Scripts = () => {
                 gtag('config', 'AW-10860906782');
             `;
             document.head.appendChild(gtmConfigScript);
-        }, 3000);
+        }, 5000);
 
         return () => clearTimeout(timer);
     }, []);

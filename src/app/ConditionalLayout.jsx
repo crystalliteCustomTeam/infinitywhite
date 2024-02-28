@@ -27,7 +27,7 @@ const ConditionalLayout = ({ children }) => {
     //=============== Loader ===============//
     const [imagesLoaded, setImagesLoaded] = useState(false);
     useEffect(() => {
-        const delay = 7000;
+        const delay = 8000;
         const timeoutId = setTimeout(() => {
             setImagesLoaded(true);
         }, delay);
