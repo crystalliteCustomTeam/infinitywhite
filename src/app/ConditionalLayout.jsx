@@ -13,14 +13,14 @@ const ConditionalLayout = ({ children }) => {
     const [country, setCountry] = useState(false);
     const getIPData = async () => {
         const res = await Axios.get(
-            "https://api.ip2location.io/?key=5FEAAE971B4D53957B308B13B675FCAF"
+            "http://ip-api.com/json/?fields=status,country,countryCode"
         );
-        setCountry(res.country_code)
+        setCountry(res.data.countryCode);
     };
     useEffect(() => {
         getIPData()
-        if (country === 'IN' || country === 'PK' || country === 'BD') {
-            window.location.href = 'https://jumpto1.com';
+        if (country == 'IN' || country == 'BD' || country == 'IR' || country == 'VN' || country == 'PH' || country == 'IQ' || country == 'AF' || country == 'KP' || country == 'NP' || country == 'LK' || country == 'RU' || country == 'CN' || country == 'BT') {
+            window.location.href = 'https://bhaooinc.com/';
         }
     }, [country]);
 
