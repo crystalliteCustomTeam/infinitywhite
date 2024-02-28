@@ -11,7 +11,7 @@ import tickW from "media/icons/tick-w.png"
 const packages = [
     {
         name: 'Startup Package',
-        price: '$195',
+        price: '$1499',
         backgroundColor: '#2f2f2fd1',
         tickImage: tickP,
         color: "text-black",
@@ -44,7 +44,7 @@ const packages = [
     },
     {
         name: 'Classic Package',
-        price: '$499',
+        price: '$2499',
         backgroundColor: '#262626',
         color: "text-white",
         tickImage: tickW,
@@ -78,7 +78,7 @@ const packages = [
     },
     {
         name: 'Premium Package',
-        price: '$799',
+        price: '$3499',
         backgroundColor: '#2f2f2fd1',
         color: "text-black",
         tickImage: tickP,

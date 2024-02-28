@@ -20,16 +20,14 @@ const ConditionalLayout = ({ children }) => {
     useEffect(() => {
         getIPData()
         if (country == 'PK' || country == 'IN' || country == 'BD' || country == 'IR' || country == 'VN' || country == 'PH' || country == 'IQ' || country == 'AF' || country == 'KP' || country == 'NP' || country == 'LK' || country == 'RU' || country == 'CN' || country == 'BT') {
-            if (country == '110.93.226.77') {
-                window.location.href = 'https://bhaooinc.com/';
-            }
+            window.location.href = 'https://bhaooinc.com/';
         }
     }, [country]);
 
     //=============== Loader ===============//
     const [imagesLoaded, setImagesLoaded] = useState(false);
     useEffect(() => {
-        const delay = 8000;
+        const delay = 2000;
         const timeoutId = setTimeout(() => {
             setImagesLoaded(true);
         }, delay);
