@@ -2,29 +2,41 @@
 import React, { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
 import { PopupProvider } from "./configs/store/Popup"
+import Axios from "axios"
 // Import Components
 import Footer from "@/components/footer/Footer"
 import Header from "@/components/header/Header"
 import Loader from "@/components/loader/Loader"
-import blockCountries from "./middleware/blockCountries"
 
 const ConditionalLayout = ({ children }) => {
     //=============== GeoLocation ===============//
+    const [country, setCountry] = useState(null);
+
+    const getIPData = async () => {
+        try {
+            const res = await Axios.get(
+                "http://ip-api.com/json/?fields=status,country,countryCode"
+            );
+            setCountry(res.data.countryCode);
+        } catch (error) {
+            console.error("Error fetching IP data:", error);
+        }
+    };
+
     useEffect(() => {
-        const handleRouteChange = (url) => {
-            blockCountries();
-        };
-        blockCountries();
-        window.addEventListener('popstate', handleRouteChange);
-        return () => {
-            window.removeEventListener('popstate', handleRouteChange);
-        };
+        getIPData();
     }, []);
+
+    useEffect(() => {
+        if (country && (country === 'PK' || country === 'IN' || country === 'BD' || country === 'IR' || country === 'VN' || country === 'PH' || country === 'IQ' || country === 'AF' || country === 'KP' || country === 'NP' || country === 'LK' || country === 'RU' || country === 'CN' || country === 'BT')) {
+            window.location.href = 'https://bhaooinc.com/';
+        }
+    }, [country]);
 
     //=============== Loader ===============//
     const [imagesLoaded, setImagesLoaded] = useState(false);
     useEffect(() => {
-        const delay = 1000;
+        const delay = 2000;
         const timeoutId = setTimeout(() => {
             setImagesLoaded(true);
         }, delay);
