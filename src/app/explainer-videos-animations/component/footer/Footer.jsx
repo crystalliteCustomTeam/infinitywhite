@@ -124,7 +124,7 @@ const Video = () => {
                                 <div className={styles.form2}>
                                     <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name="phone" className="form-control" placeholder="Enter Your Number" />
                                 </div>
-                                <div className="">
+                                <div>
                                     <textarea name="message" className={styles.megg} id="exampleFormControlTextarea1" placeholder="Type Message" rows="5"></textarea>
                                     <input type="submit" value="Get Started" className={styles.showcas} />
                                 </div>

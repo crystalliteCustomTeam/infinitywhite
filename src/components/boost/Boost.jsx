@@ -39,7 +39,7 @@ const Boost = ({ content }) => {
                                 ))}
                             </div>
                             <div className="flex gap-6">
-                            <CTA
+                                <CTA
                                     text="Get Started"
                                     icon="/icons/arrow-red.png"
                                     iconCss="flex items-center justify-center w-[25px] h-[25px] xl:w-[30px] xl:h-[30px] bg-white rounded-full p-2 ms-2"
@@ -47,7 +47,6 @@ const Boost = ({ content }) => {
                                     color={`text-white`}
                                     border={`border-0`}
                                     hover="hover:bg-transparent"
-                                    href="tel:833-666-6689"
                                 />
                                 <CTA
                                     text="Live Chat"

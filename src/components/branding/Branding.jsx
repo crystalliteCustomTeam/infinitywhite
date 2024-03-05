@@ -54,7 +54,6 @@ const Branding = ({ content }) => {
                             color={`text-white`}
                             border={`border-0`}
                             hover="hover:bg-transparent"
-                            href="tel:833-666-6689"
                         />
                         <CTA
                             text="Live Chat"

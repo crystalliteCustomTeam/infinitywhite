@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { EnvelopeIcon } from '@heroicons/react/24/solid'
 //===== Images 
 import Logo from "media/video-explainer/logo.gif"

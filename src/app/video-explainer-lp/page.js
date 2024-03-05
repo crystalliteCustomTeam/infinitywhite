@@ -15,7 +15,6 @@ const Faqs = React.lazy(() => import('./components/faqs/Faqs'));
 const ClientThinking = React.lazy(() => import('./components/client/ClientThinking'));
 const Clients = React.lazy(() => import('./components/OurClients/Clients'));
 const Contact = React.lazy(() => import('./components/Contact/Contact'));
-const Popup = React.lazy(() => import('./components/popup/Popup'));
 
 const Video = () => {
   // ===== Brands Content ===== //
@@ -69,7 +68,6 @@ const Video = () => {
   return (
     <>
       <div className='bg-white'>
-        <Popup />
         <HeaderLP />
         <Banner />
         <Partners />

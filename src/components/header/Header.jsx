@@ -4,22 +4,17 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from 'next/navigation';
 // Import Components
-import CTA from "@/components/cta/CTA";
-import {
-    Navbar, Collapse, List, Menu, MenuHandler, MenuList, MenuItem,
-} from "@material-tailwind/react";
-import {
-    ChevronDownIcon, Bars3Icon, XMarkIcon, ChevronRightIcon,
-} from "@heroicons/react/24/outline";
-import {
-    Bars4Icon, GlobeAmericasIcon, NewspaperIcon, PhoneIcon, RectangleGroupIcon, SquaresPlusIcon, SunIcon, TagIcon, UserGroupIcon,
-} from "@heroicons/react/24/solid";
+import usePopup from "@/app/configs/store/Popup";
+import CTA from "../cta/CTA";
+// Import Icons
+import { Navbar, Collapse, List, Menu, MenuHandler, MenuList, MenuItem, } from "@material-tailwind/react";
+import { ChevronDownIcon, Bars3Icon, XMarkIcon, ChevronRightIcon, } from "@heroicons/react/24/outline";
+import { Bars4Icon, GlobeAmericasIcon, NewspaperIcon, PhoneIcon, RectangleGroupIcon, SquaresPlusIcon, SunIcon, TagIcon, UserGroupIcon, } from "@heroicons/react/24/solid";
 // Import Images
-import logo from "../../../public/images/logo.png";
-import logoWhite from "../../../public/images/logo-white.png";
+import logo from "media/images/logo.png";
+import logoWhite from "media/images/logo-white.png";
+
 // Path
-
-
 const megaMenuItems = [
     {
         title: "2D Animation",
@@ -254,13 +249,17 @@ function NavList() {
 const Header = () => {
     const [openNav, setOpenNav] = React.useState(false);
     const router = usePathname();
-
     React.useEffect(() => {
         window.addEventListener(
             "resize",
             () => window.innerWidth >= 960 && setOpenNav(false),
         );
     }, []);
+    //
+    const { popup, togglePopup } = usePopup()
+    const popupHandle = () => {
+        togglePopup(popup)
+    }
     return (
         <header className="w-full absolute top-0 left-0 z-[9999] rounded-none bg-transparent">
             <div className="container">
@@ -283,7 +282,6 @@ const Header = () => {
                                 color={`text-white`}
                                 border={`border-0`}
                                 hover="hover:bg-transparent"
-                                href="tel:833-666-6689"
                             />
                         </div>
                         <button onClick={() => setOpenNav(!openNav)} className="block lg:hidden">

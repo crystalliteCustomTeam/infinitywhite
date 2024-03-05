@@ -53,13 +53,9 @@ const Video = ({ content }) => {
                                     </div>
                                     {activeIndex1 === index && (
                                         <div className='mt-2 pt-5 px-4 pb-5 bg-gradient-to-r from-[#d50d12] to-[#9c1418] rounded-[8px]'>
-                                            <ul className="list-disc pl-[20px] text-white">
-                                                {item.lists.map((lisItems, index) => (
-                                                    <li key={index}>
-                                                        <div className={`block text-[14px] font-normal montserrat text-white pb-1`}>{lisItems}</div>
-                                                    </li>
-                                                ))}
-                                            </ul>
+                                            <p className={`text-[14px] list-disc montserrat text-white ${styles.ani}`}>
+                                                {item.ans}
+                                            </p>
                                         </div>
                                     )}
                                 </div>
@@ -75,13 +71,9 @@ const Video = ({ content }) => {
                                     </div>
                                     {activeIndex2 === index && (
                                         <div className='mt-2 pt-5 px-4 pb-5 bg-gradient-to-r from-[#d50d12] to-[#9c1418] rounded-[8px]'>
-                                            <ul className="list-disc pl-[20px] text-white">
-                                                {item.lists.map((lisItems, index) => (
-                                                    <li key={index}>
-                                                        <div className={`block text-[14px] font-normal montserrat text-white pb-1`}>{lisItems}</div>
-                                                    </li>
-                                                ))}
-                                            </ul>
+                                            <p className={`text-[14px] list-disc montserrat text-white ${styles.ani}`}>
+                                                {item.ans}
+                                            </p>
                                         </div>
                                     )}
                                 </div>
