@@ -56,7 +56,8 @@ const Form = () => {
         email: "",
         message: "",
         botchecker: null,
-        pageURL: page
+        pageURL: page,
+        ip
     });
     const handleDataChange = (e) => {
         setData((prev) => ({ ...prev, [e.target.name]: e.target.value }));

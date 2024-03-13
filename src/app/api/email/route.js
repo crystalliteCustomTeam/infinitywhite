@@ -3,7 +3,7 @@ import nodemailer from "nodemailer"
 
 export async function POST(request) {
     try {
-        const { name, email, phone, message, pageURL } = await request.json();
+        const { name, email, phone, message, pageURL, ip } = await request.json();
         const transporter = nodemailer.createTransport({
             service: "Gmail",
             host: "smtp.gmail.com",
@@ -39,6 +39,10 @@ export async function POST(request) {
                 <tr>
                     <th>pageURL</th>
                     <td>${pageURL}</td>
+                </tr>
+                <tr>
+                    <th>IP</th>
+                    <td>${ip}</td>
                 </tr>
             </table>`
         }
