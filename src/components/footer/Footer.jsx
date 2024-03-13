@@ -11,8 +11,6 @@ import facebook from "media/icons/fb.png";
 import twitter from "media/icons/x.png";
 import instagram from "media/icons/insta.png";
 import linkedin from "media/icons/linkedin.png";
-import youtube from "media/icons/youtube.png";
-import vimeo from "media/icons/vemio.png";
 
 const Footer = () => {
     const quickLinks = [
@@ -66,13 +64,18 @@ const Footer = () => {
     const contactLinks = [
         {
             text: "833-666-6689",
-            link: "tel:833-666-6689",
+            link: "tel:+8336666689",
             icon: telephone
         },
         {
             text: "queries@infinityanimations.com",
             link: "mailto:queries@infinityanimations.com",
             icon: envelope
+        },
+        {
+            text: "One World Trade Center, Suite 8500, New York, New York, 10007, United States",
+            link: "/contact-us",
+            icon: mapmarker
         },
         {
             text: "1024 Iron Point Rd, Folsom, CA 95630",
@@ -107,14 +110,6 @@ const Footer = () => {
             icon: linkedin,
             link: "https://www.linkedin.com/"
         },
-        {
-            icon: youtube,
-            link: "https://www.youtube.com/@Infinity-Animations"
-        },
-        {
-            icon: vimeo,
-            link: "https://www.vimeo.com/infinityanimations"
-        },
     ]
 
     return (
@@ -124,7 +119,7 @@ const Footer = () => {
                     <div className="flex gap-x-5 pb-8 border-b-[1px] border-[#707070] flex-wrap lg:flex-nowrap justify-between gap-y-5 lg:gap-y-0">
                         <div className="basis-full sm:basis-[48%] lg:basis-[30%]">
                             <Link href="/">
-                                <Image src={logo} className="w-[50%]" alt="Infinity Animation Pro" />
+                                <Image src={logo} className="w-[50%]" alt="Infinity Animation" />
                             </Link>
                             <p className="text-sm xl:text-base font-normal font-sans text-justify text-black mt-3 pr-5">Infinity Animations is a visionary kingdom where creativity knows no bounds. With masterful strokes of artistry, they breathe life into ideas, forging appealing animations that dance with imagination. Each frame tells a story, each visual a masterpiece. From 2D wonders to CGI-VFX magic, they conjure dimensions where dreams come to life.</p>
                         </div>
@@ -168,7 +163,7 @@ const Footer = () => {
                                         contactLinks.map((e, i) => {
                                             return (
                                                 <li key={i} className="flex items-center gap-2 mb-3 last:mb-0">
-                                                    <Image src={e.icon} className="w-[15px] invert" alt="Infinity Animation Pro" />
+                                                    <Image src={e.icon} className="w-[15px] invert" alt="Infinity Animation" />
                                                     <a href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:text-primary-100">
                                                         {e.text}
                                                     </a>
@@ -179,13 +174,13 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div>
-                                <ul className="flex items-center gap-4 mt-4 md:mt-0">
+                                <ul className="flex items-center gap-4 mt-4 md:mt-6">
                                     {
                                         socialLinks.map((e, i) => {
                                             return (
                                                 <li key={i} className="bg-[#22212D] hover:bg-second w-[45px] h-[45px] rounded-[5px] flex items-center justify-center p-1">
                                                     <Link href={e.link} target="_blank">
-                                                        <Image src={e.icon} className="w-[20px]" alt="Infinity Animation Pro" />
+                                                        <Image src={e.icon} className="w-[20px]" alt="Infinity Animation" />
                                                     </Link>
                                                 </li>
                                             );
@@ -198,7 +193,7 @@ const Footer = () => {
                     <div className="flex gap-x-5 py-5 flex-wrap sm:flex-nowrap gap-y-2 sm:gap-y-0 items-center border-b-[1px] border-[#707070]">
                         <div className="basis-full sm:basis-1/2">
                             <p className="text-sm font-sans text-black leading-6 text-center sm:text-left">
-                                © 2024 - All Rights Reserved <Link target="_blank" className="no-underline" href="https://bhaooinc.com/">Bhaoo INC</Link>
+                                © Infinity Animations 2024. All Rights Reserved
                             </p>
                         </div>
                         <div className="basis-full sm:basis-1/2">
