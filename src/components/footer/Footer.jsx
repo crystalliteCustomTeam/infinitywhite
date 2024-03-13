@@ -75,7 +75,7 @@ const Footer = () => {
             icon: envelope
         },
         {
-            text: "One World Trade Center, Suite 8500, New York, New York, 10007, United States",
+            text: "1024 Iron Point Rd, Folsom, CA 95630",
             link: "/contact-us",
             icon: mapmarker
         },
