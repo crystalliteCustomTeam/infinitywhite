@@ -27,7 +27,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Scripts />
-      <meta name="robots" content="noindex"></meta>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6R4FDDD"
+        height="0" width="0" className="hidden invisible"></iframe></noscript>
+      <meta name="google-site-verification" content="d5owAQgsJaAq09XbhF1KEVhKTvnfdvbTZ6-n6dlgHqg" />
       <body className={`${primary.variable}`}>
         <ConditionalLayout>
           {children}
