@@ -11,7 +11,7 @@ export async function POST(request) {
             secure: true,
             auth: {
                 user: "leads@infinityanimations.com",
-                pass: "10@Kskwoks"
+                pass: "10@Kskwoks" 
             }
         });
         const mailOptions = {
