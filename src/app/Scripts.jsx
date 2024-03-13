@@ -63,7 +63,6 @@ const Scripts = () => {
                 })(window,document,'script','dataLayer','GTM-N6R4FDDD');
             `;
             document.head.appendChild(googleTagManager);
-            
         }, 10000);
         return () => clearTimeout(timer);
     }, []);
