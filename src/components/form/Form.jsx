@@ -29,15 +29,7 @@ const socialLinks = [
     {
         icon: linkedin,
         link: "https://www.linkedin.com/"
-    },
-    {
-        icon: youtube,
-        link: "https://www.youtube.com/@Infinity-Animations"
-    },
-    {
-        icon: vimeo,
-        link: "https://www.vimeo.com/infinityanimations"
-    },
+    }, 
 ]
 const Form = () => {
     // For Date
