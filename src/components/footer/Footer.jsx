@@ -81,14 +81,14 @@ const Footer = () => {
         },
         {
             text: "1024 Iron Point Rd, Folsom, CA 95630",
-            link: "/contact-us",
+            link: "https://maps.app.goo.gl/QYDv6abiPbW5rRoK6",
             icon: mapmarker
         },
     ];
     const otherLinks = [
         {
             text: "Terms of Services",
-            link: "/terms-co",
+            link: "/terms-and-conditions",
         },
         {
             text: "Privacy Policy",
@@ -207,7 +207,7 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="basis-full sm:basis-1/2">
-                            <ul className="flex items-center justify-center sm:justify-end gap-4">
+                            <ul className="flex items-center justify-center sm:justify-end md:mr-[120px] 3xl:mr-0 gap-4">
                                 {
                                     otherLinks.map((e, i) => {
                                         return (
