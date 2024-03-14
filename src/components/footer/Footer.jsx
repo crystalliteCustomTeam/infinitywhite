@@ -10,6 +10,8 @@ import envelope from "media/icons/email.png";
 import facebook from "media/icons/fb.png";
 import twitter from "media/icons/x.png";
 import instagram from "media/icons/insta.png";
+import youtube from "media/icons/youtube.png";
+import vimeo from "media/icons/vemio.png";
 import linkedin from "media/icons/linkedin.png";
 
 const Footer = () => {
@@ -109,6 +111,14 @@ const Footer = () => {
         {
             icon: linkedin,
             link: "https://www.linkedin.com/"
+        },
+        {
+            icon: youtube,
+            link: "https://www.youtube.com/@Infinity-Animations"
+        },
+        {
+            icon: vimeo,
+            link: "https://www.vimeo.com/infinityanimations"
         },
     ]
 

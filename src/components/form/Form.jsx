@@ -9,6 +9,10 @@ import facebook from "media/icons/fb.png";
 import twitter from "media/icons/x.png";
 import instagram from "media/icons/insta.png";
 import linkedin from "media/icons/linkedin.png";
+
+import youtube from "media/icons/youtube.png";
+import vimeo from "media/icons/vemio.png";
+
 const socialLinks = [
     {
         icon: facebook,
@@ -25,6 +29,14 @@ const socialLinks = [
     {
         icon: linkedin,
         link: "https://www.linkedin.com/"
+    },
+    {
+        icon: youtube,
+        link: "https://www.youtube.com/@Infinity-Animations"
+    },
+    {
+        icon: vimeo,
+        link: "https://www.vimeo.com/infinityanimations"
     },
 ]
 const Form = () => {
