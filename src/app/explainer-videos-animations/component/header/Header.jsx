@@ -13,14 +13,15 @@ const Video = () => {
     const popupHandle = () => {
         togglePopup(popup)
     }
+
     return (
         <>
             <section className={`newcon  ${styles.display}`} id="header">
-                <div className={`container ${styles.pointer}`}>
-                    <div className="w-[12%]">
+                <div className={`container ${styles.pointer} items-center`}>
+                    <div className="w-[34%] md:w-[12%]">
                         <Image src={icon1} />
                     </div>
-                    <div className={styles.poster}>
+                    <div className={`${styles.poster}`}>
                         <div className={styles.got}>
                             <Image src={email} />     <a href="mailto:queries@infinityanimations.com">  queries@infinityanimations.com</a>
                         </div>
@@ -33,6 +34,12 @@ const Video = () => {
                         <div className={styles.got1}>
                             <button onClick={popupHandle}>Get Started</button>
                         </div>
+                    </div>
+                    <div className="md:hidden block">
+                        <a href="tel:833-666-6689" className="flex items-center gap-2 text-white font-sans">
+                            <Image src={lang} alt="InfinityAnimationPro" />
+                            833-666-6689
+                        </a>
                     </div>
                 </div>
 

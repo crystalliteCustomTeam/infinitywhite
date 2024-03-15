@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from 'next/navigation';
@@ -12,6 +12,7 @@ import { ChevronDownIcon, Bars3Icon, XMarkIcon, ChevronRightIcon, } from "@heroi
 import { Bars4Icon, GlobeAmericasIcon, NewspaperIcon, PhoneIcon, RectangleGroupIcon, SquaresPlusIcon, SunIcon, TagIcon, UserGroupIcon, } from "@heroicons/react/24/solid";
 // Import Images
 import logo from "media/images/logo.png";
+import telephone from "media/icons/call.png";
 import logoWhite from "media/images/logo-white.png";
 
 // Path
@@ -248,6 +249,7 @@ function NavList() {
 
 const Header = () => {
     const [openNav, setOpenNav] = React.useState(false);
+    const [isFixed, setIsFixed] = useState(true);
     const router = usePathname();
     React.useEffect(() => {
         window.addEventListener(
@@ -260,17 +262,40 @@ const Header = () => {
     const popupHandle = () => {
         togglePopup(popup)
     }
+
+    const [headercolor, setHeadercolor] = useState("bg-transparent");
+    const [headerPad, setHeaderPad] = useState("py-3");
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+            const scrollThreshold = 100; // Adjust this value according to your design
+            if (currentScrollY > scrollThreshold) {
+                setHeadercolor("bg-white shadow-xl");
+                setHeaderPad("py-3");
+            } else {
+                setHeadercolor("bg-transparent");
+                setHeaderPad("py-3");
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        // Cleanup event listener on component unmount
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    const fixedClass = isFixed ? `fixed top-0 lg:absolute top-0 lg:left-0 lg:bg-transparent ${headerPad}` : 'top-[20px]';
     return (
-        <header className="w-full absolute top-0 left-0 z-[9999] rounded-none bg-transparent">
+        <header className={`w-full z-[999] rounded-none ${headercolor} ${fixedClass}`}>
             <div className="container">
-                <Navbar className="max-w-none px-0 py-2 rounded-none bg-transparent shadow-none backdrop-saturate-100 backdrop-blur-none border-none">
-                    <div className="flex items-center justify-between text-black relative">
+                <Navbar className="max-w-none shadow-none px-0 py-2 rounded-none bg-transparent border-none">
+                    <div className="flex items-center justify-between text-black relative gap-x-4">
                         <Link
                             href="/"
                             variant="h6"
-                            className="mr-4 cursor-pointer py-1.5 lg:ml-2 lg:w-[315px]"
+                            className="mr-4 cursor-pointer py-1.5 lg:ml-2 w-[455px] lg:w-[315px]"
                         >
-                            <Image src={router === "/process" || router === "/3d-animation" ? logoWhite : logo} className="w-[50%]" alt="Infinity Animation Pro" />
+                            <Image src={router === "/process" || router === "/3d-animation" ? logoWhite : logo} className="w-[85%] md:w-[28%] lg:w-[50%]" alt="Infinity Animation Pro" />
                         </Link>
                         <div className="hidden lg:flex gap-5">
                             <NavList />
@@ -284,11 +309,19 @@ const Header = () => {
                                 hover="hover:bg-transparent"
                             />
                         </div>
+                        <ul className="lg:hidden block w-[550px] md:w-auto">
+                            <li>
+                                <Link href="javascript:;" className='flex items-center justify-end gap-x-3 text-black font-sans'>
+                                    <Image src={telephone} loading="lazy" width="56" height="52" class="w-[15px] invert" alt='Animations Pro' />
+                                    833-666-6689
+                                </Link>
+                            </li>
+                        </ul>
                         <button onClick={() => setOpenNav(!openNav)} className="block lg:hidden">
                             {openNav ? (
-                                <XMarkIcon className="h-[40px] w-[40px]" strokeWidth={2} />
+                                <XMarkIcon className={`h-[40px] w-[40px]`} strokeWidth={2} />
                             ) : (
-                                <Bars3Icon className="h-[40px] w-[40px]" strokeWidth={2} />
+                                <Bars3Icon className={`h-[40px] w-[40px]`} strokeWidth={2} />
                             )}
                         </button>
                     </div>

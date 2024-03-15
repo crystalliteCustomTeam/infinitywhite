@@ -4,17 +4,20 @@
   top: 0;
   color: #fff;
 }
+
 .pointer {
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
+
 .poster {
   display: flex;
   justify-content: space-between;
   gap: 35px;
   align-items: center;
 }
+
 .got {
   display: flex;
   align-items: center;
@@ -48,6 +51,7 @@
     margin-left: auto;
   }
 }
+
 @media (min-width: 1400px) {
   .pointer {
     max-width: 1320px;
@@ -55,10 +59,12 @@
     margin-left: auto;
   }
 }
+
 @media (max-width: 1200px) {
   .poster {
     gap: 15px;
   }
+
   .got a {
     font-size: 9px;
     font-family: "Montserrat", sans-serif;
@@ -66,14 +72,29 @@
   }
 }
 
+@media (max-width: 991px) {
+  .display {
+    position: fixed;
+    background: #000;
+    padding-bottom: 15px;
+    z-index: 99999999;
+  }
+
+  .poster {
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
   .poster {
     flex-direction: column;
   }
+
   .got {
     display: none;
   }
 }
+
 @media (max-width: 480px) {
   .pointer {
     gap: 20px;

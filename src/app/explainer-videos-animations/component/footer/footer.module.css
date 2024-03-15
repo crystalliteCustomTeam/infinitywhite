@@ -13,9 +13,11 @@
   font-weight: 800;
   color: #fff;
 }
+
 .touchnow span {
   color: #d50d12;
 }
+
 .wordsmosth {
   max-width: 800px;
   position: relative;
@@ -45,6 +47,7 @@
   margin-bottom: 2%;
   height: 41px;
 }
+
 .touch .form2 input {
   background-color: #565656;
   border: unset;
@@ -54,11 +57,13 @@
   font-family: "Montserrat", sans-serif;
   color: white;
 }
+
 .touch .form2 input::placeholder {
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
   color: white;
 }
+
 .megg::placeholder {
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
@@ -74,6 +79,7 @@
   padding-left: 10px;
   padding-top: 10px;
 }
+
 .showcas {
   width: 180px;
   height: 43px;
@@ -106,24 +112,28 @@
   align-items: center;
   margin-left: auto;
 }
+
 .newfight li {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   display: flex;
   gap: 10px;
 }
+
 .longton {
   background-color: #979797;
   height: 60px;
   display: flex;
   align-items: center;
 }
+
 .world1 p {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
 }
+
 .animatio {
   position: absolute;
   bottom: 5%;
@@ -157,6 +167,7 @@
     margin-left: auto;
   }
 }
+
 @media (min-width: 1400px) {
   .pointer {
     max-width: 1320px;
@@ -170,6 +181,13 @@
     width: 320px;
   }
 }
+
+@media (max-width: 991px) {
+  .newtab {
+    padding-left: 3%;
+  }
+}
+
 @media (max-width: 767px) {
   .animatio {
     display: none;
@@ -179,6 +197,7 @@
     padding: 50px 0;
   }
 }
+
 @media (max-width: 480px) {
   .newtab {
     width: 100%;
