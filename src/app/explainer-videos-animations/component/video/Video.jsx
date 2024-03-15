@@ -63,11 +63,11 @@ const Video = () => {
     return (
         <>
             <section className={`newcon ${styles.video}`}>
-            <div class={`container mx-auto ${styles.pointer} `}>
-                    <div class={`md:grid md:grid-cols-1`}>
+            <div className={`container mx-auto ${styles.pointer} `}>
+                    <div className={`md:grid md:grid-cols-1`}>
                     <div className={styles.element}>
-                        <h3 className={`fontsfpro mb-0 ${styles.heading}`}>Why Explainer <span class="colorred2">Videos </span>
-                            Are Key To Digital <span class="colorred2">Branding</span></h3>
+                        <h3 className={`fontsfpro mb-0 ${styles.heading}`}>Why Explainer <span className="colorred2">Videos </span>
+                            Are Key To Digital <span className="colorred2">Branding</span></h3>
                         <p className={styles.words}>
                             Simple words or symbols do not attract as many people as video animation does. If you're about
                             to introduce a product or service, animated videos are the perfect way to make a shout out on
@@ -82,24 +82,24 @@ const Video = () => {
 
 
                         <div className={styles.attack}>
-                            <Image src={icon1} class="img-fluid" alt="" />
+                            <Image src={icon1} className="img-fluid" alt="Infinity Animations Pro" />
                             <div className={styles.brand}>
-                                <h3 class="fontsfpro font23">Brand Video</h3>
+                                <h3 className="fontsfpro font23">Brand Video</h3>
                                 <p className={styles.presence}>We craft animated videos to
                                     improve your brand’s presence and it requires a different approach to adopt.</p>
                             </div>
                         </div>
                         <div className={styles.attack}>
-                            <Image src={icon2} class="img-fluid" alt="" />
+                            <Image src={icon2} className="img-fluid" alt="Infinity Animations Pro" />
                             <div className={styles.brand}>
-                                <h3 class="fontsfpro font23">2D, 3D Animated Videos</h3>
+                                <h3 className="fontsfpro font23">2D, 3D Animated Videos</h3>
                                 <p className={styles.presence}>We make compelling and highly engaging 2D and 3D videos in a variety of styles and at various levels of difficulty.</p>
                             </div>
                         </div>
                         <div className={styles.attack}>
-                            <Image src={icon3} class="img-fluid" alt="" />
+                            <Image src={icon3} className="img-fluid" alt="Infinity Animations Pro" />
                             <div className={styles.brand}>
-                                <h3 class="fontsfpro font23">Commercial Videos</h3>
+                                <h3 className="fontsfpro font23">Commercial Videos</h3>
                                 <p className={styles.presence}>We produce exceptional commercial videos that will keep your clients hooked and boost your brand ngagement.</p>
                             </div>
                         </div>
@@ -107,26 +107,26 @@ const Video = () => {
 </Slider>
 
    :                 
-                    <div class={`md:grid md:grid-cols-3`}>
+                    <div className={`md:grid md:grid-cols-3`}>
                         <div className={styles.attack}>
-                            <Image src={icon1} class="img-fluid" alt="" />
+                            <Image src={icon1} className="img-fluid" alt="Infinity Animations Pro" />
                             <div className={styles.brand}>
-                                <h3 class="fontsfpro font23">Brand Video</h3>
+                                <h3 className="fontsfpro font23">Brand Video</h3>
                                 <p className={styles.presence}>We craft animated videos to
                                     improve your brand’s presence and it requires a different approach to adopt.</p>
                             </div>
                         </div>
                         <div className={styles.attack}>
-                            <Image src={icon2} class="img-fluid" alt="" />
+                            <Image src={icon2} className="img-fluid" alt="Infinity Animations Pro" />
                             <div className={styles.brand}>
-                                <h3 class="fontsfpro font23">2D, 3D Animated Videos</h3>
+                                <h3 className="fontsfpro font23">2D, 3D Animated Videos</h3>
                                 <p className={styles.presence}>We make compelling and highly engaging 2D and 3D videos in a variety of styles and at various levels of difficulty.</p>
                             </div>
                         </div>
                         <div className={styles.attack}>
-                            <Image src={icon3} class="img-fluid" alt="" />
+                            <Image src={icon3} className="img-fluid" alt="Infinity Animations Pro" />
                             <div className={styles.brand}>
-                                <h3 class="fontsfpro font23">Commercial Videos</h3>
+                                <h3 className="fontsfpro font23">Commercial Videos</h3>
                                 <p className={styles.presence}>We produce exceptional commercial videos that will keep your clients hooked and boost your brand ngagement.</p>
                             </div>
                         </div>

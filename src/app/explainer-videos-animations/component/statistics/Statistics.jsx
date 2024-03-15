@@ -54,10 +54,10 @@ const Video = () => {
   return (
     <>
       <section className={`newcon ${styles.display}`}>
-        <div class={`container mx-auto ${styles.pointer} `}>
-          <div class={`md:grid md:grid-cols-1`}>
+        <div className={`container mx-auto ${styles.pointer} `}>
+          <div className={`md:grid md:grid-cols-1`}>
             <div className={styles.element}>
-              <h3 className={`fontsfpro mb-0 ${styles.heading}`}>Types Of <span class="colorred2">Explainer </span>
+              <h3 className={`fontsfpro mb-0 ${styles.heading}`}>Types Of <span className="colorred2">Explainer </span>
                 Videos</h3>
               <p className={styles.words}>
                 Infinity Animations is a renowned name in the video animation industry. Our experts produce all types of animation videos with the usage of modern devices and techniques, some are discussed below:
@@ -99,7 +99,7 @@ const Video = () => {
               </Slider>
 
               :
-              <div class={styles.provenbg}>
+              <div className={styles.provenbg}>
                 <div className={styles.process}>
                   <div className={styles.video}>
                     <div className={styles.soul}>
@@ -127,7 +127,7 @@ const Video = () => {
                   </div>
                 </div>
                 <div className={styles.pricing}>
-                  <Image src={proven} className={styles.newtoen} alt="" />
+                  <Image src={proven} className={styles.newtoen} alt="Infinity Animations Pro" />
                 </div>
               </div>
 

@@ -32,10 +32,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6R4FDDD"
-        height="0" width="0" className="hidden invisible"></iframe></noscript>
       <Scripts />
       <body className={`${primary.variable}`}>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6R4FDDD"
+          height="0" width="0" className="hidden invisible"></iframe></noscript>
         <ConditionalLayout>
           {children}
         </ConditionalLayout>

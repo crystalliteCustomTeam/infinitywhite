@@ -15,11 +15,11 @@ const Video = () => {
     return (
         <>
             <section className={`newcon ${styles.display}`}>
-                <div class={`container mx-auto ${styles.pointer} `}>
+                <div className={`container mx-auto ${styles.pointer} `}>
 
-                    <div class={`md:grid md:grid-cols-1`}>
+                    <div className={`md:grid md:grid-cols-1`}>
                         <div className={styles.newscool}>
-                            <Image src={icon1} class={`img-fluid mostimg ${styles.newyork}`} alt="" />
+                            <Image src={icon1} className={`img-fluid mostimg ${styles.newyork}`} alt="Infinity Animations Pro" />
 
                             <div className={styles.today}>
                                 <h3>Start Displaying Your Brand With <br></br> Amazing Animated Videos
@@ -30,7 +30,7 @@ const Video = () => {
                                     <button onClick={popupHandle} className={styles.scale}>Get Started</button>
                                     <a href="javascript:$zopim.livechat.window.show();"> <button className={styles.sefve} >Live Chat</button> </a>
                                     <div className={styles.pont}>
-                                        <Image src={lang} alt="" />
+                                        <Image src={lang} alt="Infinity Animations Pro" />
                                         <a className={styles.newlong} href="tel:833-666-6689"> 833-666-6689</a>
 
                                     </div>
