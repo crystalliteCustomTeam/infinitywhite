@@ -65,10 +65,10 @@ const Video = () => {
     return (
         <>
             <section className={`newcon ${styles.display}`}>
-            <div class={`container mx-auto ${styles.pointer} `}>
-                    <div class={`md:grid md:grid-cols-1`}>
+            <div className={`container mx-auto ${styles.pointer} `}>
+                    <div className={`md:grid md:grid-cols-1`}>
                     <div className={styles.element}>
-                        <h3 className={`fontsfpro mb-0 ${styles.heading}`}>Types Of <span class="colorred2">Explainer </span>
+                        <h3 className={`fontsfpro mb-0 ${styles.heading}`}>Types Of <span className="colorred2">Explainer </span>
                         Videos</h3>
                         <p className={styles.words}>
                         Infinity Animations is a renowned name in the video animation industry. Our experts produce all types of animation videos with the usage of modern devices and techniques, some are discussed below:
@@ -76,91 +76,91 @@ const Video = () => {
                     </div>
                     </div>
                 </div>
-                <div class={`container mx-auto ${styles.pointer} `}>
+                <div className={`container mx-auto ${styles.pointer} `}>
 
                 {isSliderActive ?
 
 <Slider {...awardslogo}  >
 
                         <div className={styles.boxpost}>
-                                    <Image src={icon1} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon1} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                         Whiteboard Animation <br></br>
                                         Video
                                     </h4>
                         </div>
                         <div className={styles.boxpost}>
-                                    <Image src={icon2} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon2} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                       Motion Graphics 
               
                                     </h4>
                         </div>
                         <div className={styles.boxpost}>
-                                    <Image src={icon3} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon3} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                       2D Character Animation<br></br>
                                         Videos
                                     </h4>
                         </div>
                         <div className={styles.boxpost}>
-                                    <Image src={icon4} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon4} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                     3D Animation Video
                                     </h4>
                         </div>
                         <div className={styles.boxpost}>
-                                    <Image src={icon5} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon5} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                     Screencast Videos
                                     </h4>
                         </div>
                         <div className={styles.boxpost}>
-                                    <Image src={icon6} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon6} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                     Typography Videos
                                     </h4>
                         </div>
                 
 </Slider>
 :
-                    <div class={`md:grid md:grid-cols-3`}>
+                    <div className={`md:grid md:grid-cols-3`}>
                         <div className={styles.boxpost}>
-                                    <Image src={icon1} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon1} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                         Whiteboard Animation <br></br>
                                         Video
                                     </h4>
                         </div>
                         <div className={styles.boxpost}>
-                                    <Image src={icon2} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon2} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                       Motion Graphics  
                                         
                                     </h4>
                         </div>
                         <div className={styles.boxpost}>
-                                    <Image src={icon3} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon3} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                     2D Character Animation <br></br>
                                         Videos
                                     </h4>
                         </div>
                         <div className={styles.boxpost}>
-                                    <Image src={icon4} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon4} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                     3D Animation Video
                                     </h4>
                         </div>
                         <div className={styles.boxpost}>
-                                    <Image src={icon5} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon5} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                     Screencast Videos
                                     </h4>
                         </div>
                         <div className={styles.boxpost}>
-                                    <Image src={icon6} class="img-fluid mt-3 newgost" alt="" />
-                                    <h4 class="fontsfpro font20 center colorblack mt-3">
+                                    <Image src={icon6} className="img-fluid mt-3 newgost" alt="Infinity Animations Pro" />
+                                    <h4 className="fontsfpro font20 center colorblack mt-3">
                                     Typography Videos
                                     </h4>
                         </div>

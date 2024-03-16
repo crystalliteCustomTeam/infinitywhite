@@ -57,10 +57,10 @@ const Video = () => {
     return (
         <>
             <section className={`newcon ${styles.display}`}>
-                <div class={`container mx-auto ${styles.pointer} `}>
-                    <div class={`md:grid md:grid-cols-1`}>
+                <div className={`container mx-auto ${styles.pointer} `}>
+                    <div className={`md:grid md:grid-cols-1`}>
                         <div className={styles.element}>
-                            <h3 className={`fontsfpro mb-0 ${styles.heading}`}>How  <span class="colorred2">We  </span>
+                            <h3 className={`fontsfpro mb-0 ${styles.heading}`}>How  <span className="colorred2">We  </span>
                                 Work</h3>
                             <p className={styles.words}>
                                 There is an immense amount of product animation & graphic content out there but here at Video Explain Art , we make sure our animation service & work stands out.
@@ -74,85 +74,85 @@ const Video = () => {
                             <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`} >
 
 
-                                <div class="typr1" id="ty121">
+                                <div className="typr1" id="ty121">
 
                                     <a href="#">
                                         <div className={styles.rect1}>
 
-                                            <p class="fontmontserratsemibold colorwhite mt-3">Concept & Scripts</p>
+                                            <p className="fontmontserratsemibold colorwhite mt-3">Concept & Scripts</p>
                                         </div>
                                     </a>
 
                                 </div>
-                                <div class="typr1" id="ty122">
+                                <div className="typr1" id="ty122">
 
                                     <a href="#">
                                         <div className={styles.rect1}>
 
-                                            <p class="fontmontserratsemibold colorwhite mt-3">Discussions</p>
-                                        </div>
-                                    </a>
-
-                                </div>
-
-                                <div class="typr1" id="ty123">
-
-
-                                    <a href="#">
-                                        <div className={styles.rect1}>
-
-                                            <p class="fontmontserratsemibold colorwhite mt-3">Voiceover</p>
+                                            <p className="fontmontserratsemibold colorwhite mt-3">Discussions</p>
                                         </div>
                                     </a>
 
                                 </div>
 
-
-                                <div class="typr1" id="ty124">
+                                <div className="typr1" id="ty123">
 
 
                                     <a href="#">
                                         <div className={styles.rect1}>
 
-                                            <p class="fontmontserratsemibold colorwhite mt-3">Illustration</p>
+                                            <p className="fontmontserratsemibold colorwhite mt-3">Voiceover</p>
                                         </div>
                                     </a>
 
                                 </div>
 
-                                <div class="typr1" id="ty125">
 
+                                <div className="typr1" id="ty124">
 
 
                                     <a href="#">
                                         <div className={styles.rect1}>
 
-                                            <p class="fontmontserratsemibold colorwhite mt-3">Animation</p>
+                                            <p className="fontmontserratsemibold colorwhite mt-3">Illustration</p>
                                         </div>
                                     </a>
 
                                 </div>
 
-                                <div class="typr1" id="ty126">
-
+                                <div className="typr1" id="ty125">
 
 
 
                                     <a href="#">
                                         <div className={styles.rect1}>
 
-                                            <p class="fontmontserratsemibold colorwhite mt-3">Music</p>
+                                            <p className="fontmontserratsemibold colorwhite mt-3">Animation</p>
                                         </div>
                                     </a>
 
                                 </div>
 
-                                <div class="typr1" id="ty127">
+                                <div className="typr1" id="ty126">
+
+
+
 
                                     <a href="#">
                                         <div className={styles.rect1}>
 
-                                            <p class="fontmontserratsemibold colorwhite mt-3">Video Publish</p>
+                                            <p className="fontmontserratsemibold colorwhite mt-3">Music</p>
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                                <div className="typr1" id="ty127">
+
+                                    <a href="#">
+                                        <div className={styles.rect1}>
+
+                                            <p className="fontmontserratsemibold colorwhite mt-3">Video Publish</p>
                                         </div>
                                     </a>
 
@@ -169,7 +169,7 @@ const Video = () => {
                                     </svg>
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log2} alt="" />
+                                            <Image src={log2} alt="Infinity Animations Pro" />
                                             <p>Concept & Scripts</p>
                                         </div>
                                     </a>
@@ -187,7 +187,7 @@ const Video = () => {
                                     </svg>
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log1} alt="" />
+                                            <Image src={log1} alt="Infinity Animations Pro" />
                                             <p>Discussions</p>
                                         </div>
                                     </a>
@@ -202,7 +202,7 @@ const Video = () => {
 
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log3} alt="" />
+                                            <Image src={log3} alt="Infinity Animations Pro" />
                                             <p>Voiceover</p>
                                         </div>
                                     </a>
@@ -224,7 +224,7 @@ const Video = () => {
 
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log4} alt="" />
+                                            <Image src={log4} alt="Infinity Animations Pro" />
                                             <p>Illustration</p>
                                         </div>
                                     </a>
@@ -240,7 +240,7 @@ const Video = () => {
 
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log5} alt="" />
+                                            <Image src={log5} alt="Infinity Animations Pro" />
                                             <p>Animation</p>
                                         </div>
                                     </a>
@@ -257,7 +257,7 @@ const Video = () => {
 
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log6} alt="" />
+                                            <Image src={log6} alt="Infinity Animations Pro" />
                                             <p>Music</p>
                                         </div>
                                     </a>
@@ -280,7 +280,7 @@ const Video = () => {
 
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log7} alt="" />
+                                            <Image src={log7} alt="Infinity Animations Pro" />
                                             <p>Video Publish</p>
                                         </div>
                                     </a>

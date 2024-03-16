@@ -168,33 +168,33 @@ const Banner = () => {
   return (
     <>
       <section className={`newcon ${styles.banner}`} id="newslides">
-        <div class={`container mx-auto  ${styles.count} ${styles.pointer}`}>
-          <div class="md:grid xl:grid-cols-2 lg:grid-cols-1">
+        <div className={`container mx-auto  ${styles.count} ${styles.pointer}`}>
+          <div className="md:grid xl:grid-cols-2 lg:grid-cols-1">
             <div className={styles.condition}>
               <h1 className={`fontsfpro mb-0 ${styles.heading}`}>
-                <span class="colorred">Expand </span>
-                Your <span class="colorred">Brand’s</span>
+                <span className="colorred">Expand </span>
+                Your <span className="colorred">Brand’s</span>
               </h1>
               <h3 className={`fontsfprosemi ${styles.reach}`}>Reach With An Engaging Custom Explainer Video</h3>
               <p className={styles.company}>We are a leading video animation company in the USA that has helped thousands of brands to broaden their product reach via fascinating explainer videos.</p>
               <div className={styles.helped}>
                 <div className={styles.list}>
                   <div className={`${styles.engage1} ${styles.why}`}>
-                    <Image src={icon1} class="img-fluid" alt="" />
+                    <Image src={icon1} className="img-fluid" alt="Infinity Animations Pro" />
                     <p>Product Explainer Videos</p>
                   </div>
                   <div className={`${styles.engage2} ${styles.why}`}>
-                    <Image src={icon1} class="img-fluid" alt="" />
+                    <Image src={icon1} className="img-fluid" alt="Infinity Animations Pro" />
                     <p>Animated Business Videos</p>
                   </div>
                 </div>
                 <div className={styles.list}>
                   <div className={`${styles.engage3} ${styles.why}`}>
-                    <Image src={icon1} class="img-fluid" alt="" />
+                    <Image src={icon1} className="img-fluid" alt="Infinity Animations Pro" />
                     <p>Animated Marketing Videos</p>
                   </div>
                   <div className={`${styles.engage4} ${styles.why}`}>
-                    <Image src={icon1} class="img-fluid" alt="" />
+                    <Image src={icon1} className="img-fluid" alt="Infinity Animations Pro" />
                     <p>Corporate Animated Videos</p>
                   </div>
                 </div>
@@ -202,28 +202,28 @@ const Banner = () => {
               <div className={styles.expert}>
                 <button onClick={popupHandle} className={styles.started}>Get Started</button>
                 <div className={styles.pot}>
-                  <Image src={icon2} className={styles.ntoen} alt="" />
+                  <Image src={icon2} className={styles.ntoen} alt="Infinity Animations Pro" />
                   <div>
                     <a href="javascript:$zopim.livechat.window.show();">  <p className={styles.talktoour}>Talk to our Expert</p>
                       <h3 className={styles.livechat}>Live Chat</h3> </a>
                   </div>
                 </div>
-                <Image src={icon3} className={styles.newtoen} alt="" />
+                <Image src={icon3} className={styles.newtoen} alt="Infinity Animations Pro" />
               </div>
               <form onSubmit={handleSubmit} className="pt-4">
                 <div className={styles.animationidea}>
                   <h3>Share Your Animation Idea</h3>
                   <div className={styles.form2}>
-                    <input type="text" minLength="4" required name="name" class="form-control" placeholder="Enter Your Name" />
-                    <input type="email" name="email" required class="form-control" placeholder="Enter Email" />
+                    <input type="text" minLength="4" required name="name" className="form-control" placeholder="Enter Your Name" />
+                    <input type="email" name="email" required className="form-control" placeholder="Enter Email" />
                   </div>
                   <div className={styles.form2}>
-                    <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name="phone" class="form-control" placeholder="Enter Phone Number" />
-                    <input type="text" class="form-control" name="message" placeholder="Enter Message" />
+                    <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name="phone" className="form-control" placeholder="Enter Phone Number" />
+                    <input type="text" className="form-control" name="message" placeholder="Enter Message" />
                   </div>
                   <input type="submit" value="Get a Free Quote" className={styles.quote} />
                   <div className={styles.noty}>
-                    <Image src={icon4} alt="" />
+                    <Image src={icon4} alt="Infinity Animations Pro" />
                   </div>
                 </div>
               </form>

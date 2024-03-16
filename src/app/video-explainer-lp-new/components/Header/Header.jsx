@@ -85,7 +85,7 @@ const HeaderLP = () => {
                         <div className="col-span-6 lg:hidden block">
                             <ul>
                                 <li>
-                                    <a href="javascript:;" className='flex items-center justify-end gap-x-3 text-white font-sans'>
+                                    <a href="tel:833-666-6689" className='flex items-center justify-end gap-x-3 text-white font-sans'>
                                         <Image src={telephone} loading="lazy" width="56" height="52" class="w-[15px]" alt='Animations Pro' />
                                         833-666-6689
                                     </a>

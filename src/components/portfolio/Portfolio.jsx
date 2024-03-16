@@ -8,6 +8,10 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css"
 import styles from "./PortFolio.module.css"
 // Import Images
 import PlayIcon from "media/icons/play.png"
+// Import Slick Slider
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 
 const Portfolio = ({ content }) => {
@@ -17,7 +21,6 @@ const Portfolio = ({ content }) => {
     const handleTabClick = (index) => {
         setActiveTab(index);
     };
-
     // Fancy box
     function Fancybox(props) {
         const containerRef = useRef(null);
@@ -33,6 +36,18 @@ const Portfolio = ({ content }) => {
         });
         return <div ref={containerRef}>{props.children}</div>;
     }
+    // ====== Responsive Slider 
+    const testiSlider = {
+        dots: false,
+        arrows: false,
+        infinite: false,
+        autoplay: false,
+        autoplaySpeed: 5000,
+        speed: 3000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+    };
 
     return (
         <>
@@ -58,7 +73,7 @@ const Portfolio = ({ content }) => {
                                 </li>
                             ))}
                         </ul>
-                        <div className="tabs-content pt-7 md:pt-12">
+                        <div className="tabs-content pt-7 md:pt-12 hidden md:block">
                             {tabContents[activeTab] && (
                                 <Fancybox options={{
                                     Carousel: {
@@ -77,6 +92,28 @@ const Portfolio = ({ content }) => {
                                             </Link>
                                         ))}
                                     </div>
+                                </Fancybox>
+                            )}
+                        </div>
+                        <div className="block md:hidden">
+                            {tabContents[activeTab] && (
+                                <Fancybox options={{
+                                    Carousel: {
+                                        infinite: false,
+                                    },
+                                }}>
+                                    <Slider {...testiSlider} className="testiSlider">
+                                        {tabContents[activeTab].map((item, index) => (
+                                            <Link key={index} href={item.video} datafancybox="gallery" className={`${styles.shadow} w-full h-full group`}>
+                                                <div className="overlay relative">
+                                                    <Image src={item.thumbnail} alt="Infinity Animations" width={468} height={263} className='min-h-[263px]' />
+                                                    <div className="bg-secondary-100/70 h-full w-full absolute left-[50%] top-[50%] translate-x-[-50%] group-hover:translate-y-[-132px] translate-y-[132px] flex items-center justify-center ">
+                                                        <Image src={PlayIcon} alt='Play-icon' className='brightness-200 invert-0' />
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        ))}
+                                    </Slider>
                                 </Fancybox>
                             )}
                         </div>

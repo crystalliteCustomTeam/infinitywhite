@@ -312,7 +312,7 @@ const Header = () => {
                         <ul className="lg:hidden block w-[550px] md:w-auto">
                             <li>
                                 <Link href="javascript:;" className='flex items-center justify-end gap-x-3 text-black font-sans'>
-                                    <Image src={telephone} loading="lazy" width="56" height="52" class="w-[15px] invert" alt='Animations Pro' />
+                                    <Image src={telephone} loading="lazy" width="56" height="52" className="w-[15px] invert" alt='Infinity Animations Pro' />
                                     833-666-6689
                                 </Link>
                             </li>
