@@ -24,7 +24,6 @@ const ExplainerType = () => {
         speed: 3000,
         slidesToShow: 2,
         slidesToScroll: 1,
-        // adaptiveHeight: true,
         responsive: [
             {
                 breakpoint: 600,
