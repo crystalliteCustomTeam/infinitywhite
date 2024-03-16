@@ -17,7 +17,7 @@ const ExplainerType = () => {
     // Slider Setting
     const testiSlider = {
         dots: false,
-        arrows: true,
+        arrows: false,
         infinite: false,
         autoplay: false,
         autoplaySpeed: 5000,
