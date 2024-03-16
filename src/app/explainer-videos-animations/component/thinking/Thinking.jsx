@@ -23,7 +23,7 @@ const Video = () => {
         arrow: true,
         infinite: true,
         speed: 2000,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         slidesToShow: 3,
         slidesToScroll: 1,

@@ -21,7 +21,7 @@ const ClientThinking = () => {
         dots: false,
         arrows: false,
         infinite: false,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 5000,
         speed: 3000,
         slidesToShow: 1,
