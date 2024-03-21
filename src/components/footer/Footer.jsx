@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 // Import Images
-import logo from "media/images/footer-logo.png";
+import logo from "media/images/logo.gif";
 import mapmarker from "media/icons/map.png";
 import telephone from "media/icons/call.png";
 import envelope from "media/icons/email.png";
@@ -65,7 +65,7 @@ const Footer = () => {
     ];
     const contactLinks = [
         {
-            text: "833-666-6689",
+            text: "833-666-6684",
             link: "tel:+8336666689",
             icon: telephone
         },

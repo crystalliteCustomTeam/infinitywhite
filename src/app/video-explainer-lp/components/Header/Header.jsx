@@ -60,10 +60,10 @@ const HeaderLP = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="tel:833-666-6689" className='flex items-center'>
+                                        <a href="tel:833-666-6684" className='flex items-center'>
                                             <Image src={UK} alt='UK' className='w-[23px] h-[16px] object-contain' />
                                             <span className='text-[13px] text-white py-[10px] px-[8px] font-[700] font-sans'>
-                                                833-666-6689
+                                                833-666-6684
                                             </span>
                                         </a>
                                     </li>
@@ -87,9 +87,9 @@ const HeaderLP = () => {
                         <div className="col-span-6 lg:hidden block">
                             <ul>
                                 <li>
-                                    <a href="tel:833-666-6689" className='flex items-center justify-end gap-x-3 text-white font-sans'>
+                                    <a href="tel:833-666-6684" className='flex items-center justify-end gap-x-3 text-white font-sans'>
                                         <Image src={telephone} loading="lazy" width="56" height="52" class="w-[15px]" alt='Animations Pro' />
-                                        833-666-6689
+                                        833-666-6684
                                     </a>
                                 </li>
                             </ul>

@@ -65,7 +65,7 @@ const packages = [
                 text: 'Get Started',
                 color: 'bg-white text-black font-semibold border border-white',
                 image: arrowB,
-                href: "tel:833-666-6689",
+                href: "tel:833-666-6684",
                 imgColor: "bg-black w-[25px] h-[25px] xl:w-[28px] xl:h-[28px] rounded-full p-[8.5px] rotate-[90deg]"
             },
             {
@@ -98,7 +98,7 @@ const packages = [
                 text: 'Get Started',
                 color: 'bg-prime text-white border border-white',
                 image: arrow,
-                href: "tel:833-666-6689",
+                href: "tel:833-666-6684",
                 imgColor: "bg-white w-[25px] h-[25px] xl:w-[28px] xl:h-[28px] rounded-full p-2 ms-1"
             },
             {
@@ -164,7 +164,7 @@ const Pricing = ({ content }) => {
                                             <div className="flex justify-between px-6 mt-5 pt-4">
                                                 <div>
                                                     <p className={`text-[15px] ${pkg.ctaColor} font-bold font-sans`}>Speak With Us</p>
-                                                    <a href="tel:833-666-6689" className={`font-sans ${pkg.ctaColor} text-[14px]`}>833-666-6689</a>
+                                                    <a href="tel:833-666-6684" className={`font-sans ${pkg.ctaColor} text-[14px]`}>833-666-6684</a>
                                                 </div>
                                                 <div>
                                                     <p className={`text-[15px] ${pkg.ctaColor} font-bold font-sans`}>Want To Discuss</p>

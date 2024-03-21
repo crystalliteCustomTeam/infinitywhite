@@ -132,7 +132,7 @@ const Video = () => {
                         </div>
                         <div className={styles.newtab}>
                             <ul className={styles.newfight}>
-                                <li className="fontmontserratregular text-white pb-3"><IoCall /><a className="text-white" href="tel:833-666-6689">  833-666-6689</a></li>
+                                <li className="fontmontserratregular text-white pb-3"><IoCall /><a className="text-white" href="tel:833-666-6684">  833-666-6684</a></li>
                                 <li className="fontmontserratregular text-white pb-3"><MdEmail /><a className="text-white" href="mailto:queries@infinityanimations.com">  queries@infinityanimations.com</a></li>
                                 <li className="fontmontserratregular text-white pb-3"><FaGlobe /><a className="text-white" href="https://infinityanimations.com/">  www.infinityanimationspro.com</a></li>
                                 <li><Image src={payment} className="img-fluid" alt="Infinity Animations Pro" /></li>

@@ -11,7 +11,7 @@ import { Navbar, Collapse, List, Menu, MenuHandler, MenuList, MenuItem, } from "
 import { ChevronDownIcon, Bars3Icon, XMarkIcon, ChevronRightIcon, } from "@heroicons/react/24/outline";
 import { Bars4Icon, GlobeAmericasIcon, NewspaperIcon, PhoneIcon, RectangleGroupIcon, SquaresPlusIcon, SunIcon, TagIcon, UserGroupIcon, } from "@heroicons/react/24/solid";
 // Import Images
-import logo from "media/images/logo.png";
+import logo from "media/images/logo.gif";
 import telephone from "media/icons/call.png";
 import logoWhite from "media/images/logo-white.png";
 
@@ -313,7 +313,7 @@ const Header = () => {
                             <li>
                                 <Link href="javascript:;" className='flex items-center justify-end gap-x-3 text-black font-sans'>
                                     <Image src={telephone} loading="lazy" width="56" height="52" className="w-[15px] invert" alt='Infinity Animations Pro' />
-                                    833-666-6689
+                                    833-666-6684
                                 </Link>
                             </li>
                         </ul>

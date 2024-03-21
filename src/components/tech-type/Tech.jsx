@@ -39,7 +39,7 @@ const Tech = ({ content }) => {
                                     color={`text-white`}
                                     border={`border-0`}
                                     hover="hover:bg-transparent"
-                                    href="tel:833-666-6689"
+                                    href="tel:833-666-6684"
                                 />
                                 <CTA
                                     text="See Portfolio"
