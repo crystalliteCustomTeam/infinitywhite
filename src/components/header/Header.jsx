@@ -13,7 +13,7 @@ import { Bars4Icon, GlobeAmericasIcon, NewspaperIcon, PhoneIcon, RectangleGroupI
 // Import Images
 import logo from "media/images/logo.gif";
 import telephone from "media/icons/call.png";
-import logoWhite from "media/images/logo-white.png";
+import logoWhite from "media/images/logo-white.gif";
 
 // Path
 const megaMenuItems = [
