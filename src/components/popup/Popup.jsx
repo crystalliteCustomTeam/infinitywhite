@@ -114,7 +114,7 @@ const Popup = ({ }) => {
                 };
 
                 let bodyContent = JSON.stringify({
-                    IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+                    
                     Brand: "Infinity ANimation",
                     Page: `${page}`,
                     Date: setDate,

@@ -43,15 +43,7 @@ const Form = () => {
     let setDate = `${month < 10 ? `0${month}` : `${month}`}-${date}-${year}`;
     const [ip, setIP] = useState("");
     //creating function to load ip address from the API
-    const getIPData = async () => {
-        const res = await Axios.get(
-            "https://api.ip2location.io/?key=5FEAAE971B4D53957B308B13B675FCAF"
-        );
-        setIP(res);
-    };
-    useEffect(() => {
-        getIPData();
-    }, []);
+
     // For Page
     let page = usePathname();
     const [data, setData] = useState({

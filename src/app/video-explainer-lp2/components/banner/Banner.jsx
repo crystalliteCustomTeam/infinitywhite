@@ -114,7 +114,7 @@ const Banner = () => {
                 };
 
                 let bodyContent = JSON.stringify({
-                    IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+                    
                     Brand: "Infinity Animation",
                     Page: `${page}`,
                     Date: setDate,

@@ -79,9 +79,19 @@ const Footer = () => {
             link: "/contact-us",
             icon: mapmarker
         },
+        // {
+        //     text: "1024 Iron Point Rd, Folsom, CA 95630",
+        //     link: "https://maps.app.goo.gl/QYDv6abiPbW5rRoK6",
+        //     icon: mapmarker
+        // },
         {
-            text: "1024 Iron Point Rd, Folsom, CA 95630",
-            link: "https://maps.app.goo.gl/QYDv6abiPbW5rRoK6",
+            text: "5900 Balcones Dr STE 100 AUSTIN TX 78731",
+            link: "https://maps.app.goo.gl/TutauqTW699twmza9",
+            icon: mapmarker
+        },
+        {
+            text: "Unit 10B Block 1 Woolwich Dock Yard Industrial Estate Woolwich Church Street London SE 18 5PQ",
+            link: "https://maps.app.goo.gl/JXJpnXK3tLMtZrD67",
             icon: mapmarker
         },
     ];
