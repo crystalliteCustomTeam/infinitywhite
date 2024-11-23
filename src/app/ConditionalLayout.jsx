@@ -34,8 +34,7 @@ const ConditionalLayout = ({ children }) => {
     return (
         <PopupProvider value={{ popup, togglePopup }}>
             <Popup />
-            {imagesLoaded ?
-                <>
+            
                     {pathname !== "/video-explainer-lp" &&
                         pathname !== "/video-explainer-lp2" &&
                         pathname !== "/video-explainer-lp-new" &&
@@ -49,9 +48,7 @@ const ConditionalLayout = ({ children }) => {
                         pathname !== "/explainer-videos-animations" && (
                             <Footer />
                         )}
-                </>
-                : <Loader />
-            }
+               
         </PopupProvider>
     )
 }
