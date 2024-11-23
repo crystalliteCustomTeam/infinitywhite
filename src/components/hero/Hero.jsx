@@ -117,7 +117,7 @@ const Hero = ({ content }) => {
                             <Image
                                 src={(router === "/" || router === "/process" || router === "/3d-animation") ? trustPlatforms2 : trustPlatforms}
                                 className="mt-10 md:mt-20"
-                                alt="Infinity Animation Pro"
+                                alt="Animation Studios Pro"
                             />
                         </div>
                     </div>

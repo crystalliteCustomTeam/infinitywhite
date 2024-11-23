@@ -47,7 +47,7 @@ const ClientThinking = () => {
                                         <FaQuoteLeft />
                                     </span>
                                     <p className='mb-[20px] p-[20px] text-[15px] text-[#333] montserrat lg:w-11/12 mt-[13px]'>From start to finish, the process was incredibly easy. It was a pleasure to work
-                                        with the Infinity Animations squad. </p>
+                                        with the Animation Studioss squad. </p>
 
                                     <div className="card-bottom flex items-center p-[20px] bg-[#f1f0f0]">
                                         <div className="img">
@@ -72,7 +72,7 @@ const ClientThinking = () => {
                                         <FaQuoteLeft />
                                     </span>
                                     <p className='mb-[20px] p-[20px] text-[15px] text-[#333] montserrat lg:w-11/12 mt-[13px]'>The story of the business relationship started with a 30 second video in 2019,
-                                        now Infinity Animations team has produced 27 videos for our multiple brands for
+                                        now Animation Studioss team has produced 27 videos for our multiple brands for
                                         us. Glad to get a reliable company in the US</p>
 
                                     <div className="card-bottom flex items-center p-[20px] bg-[#f1f0f0]">
@@ -97,7 +97,7 @@ const ClientThinking = () => {
                                     <span className='text-[#222] text-[50px] md:text-[75px] relative left-[18px] top-[20px]'>
                                         <FaQuoteLeft />
                                     </span>
-                                    <p className='mb-[20px] p-[20px] text-[15px] text-[#333] montserrat lg:w-11/12 mt-[13px]'>The whole team of Infinity Animations was extremely responsive and helpful. The
+                                    <p className='mb-[20px] p-[20px] text-[15px] text-[#333] montserrat lg:w-11/12 mt-[13px]'>The whole team of Animation Studioss was extremely responsive and helpful. The
                                         videos were produced on time. The creatives were excellent and I personally
                                         liked the concept. Highly recommended. </p>
 
@@ -128,7 +128,7 @@ const ClientThinking = () => {
                                         <FaQuoteLeft />
                                     </span>
                                     <p className='mb-[20px] p-[20px] text-[15px] text-[#333] montserrat lg:w-11/12 mt-[13px]'>From start to finish, the process was incredibly easy. It was a pleasure to work
-                                        with the Infinity Animations squad. </p>
+                                        with the Animation Studioss squad. </p>
 
                                     <div className="card-bottom flex items-center p-[20px] bg-[#f1f0f0]">
                                         <div className="img">
@@ -153,7 +153,7 @@ const ClientThinking = () => {
                                         <FaQuoteLeft />
                                     </span>
                                     <p className='mb-[20px] p-[20px] text-[15px] text-[#333] montserrat lg:w-11/12 mt-[13px]'>The story of the business relationship started with a 30 second video in 2019,
-                                        now Infinity Animations team has produced 27 videos for our multiple brands for
+                                        now Animation Studioss team has produced 27 videos for our multiple brands for
                                         us. Glad to get a reliable company in the US</p>
 
                                     <div className="card-bottom flex items-center p-[20px] bg-[#f1f0f0]">
@@ -178,7 +178,7 @@ const ClientThinking = () => {
                                     <span className='text-[#222] text-[50px] md:text-[75px] relative left-[18px] top-[20px]'>
                                         <FaQuoteLeft />
                                     </span>
-                                    <p className='mb-[20px] p-[20px] text-[15px] text-[#333] montserrat lg:w-11/12 mt-[13px]'>The whole team of Infinity Animations was extremely responsive and helpful. The
+                                    <p className='mb-[20px] p-[20px] text-[15px] text-[#333] montserrat lg:w-11/12 mt-[13px]'>The whole team of Animation Studioss was extremely responsive and helpful. The
                                         videos were produced on time. The creatives were excellent and I personally
                                         liked the concept. Highly recommended. </p>
 

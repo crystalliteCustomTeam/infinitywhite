@@ -8,8 +8,8 @@ import "./global.css";
 //===== Meta Data =====
 export const metadata = {
   //===== Title & Descriptions =====
-  title: "The Entrancing Portal of Animation | Infinity Animations Pro",
-  description: "Infinity Animations, prioritizing art, illuminates the dark and mundane world of animation, offering affordable services through their certified animators.",
+  title: "The Entrancing Portal of Animation | Animation Studios",
+  description: "Animation Studioss, prioritizing art, illuminates the dark and mundane world of animation, offering affordable services through their certified animators.",
   //===== Google Varification =====
   verification: {
     other: {
@@ -20,10 +20,10 @@ export const metadata = {
   alternates: { canonical: 'https://infinityanimationspro.com/' },
   //===== OG Tags =====
   openGraph: {
-    title: "The Entrancing Portal of Animation | Infinity Animations Pro",
-    description: "Infinity Animations, prioritizing art, illuminates the dark and mundane world of animation, offering affordable services through their certified animators.",
+    title: "The Entrancing Portal of Animation | Animation Studios",
+    description: "Animation Studioss, prioritizing art, illuminates the dark and mundane world of animation, offering affordable services through their certified animators.",
     url: 'https://infinityanimationspro.com/',
-    siteName: 'Infinity Animations Pro',
+    siteName: 'Animation Studios',
     locale: 'en_US',
     type: 'website',
   },

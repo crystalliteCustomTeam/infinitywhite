@@ -115,7 +115,7 @@ const Popup = ({ }) => {
 
                 let bodyContent = JSON.stringify({
                     
-                    Brand: "Infinity ANimation",
+                    Brand: "Animation Studios",
                     Page: `${page}`,
                     Date: setDate,
                     Time: setTime,
@@ -139,7 +139,7 @@ const Popup = ({ }) => {
                 <section className='h-full lg:w-full py-12 px-6'>
                     <div className='popupBg bg-none lg:bg-[url("../../public/video-explainer/popup-bg.png")] bg-[length:100%_100%] bg-center bg-no-repeat max-w-4xl lg:max-w-3xl xl:max-w-4xl 3xl:max-w-5xl mx-auto relative top-[0px] md:top-[100px] lg:top-[-5%] xl:lg:top-0 3xl:top-[75px] bottom-0 left-0 right-0 h-auto lg:h-[110%] xl:lg:h-full 3xl:h-[85%] w-full pb-10 md:pb-16'>
                         <div className='w-[40px] xl:w-[50px] h-[40px] xl:h-[50px] absolute top-[2%] right-[2%] flex items-center justify-center text-center rounded-[50%] border-0 cursor-pointer'>
-                            <Image onClick={popupHandle} src={btnClose} className="w-full" alt='Infinity Animations' />
+                            <Image onClick={popupHandle} src={btnClose} className="w-full" alt='Animation Studioss' />
                         </div>
                         <div className="grid grid-cols-12 lg:w-5/12 lg:absolute right-[5%] top-[12%] xxl:top-[15%] pt-16 md:pt-20 lg:pt-0">
                             <div className="col-span-12">

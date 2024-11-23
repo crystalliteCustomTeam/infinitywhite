@@ -12,7 +12,7 @@ const Animations = () => {
                 <div className='px-4 sm:px-8 lg:max-w-7xl mx-auto '>
                     <div className="grid grid-cols-12">
                         <div className="col-span-12">
-                            <h2 className='text-[#231f20] text-center font-[700] montserrat text- text-[18px] md:text-[25px] lg:text-[30px]'>Proven Statistics of Infinity Animations
+                            <h2 className='text-[#231f20] text-center font-[700] montserrat text- text-[18px] md:text-[25px] lg:text-[30px]'>Proven Statistics of Animation Studioss
                             </h2>
                             <p className='text-[#231f20] text-[16px] lg:text-[18px] montserrat font-[400] py-[17px] text-center lg:w-11/12 mx-auto leading-[22px] pb-[60px]'>There is an immense amount of product animation & graphic content out there but here at Video Explain Art , we make sure our animation service & work stands out.</p>
                         </div>

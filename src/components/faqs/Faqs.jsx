@@ -32,7 +32,7 @@ const faqs = ({ content }) => {
                                     <div className="flex justify-between items-center cursor-pointer"
                                         onClick={() => handleClick(index)}>
                                         <h3 className={`text-[18px] sm:text-[20px] font-bold font-sans`}>{item.question}</h3>
-                                        <span>{activeIndex === index ? <Image src={arrowUp} alt="Infinity Animation Pro" /> : <Image src={arrowDown} alt="Infinity Animation Pro" />}</span>
+                                        <span>{activeIndex === index ? <Image src={arrowUp} alt="Animation Studios Pro" /> : <Image src={arrowDown} alt="Animation Studios Pro" />}</span>
                                     </div>
                                     {activeIndex === index && (
                                         <div className={`text-[14px] sm:text-[16px] font-normal font-sans pb-1 ${styles.ani}`}>{item.answer}</div>

@@ -26,7 +26,7 @@ const BuzzFlick = ({ content }) => {
                             <div key={index}>
                                 <div className="p-4">
                                     <div className="flex flex-wrap items-start justify-between mb-3">
-                                        <Image src={concept.ImageOne} className="mb-3" width={68} height={68} alt='Infinity Animation' />
+                                        <Image src={concept.ImageOne} className="mb-3" width={68} height={68} alt='Animation Studios' />
                                         <div className="border-[1.5px] xl:border-2 rounded-full p-0.5 xl:p-1 w-[30px] h-[30px] xl:w-[40px] xl:h-[40px] flex items-center justify-center">
                                             <span className="w-full h-full flex items-center justify-center bg-primary-100 rounded-full text-md xl:text-[14px] font-sans font-normal">{concept.sliderNumber}</span>
                                         </div>

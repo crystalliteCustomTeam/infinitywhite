@@ -76,7 +76,7 @@ const Video = () => {
                             <h3 className={`fontsfpro mb-0 ${styles.heading}`}>Our  <span className="colorred2">Packages </span>
                             </h3>
                             <p className={styles.words}>
-                                Infinity Animations is a renowned name in the video animation industry. Our experts produce all types of animation videos with the usage of modern devices and techniques, some are discussed below:
+                                Animation Studioss is a renowned name in the video animation industry. Our experts produce all types of animation videos with the usage of modern devices and techniques, some are discussed below:
                             </p>
                         </div>
                     </div>

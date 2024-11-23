@@ -124,7 +124,7 @@ const Banner = () => {
 
     let bodyContent = JSON.stringify({
       "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
-      "Brand": "Infinity Animations",
+      "Brand": "Animation Studioss",
       "Page": pagenewurl,
       "Date": currentdate,
       "Time": currentdate,
@@ -174,21 +174,21 @@ const Banner = () => {
               <div className={styles.helped}>
                 <div className={styles.list}>
                   <div className={`${styles.engage1} ${styles.why}`}>
-                    <Image src={icon1} className="img-fluid" alt="Infinity Animations Pro" />
+                    <Image src={icon1} className="img-fluid" alt="Animation Studios" />
                     <p>Product Explainer Videos</p>
                   </div>
                   <div className={`${styles.engage2} ${styles.why}`}>
-                    <Image src={icon1} className="img-fluid" alt="Infinity Animations Pro" />
+                    <Image src={icon1} className="img-fluid" alt="Animation Studios" />
                     <p>Animated Business Videos</p>
                   </div>
                 </div>
                 <div className={styles.list}>
                   <div className={`${styles.engage3} ${styles.why}`}>
-                    <Image src={icon1} className="img-fluid" alt="Infinity Animations Pro" />
+                    <Image src={icon1} className="img-fluid" alt="Animation Studios" />
                     <p>Animated Marketing Videos</p>
                   </div>
                   <div className={`${styles.engage4} ${styles.why}`}>
-                    <Image src={icon1} className="img-fluid" alt="Infinity Animations Pro" />
+                    <Image src={icon1} className="img-fluid" alt="Animation Studios" />
                     <p>Corporate Animated Videos</p>
                   </div>
                 </div>
@@ -196,13 +196,13 @@ const Banner = () => {
               <div className={styles.expert}>
                 <button onClick={popupHandle} className={styles.started}>Get Started</button>
                 <div className={styles.pot}>
-                  <Image src={icon2} className={styles.ntoen} alt="Infinity Animations Pro" />
+                  <Image src={icon2} className={styles.ntoen} alt="Animation Studios" />
                   <div>
                     <a href="javascript:$zopim.livechat.window.show();">  <p className={styles.talktoour}>Talk to our Expert</p>
                       <h3 className={styles.livechat}>Live Chat</h3> </a>
                   </div>
                 </div>
-                <Image src={icon3} className={styles.newtoen} alt="Infinity Animations Pro" />
+                <Image src={icon3} className={styles.newtoen} alt="Animation Studios" />
               </div>
               <form onSubmit={handleSubmit} className="pt-4">
                 <div className={styles.animationidea}>
@@ -217,7 +217,7 @@ const Banner = () => {
                   </div>
                   <input type="submit" value="Get a Free Quote" className={styles.quote} />
                   <div className={styles.noty}>
-                    <Image src={icon4} alt="Infinity Animations Pro" />
+                    <Image src={icon4} alt="Animation Studios" />
                   </div>
                 </div>
               </form>

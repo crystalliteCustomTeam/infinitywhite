@@ -66,12 +66,12 @@ export default function Page() {
     //=====Banner Fold=====//
     const hero = {
         title: (<> We <span className='text-primary-100'>Animate</span> Your <br /> Stories and Ideas </>),
-        para: "In a world where dreams paint the sky, animation is the bridge between vivid imaginations and palpable realities. Each frame, a splash of creativity, brings to life stories untold, emotions unexpressed. At Infinity Animations, colors dance, characters breathe, and every stroke of the artist's pen ignites a universe, turning the canvas of fantasy into a symphony of visual wonder.",
+        para: "In a world where dreams paint the sky, animation is the bridge between vivid imaginations and palpable realities. Each frame, a splash of creativity, brings to life stories untold, emotions unexpressed. At Animation Studioss, colors dance, characters breathe, and every stroke of the artist's pen ignites a universe, turning the canvas of fantasy into a symphony of visual wonder.",
         btnBg: "bg-prime",
     };
     //=====Looking Fold=====//
     const paraArray = [
-        "Everybody deserves a taste of art. Infinity Animations, a kingdom of endless creativity, boasts a vibrant team of certified animators. Their expertise textures stories into visual marvels, enthralling viewers globally. Renowned for affordability, they democratize animation, making mesmeric art accessible to all.",
+        "Everybody deserves a taste of art. Animation Studioss, a kingdom of endless creativity, boasts a vibrant team of certified animators. Their expertise textures stories into visual marvels, enthralling viewers globally. Renowned for affordability, they democratize animation, making mesmeric art accessible to all.",
 
         "It's a place where skill meets passion, and dreams transform into digital reality."
     ];
@@ -295,7 +295,7 @@ export default function Page() {
         {
             icon: boosticon1,
             heading: "Strategic Distribution",
-            text: "At Infinity Animations, we are your strategic partners in video distribution, guiding your animations to their perfect audience, across diverse platforms, amplifying reach and engagement for unparalleled success.",
+            text: "At Animation Studioss, we are your strategic partners in video distribution, guiding your animations to their perfect audience, across diverse platforms, amplifying reach and engagement for unparalleled success.",
         },
         {
             icon: boosticon2,
@@ -321,42 +321,42 @@ export default function Page() {
             profile: icon1,
             stars: icon2,
             name: 'Vanessa Carpenter',
-            message: 'Infinity Animations turned our ideas into pure magic! Their creativity knows no bounds, and the results totally blew us away!',
+            message: 'Animation Studioss turned our ideas into pure magic! Their creativity knows no bounds, and the results totally blew us away!',
             company: 'ABC company',
         },
         {
             profile: icon1,
             stars: icon2,
             name: 'Bradley Lynch',
-            message: 'Working with Infinity Animations was a pleasure. Their team is not only professional but also incredibly talented. The animations they created for our brand added that extra spark we were looking for.',
+            message: 'Working with Animation Studioss was a pleasure. Their team is not only professional but also incredibly talented. The animations they created for our brand added that extra spark we were looking for.',
             company: 'ABC company',
         },
         {
             profile: icon1,
             stars: icon2,
             name: 'Sophia Zimmerman',
-            message: "I can't express how impressed we were with Infinity Animations. They took our complex data and turned it into beautiful, engaging infographics. Their attention to detail and commitment to our project were truly outstanding.",
+            message: "I can't express how impressed we were with Animation Studioss. They took our complex data and turned it into beautiful, engaging infographics. Their attention to detail and commitment to our project were truly outstanding.",
             company: 'ABC company',
         },
         {
             profile: icon1,
             stars: icon2,
             name: 'Tara Figueroa',
-            message: "Infinity Animations made our logo come alive in a way we couldn't have imagined. It added a dynamic touch to our branding that we love.",
+            message: "Animation Studioss made our logo come alive in a way we couldn't have imagined. It added a dynamic touch to our branding that we love.",
             company: 'ABC company',
         },
         {
             profile: icon1,
             stars: icon2,
             name: 'Priscilla Pearson',
-            message: "The architectural visualizations crafted by Infinity Animations are simply breathtaking. They have a unique talent for bringing architectural concepts to life, and we couldn't be happier.",
+            message: "The architectural visualizations crafted by Animation Studioss are simply breathtaking. They have a unique talent for bringing architectural concepts to life, and we couldn't be happier.",
             company: 'ABC company',
         },
         {
             profile: icon1,
             stars: icon2,
             name: 'Randolph Simpson',
-            message: "Infinity Animations worked wonders with CGI-VFX for our product. Their work took our marketing efforts to a whole new level and made us stand out in the market.",
+            message: "Animation Studioss worked wonders with CGI-VFX for our product. Their work took our marketing efforts to a whole new level and made us stand out in the market.",
             company: 'ABC company',
         },
     ];

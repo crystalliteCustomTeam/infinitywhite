@@ -71,14 +71,14 @@ export default function Page() {
     };
     //=====Looking Fold=====//
     const paraArray = [
-        "Infinity Animations Pro is an award-winning, USA-based corporate video production agency with hundreds of projects completed successfully. We have worked with an internationally renowned clientele of many Fortune 500, 100 and even fortune 50 companies.",
+        "Animation Studios is an award-winning, USA-based corporate video production agency with hundreds of projects completed successfully. We have worked with an internationally renowned clientele of many Fortune 500, 100 and even fortune 50 companies.",
 
-        "The team at Infinity Animations Pro devote themselves wholeheartedly to create visuals that communicate your audience your business objectives and goals. Our meticulous process ensures every video is a masterpiece, from understanding your vision, writing the perfect script to engaging visuals and fluid animation. We strive only for perfection, satisfaction and an incredible solution.",
+        "The team at Animation Studios devote themselves wholeheartedly to create visuals that communicate your audience your business objectives and goals. Our meticulous process ensures every video is a masterpiece, from understanding your vision, writing the perfect script to engaging visuals and fluid animation. We strive only for perfection, satisfaction and an incredible solution.",
 
         "With our professionally created corporate videos, we let your customers, clients, and employees educate about your company, business, services, products engagingly. Our corporate videos are more about talking about your company, helping Human Resource department hire more & train your employees, increase brand recognition, and deliver your vision evidently to your prospects. So, if you are looking for professional corporate video production services, we are for sure your safe haven.",
     ];
     const looking = {
-        title: (<> Why Choose Infinity Animations Pro’s Corporate Video Production Services? </>),
+        title: (<> Why Choose Animation Studios’s Corporate Video Production Services? </>),
         para: { paraArray },
         isCTA: false,
         isBtns: false,
@@ -263,7 +263,7 @@ export default function Page() {
         {
             CardOne: TechImage1,
             CardTitle: "Internal Video",
-            CardPara: <>Corporate videos can be used effectively for internal communication and marketing drives. Our internal corporate video production at Infinity Animations Pro specializes in creating such videos that can be used to provide things like important policy messages, courses related to new tech implementation, and more. <br />
+            CardPara: <>Corporate videos can be used effectively for internal communication and marketing drives. Our internal corporate video production at Animation Studios specializes in creating such videos that can be used to provide things like important policy messages, courses related to new tech implementation, and more. <br />
 
                 As a corporate video production company, we make sure your internal videos are engaging and sensitive to your company culture.
             </>
@@ -287,7 +287,7 @@ export default function Page() {
     ]
     const techType = {
         title: <>What Types of Corporate Videos <br /> We Produce?</>,
-        desc: <>Infinity Animations Pro usually works around 3 types of corporate videos that you can use to communicate your business or brand. <br /> Our corporate video production services include:</>,
+        desc: <>Animation Studios usually works around 3 types of corporate videos that you can use to communicate your business or brand. <br /> Our corporate video production services include:</>,
         card: techCard,
         isBtn: false,
     }
@@ -305,7 +305,7 @@ export default function Page() {
         },
         {
             cardTitle: <>Conceptualization &<br /> Script Writing</>,
-            cardDesc: 'A great video relies on a creative concept and compelling script, and what’s better than Infinity Animations Pro to get the job done? Our creative team and writers know really well how to write captivating scripts that glue the audience to the video and attain business goals.',
+            cardDesc: 'A great video relies on a creative concept and compelling script, and what’s better than Animation Studios to get the job done? Our creative team and writers know really well how to write captivating scripts that glue the audience to the video and attain business goals.',
             cardNum: "03",
         },
         {
@@ -327,7 +327,7 @@ export default function Page() {
 
     const production = {
         title: "What Is Our Corporate Video Production Process?",
-        desc: "Our corporate video production process is simple and seamless. Whether you are a startup or a group of companies corporate, Infinity Animations Pro will convey your business story through incredible corporate videos effectively like no other corporate video production company does. Here is our professionally optimized video production process:",
+        desc: "Our corporate video production process is simple and seamless. Whether you are a startup or a group of companies corporate, Animation Studios will convey your business story through incredible corporate videos effectively like no other corporate video production company does. Here is our professionally optimized video production process:",
         firstTwoCards: false,
         otherCards: otherCards,
     }
@@ -406,11 +406,11 @@ export default function Page() {
             answer: "The cost for tech video production depends on how complicated your information to be converted into video is. Usually, the cost for a 2D animated video starts from $1000, and the same goes for technology videos. But the amount may vary on length and video style.",
         },
         {
-            question: 'What Is The Infinity Animations Pro’s Video Delivery Timeframe?',
+            question: 'What Is The Animation Studios’s Video Delivery Timeframe?',
             answer: "Step into a realm of immersive storytelling with our cutting-edge 3D animations. Elevate your visual narratives, whether for product showcases, virtual tours, or cinematic experiences.",
         },
         {
-            question: 'What Kind Of Videos Infinity Animations Pro Provides With Tech Video Production Services?',
+            question: 'What Kind Of Videos Animation Studios Provides With Tech Video Production Services?',
             answer: "Simplify the complex and engage your audience with our whiteboard animations. Each stroke unfolds a nuanced narrative, turning ideas into visually compelling stories.",
         }
     ];

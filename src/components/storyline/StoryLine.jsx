@@ -62,11 +62,11 @@ const StoryLine = ({ content }) => {
                                             <span>
                                                 {activeIndex === index ?
                                                     <div className="flex items-center justify-center w-[30px] h-[30px] bg-prime rounded-full">
-                                                        <Image src={arrow} className="w-[40%]" alt="Infinity Animation Pro" />
+                                                        <Image src={arrow} className="w-[40%]" alt="Animation Studios Pro" />
                                                     </div>
                                                     :
                                                     <div className="flex items-center justify-center w-[30px] h-[30px] bg-black rounded-full">
-                                                        <Image src={arrow} className="w-[40%] rotate-180" alt="Infinity Animation Pro" />
+                                                        <Image src={arrow} className="w-[40%] rotate-180" alt="Animation Studios Pro" />
                                                     </div>
                                                 }
                                             </span>
@@ -81,7 +81,7 @@ const StoryLine = ({ content }) => {
                         <div>
                             {activeIndex !== null && (
                                 <figure className="relative">
-                                    <Image className={`w-full lg:w-[90%] lg:ml-auto ${accImg}`} src={accordionData[activeIndex].StoryLineImg} alt="Infinity Animation Pro" />
+                                    <Image className={`w-full lg:w-[90%] lg:ml-auto ${accImg}`} src={accordionData[activeIndex].StoryLineImg} alt="Animation Studios Pro" />
                                     <figcaption className={`w-[90%] ml-auto text-[30px] text-white font-semibold font-sans tracking-wider text-center mt-[-75px] ${headings}`}>
                                         {accordionData[activeIndex].question}
                                     </figcaption>

@@ -1,16 +1,16 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Educational Videos | Infinity Animations Pro",
-    description: "Educational Videos | Infinity Animations Pro",
+    title: "Educational Videos | Animation Studios",
+    description: "Educational Videos | Animation Studios",
     // Canonical
     alternates: { canonical: 'https://infinityanimationspro.com/educational-video/' },
     // OG Metas
     openGraph: {
         title: 'Unearth Unlimited Potential with Our 2D Animation Services',
-        description: 'Educational Videos | Infinity Animations Pro',
+        description: 'Educational Videos | Animation Studios',
         url: 'https://infinityanimationspro.com/educational-video/',
-      siteName: 'Infinity Animations Pro',
+      siteName: 'Animation Studios',
         locale: 'en_US',
         type: 'website',
     },

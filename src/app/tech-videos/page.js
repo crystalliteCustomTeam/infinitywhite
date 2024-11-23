@@ -268,7 +268,7 @@ const tabContents = [
             ImageOne: conceptIcon1,
             sliderNumber: 1,
             slideTitle: "Our Videos Are Engaging",
-            paraOne: "Covering technology-based content in videos is not easy. You have to be creative, thoughtful, and less complicated to convey the information effectively. That is why Infinity Animations Pro makes sure the tech video production involves all the creative elements to make the videos more engaging for the viewer. ",
+            paraOne: "Covering technology-based content in videos is not easy. You have to be creative, thoughtful, and less complicated to convey the information effectively. That is why Animation Studios makes sure the tech video production involves all the creative elements to make the videos more engaging for the viewer. ",
             paraTwo: "Not only does it compellingly present tech product or information, but also keep audiences hooked to the chair till the end of the video. A win-win situation. Our team of communicators is best at storytelling through videos. And hence, people like a good story, we have to be better at it to make your videos well-received.",
         },
         {
@@ -276,7 +276,7 @@ const tabContents = [
             sliderNumber: 2,
             slideTitle: "Our Videos Create an Emotional Connection",
             paraOne: "Written words can’t connect with people on the level that videos carry with them. According to MarTech Series, the study conducted by Motista states that the success key for any brand is the emotional connection. The report revealed that emotionally connected customers of brands have a higher lifetime value by 306% than merely satisfied customers. ",
-            paraTwo: "And what’s better than Infinity Animations Pro’s technology video production to connect with customers and prospect buyers emotionally? Our videos are far more effective than a text-based piece of content. Using video instead of other content types significantly increases the likelihood of establishing an emotional connection with your audience.",
+            paraTwo: "And what’s better than Animation Studios’s technology video production to connect with customers and prospect buyers emotionally? Our videos are far more effective than a text-based piece of content. Using video instead of other content types significantly increases the likelihood of establishing an emotional connection with your audience.",
         },
         {
             ImageOne: conceptIcon3,
@@ -293,13 +293,13 @@ const tabContents = [
             ImageOne: conceptIcon4,
             sliderNumber: 4,
             slideTitle: "Our Videos Are Exceptional",
-            paraOne: "With videos all over the internet, Infinity Animations Pro strives to be exceptionally unique and stand out. We have taken tech video production to the next level by hiring a team full of design, animation, and tech enthusiasts to deliver you the exceptional content you were looking for.",
+            paraOne: "With videos all over the internet, Animation Studios strives to be exceptionally unique and stand out. We have taken tech video production to the next level by hiring a team full of design, animation, and tech enthusiasts to deliver you the exceptional content you were looking for.",
             paraTwo: "With creativity, excellence, aesthetics, and a unique storytelling approach, we are making tech video content digestible, easy to understand, and flawless. Now give your tech products the creative edge they need through our tech-based videos and elevate your brand identity like never before.",
         },
     ]
     const buzzflick = {
-        title: "The Four E’s of Infinity Animations Pro For Tech Video Production",
-        para: "Infinity Animations Pro is not just another video production company that throws content on the go. Our tech video production is a wholesome process that explains your brand as well as captures your audiences through the four E's.",
+        title: "The Four E’s of Animation Studios For Tech Video Production",
+        para: "Animation Studios is not just another video production company that throws content on the go. Our tech video production is a wholesome process that explains your brand as well as captures your audiences through the four E's.",
         conceptContent: buzzflickContent,
         foldBg: FoldBg,
         btnBg: "bg-prime",

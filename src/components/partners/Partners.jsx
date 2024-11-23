@@ -32,30 +32,30 @@ const Partners = () => {
                         {/* <Slider {...testiSlider} className="testiSlider">
                             <div>
                                 <div className="slide1">
-                                    <Image src={slide1} alt='Infinity Animation' />
+                                    <Image src={slide1} alt='Animation Studios' />
                                 </div>
                             </div>
                             <div>
                                 <div className="slide1">
-                                    <Image src={slide2} alt='Infinity Animation' />
+                                    <Image src={slide2} alt='Animation Studios' />
                                 </div>
                             </div>
                             <div>
                                 <div className="slide1">
-                                    <Image src={slide1} alt='Infinity Animation' />
+                                    <Image src={slide1} alt='Animation Studios' />
                                 </div>
                             </div>
                             <div>
                                 <div className="slide1">
-                                    <Image src={slide2} alt='Infinity Animation' />
+                                    <Image src={slide2} alt='Animation Studios' />
                                 </div>
                             </div>
                         </Slider> */}
                         <div className="slider1 border-b border-[#F91927] mr-[-40px] pb-5 relative before:content-[''] before:bg-[url('../../public/icons/arrow-left.png')] before:bg-no-repeat before:absolute before:left-[-31px] before:bottom-[-59px] before:w-[100px] before:h-[100px]">
-                            <Image src={slide1} alt="Infinity Animation Pro" className="w-11/12 ml-auto" />
+                            <Image src={slide1} alt="Animation Studios Pro" className="w-11/12 ml-auto" />
                         </div>
                         <div className="slider2 pt-14 ml-[-40px] border-b border-[#F91927] pb-5 relative before:content-[''] before:bg-[url('../../public/icons/arrow-right.png')] before:bg-no-repeat before:absolute before:right-[-31px] before:bottom-[-60px] before:w-[100px] before:h-[100px]">
-                            <Image src={slide2} alt="Infinity Animation Pro" className="w-11/12" />
+                            <Image src={slide2} alt="Animation Studios Pro" className="w-11/12" />
                         </div>
                     </div>
                 </div>

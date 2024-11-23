@@ -8,7 +8,7 @@ import NewsLetter from "@/components/newsletter/NewsLetter";
 export default function Page() {
     //=====Banner Fold=====//
     const hero = {
-        title: (<> Infinity Animations Blog </>),
+        title: (<> Animation Studioss Blog </>),
         para: "Offering a visual journey into the dynamic realm of animation excellence",
         btnBg: "bg-prime",
     };

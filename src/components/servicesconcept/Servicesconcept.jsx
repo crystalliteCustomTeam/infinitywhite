@@ -43,14 +43,14 @@ const Servicesconcept = ({ content }) => {
     return (
         <>
             <section className='xl:pt-36 lg:pb-16 md:pb-12 pb-8 relative'>
-                <Image src={foldBg} alt='Infinity Animation' className='absolute top-[-125px] right-0 w-full' />
+                <Image src={foldBg} alt='Animation Studios' className='absolute top-[-125px] right-0 w-full' />
                 <div className="container">
                     <div className="grid grid-cols-12 gap-y-7 md:gap-y-0">
                         <div className="col-span-12 md:col-span-4">
                             <div className='relative -ml-6'>
-                                <Image src={Servicesconcept} alt='Infinity Animation' quality={85} className='lg:w-10/12' />
+                                <Image src={Servicesconcept} alt='Animation Studios' quality={85} className='lg:w-10/12' />
                                 <div className='absolute bottom-[-80%] lg:bottom-[-100%] left-[12%] lg:left-[6%]'>
-                                    <Image src={ConceptParticle} alt='Infinity Animation' quality={85} className='w-full' />
+                                    <Image src={ConceptParticle} alt='Animation Studios' quality={85} className='w-full' />
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const Servicesconcept = ({ content }) => {
                                     <div key={index}>
                                         <div className="p-4">
                                             <div className="flex flex-wrap items-start justify-between mb-3">
-                                                <Image src={concept.ImageOne} className="w-[20%] xl:w-auto" alt='Infinity Animation' />
+                                                <Image src={concept.ImageOne} className="w-[20%] xl:w-auto" alt='Animation Studios' />
                                                 <div className="border-[1.5px] xl:border-2 rounded-full p-0.5 xl:p-1 w-[30px] h-[30px] xl:w-[40px] xl:h-[40px] flex items-center justify-center">
                                                     <span className="w-full h-full flex items-center justify-center bg-primary-100 text-white rounded-full text-md xl:text-[14px] font-sans font-normal">{concept.sliderNumber}</span>
                                                 </div>

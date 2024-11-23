@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 // Import Images
-import logo from "media/images/logo.gif";
+import logo from "media/images/logo.png";
 import mapmarker from "media/icons/map.png";
 import telephone from "media/icons/call.png";
 import envelope from "media/icons/email.png";
@@ -139,9 +139,9 @@ const Footer = () => {
                     <div className="flex gap-x-5 pb-8 border-b-[1px] border-[#707070] flex-wrap lg:flex-nowrap justify-between gap-y-5 lg:gap-y-0">
                         <div className="basis-full sm:basis-[48%] lg:basis-[30%]">
                             <Link href="/">
-                                <Image src={logo} className="w-[50%]" alt="Infinity Animation" />
+                                <Image src={logo} className="w-[40%]" alt="Animation Studios" />
                             </Link>
-                            <p className="text-sm xl:text-base font-normal font-sans text-justify text-black mt-3 pr-5">Infinity Animations is a visionary kingdom where creativity knows no bounds. With masterful strokes of artistry, they breathe life into ideas, forging appealing animations that dance with imagination. Each frame tells a story, each visual a masterpiece. From 2D wonders to CGI-VFX magic, they conjure dimensions where dreams come to life.</p>
+                           
                         </div>
                         <div className="basis-full sm:basis-[48%] lg:basis-[20%]">
                             <h4 className="text-2xl font-semibold font-sans text-black leading-none mb-3">Company</h4>
@@ -183,7 +183,7 @@ const Footer = () => {
                                         contactLinks.map((e, i) => {
                                             return (
                                                 <li key={i} className="flex items-center gap-2 mb-3 last:mb-0">
-                                                    <Image src={e.icon} className="w-[15px] invert" alt="Infinity Animation" />
+                                                    <Image src={e.icon} className="w-[15px] invert" alt="Animation Studios" />
                                                     <a href={e.link} className="text-sm xl:text-base text-black font-sans font-normal hover:text-primary-100">
                                                         {e.text}
                                                     </a>
@@ -200,7 +200,7 @@ const Footer = () => {
                                             return (
                                                 <li key={i} className="bg-[#22212D] hover:bg-second w-[45px] h-[45px] rounded-[5px] flex items-center justify-center p-1">
                                                     <Link href={e.link} target="_blank">
-                                                        <Image src={e.icon} className="w-[20px]" alt="Infinity Animation" />
+                                                        <Image src={e.icon} className="w-[20px]" alt="Animation Studios" />
                                                     </Link>
                                                 </li>
                                             );
@@ -213,7 +213,7 @@ const Footer = () => {
                     <div className="flex gap-x-5 py-5 flex-wrap sm:flex-nowrap gap-y-2 sm:gap-y-0 items-center border-b-[1px] border-[#707070]">
                         <div className="basis-full sm:basis-1/2">
                             <p className="text-sm font-sans text-black leading-6 text-center sm:text-left">
-                                © Infinity Animations 2024. All Rights Reserved
+                                © Animation Studioss 2024. All Rights Reserved
                             </p>
                         </div>
                         <div className="basis-full sm:basis-1/2">

@@ -10,11 +10,11 @@ const PrivacyPolicy = () => {
                 <div className='container'>
                     <h3 className='text-3xl font-bold font-sans mb-3'>What information do we gather?</h3>
                     <p className='text-[16px] text-justify font-sans leading-[25px] mb-7'>
-                        Infinity Animations has set this privacy plan to explain our policies regarding customer’s personal data that is collected for our use. When you place a query online, you will only need to give some basic information to us by filling out a simple query form so that we could contact you to discuss the need. You will only need to enter your name, e-mail address, phone number or country.
+                        Animation Studioss has set this privacy plan to explain our policies regarding customer’s personal data that is collected for our use. When you place a query online, you will only need to give some basic information to us by filling out a simple query form so that we could contact you to discuss the need. You will only need to enter your name, e-mail address, phone number or country.
                     </p>
                     <h3 className='text-3xl font-bold font-sans mb-3'>What do we use your information for?</h3>
                     <p className='text-[16px] text-justify font-sans leading-[25px] mb-4'>
-                        Infinity Animations uses the personal data for handling orders. Infinity Animations and its members also use your personal data and other personally non-identifiable information that will help us in handling your orders properly and to better respond to your complexity. Furthermore, your information may be used for the following ways:
+                        Animation Studioss uses the personal data for handling orders. Animation Studioss and its members also use your personal data and other personally non-identifiable information that will help us in handling your orders properly and to better respond to your complexity. Furthermore, your information may be used for the following ways:
                     </p>
                     <ol className='mb-7'>
                         <li className='text-[16px] text-justify font-sans leading-[25px] mb-1'>
@@ -29,7 +29,7 @@ const PrivacyPolicy = () => {
                     </ol>
                     <h3 className='text-3xl font-bold font-sans mb-3'>How do we protect your information?</h3>
                     <p className='text-[16px] text-justify font-sans leading-[25px] mb-7'>
-                        Infinity Animations uses a secure server for the purpose of securing your private information. All your private/credit information sends out via Secure Socket Layer (SSL) technology that is used to keep the information confidential when you place your order online.
+                        Animation Studioss uses a secure server for the purpose of securing your private information. All your private/credit information sends out via Secure Socket Layer (SSL) technology that is used to keep the information confidential when you place your order online.
                     </p>
                     <h3 className='text-3xl font-bold font-sans mb-3'>Do we use Cookie?</h3>
                     <p className='text-[16px] text-justify font-sans leading-[25px] mb-7'>
@@ -45,7 +45,7 @@ const PrivacyPolicy = () => {
                     </p>
                     <h3 className='text-3xl font-bold font-sans mb-3'>Consent</h3>
                     <p className='text-[16px] text-justify font-sans leading-[25px] mb-1'>
-                        By consenting to this privacy notice you are giving us permission to process your personal data specifically for the purpose identified. Consent is required for Infinity Animations to process both types of personal data, but it must be explicity given. Where we are asking for your sensitive personal data we will always tell you why and how the information will be used. You may withdraw consent at any time by Call or Via Email as per the standard Withdrawal of Consent Procedure [ GDPR DOC 2.7A]
+                        By consenting to this privacy notice you are giving us permission to process your personal data specifically for the purpose identified. Consent is required for Animation Studioss to process both types of personal data, but it must be explicity given. Where we are asking for your sensitive personal data we will always tell you why and how the information will be used. You may withdraw consent at any time by Call or Via Email as per the standard Withdrawal of Consent Procedure [ GDPR DOC 2.7A]
                     </p>
                 </div>
             </section>

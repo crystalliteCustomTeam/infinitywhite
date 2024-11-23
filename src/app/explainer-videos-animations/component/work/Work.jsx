@@ -169,7 +169,7 @@ const Video = () => {
                                     </svg>
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log2} alt="Infinity Animations Pro" />
+                                            <Image src={log2} alt="Animation Studios" />
                                             <p>Concept & Scripts</p>
                                         </div>
                                     </a>
@@ -187,7 +187,7 @@ const Video = () => {
                                     </svg>
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log1} alt="Infinity Animations Pro" />
+                                            <Image src={log1} alt="Animation Studios" />
                                             <p>Discussions</p>
                                         </div>
                                     </a>
@@ -202,7 +202,7 @@ const Video = () => {
 
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log3} alt="Infinity Animations Pro" />
+                                            <Image src={log3} alt="Animation Studios" />
                                             <p>Voiceover</p>
                                         </div>
                                     </a>
@@ -224,7 +224,7 @@ const Video = () => {
 
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log4} alt="Infinity Animations Pro" />
+                                            <Image src={log4} alt="Animation Studios" />
                                             <p>Illustration</p>
                                         </div>
                                     </a>
@@ -240,7 +240,7 @@ const Video = () => {
 
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log5} alt="Infinity Animations Pro" />
+                                            <Image src={log5} alt="Animation Studios" />
                                             <p>Animation</p>
                                         </div>
                                     </a>
@@ -257,7 +257,7 @@ const Video = () => {
 
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log6} alt="Infinity Animations Pro" />
+                                            <Image src={log6} alt="Animation Studios" />
                                             <p>Music</p>
                                         </div>
                                     </a>
@@ -280,7 +280,7 @@ const Video = () => {
 
                                     <a href="#">
                                         <div className={styles.rect}>
-                                            <Image src={log7} alt="Infinity Animations Pro" />
+                                            <Image src={log7} alt="Animation Studios" />
                                             <p>Video Publish</p>
                                         </div>
                                     </a>

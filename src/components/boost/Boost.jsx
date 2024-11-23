@@ -32,7 +32,7 @@ const Boost = ({ content }) => {
                                 {boostContent.map((item, index) => (
                                     <div key={index} className="relative">
                                         <div className="absolute left-[-10%] w-[1px] h-full bg-black text-black"></div>
-                                        <Image src={item.icon} className="w-[18%] h-[22%] mb-3 object-contain" alt='Infinity Animation' />
+                                        <Image src={item.icon} className="w-[18%] h-[22%] mb-3 object-contain" alt='Animation Studios' />
                                         <h3 className="text-[18px] xl:text-[20px] font-sans font-bold tracking-wide mb-2">{item.heading}</h3>
                                         <p className="text-[12px] xl:text-[16px] font-sans font-normal tracking-wider line">{item.text}</p>
                                     </div>
@@ -61,7 +61,7 @@ const Boost = ({ content }) => {
                             </div>
                         </div>
                         <div className="w-full sm:w-[400px] lg:w-[500px]">
-                            <Image src={flodImg} className="mx-auto w-full" alt="Infinity Animation Pro" />
+                            <Image src={flodImg} className="mx-auto w-full" alt="Animation Studios Pro" />
                         </div>
                     </div>
                 </div>

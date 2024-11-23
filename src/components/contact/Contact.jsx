@@ -12,7 +12,7 @@ const Contact = () => {
     return (
         <>
             <section className={`w-full h-full mt-8 md:mt-16 mb-10 flex items-center justify-star relative`}>
-                <Image src={contactBg} className="absolute w-full top-[-12%] left-[-12%] sm:block hidden" alt="Infinity Animation Pro" />
+                <Image src={contactBg} className="absolute w-full top-[-12%] left-[-12%] sm:block hidden" alt="Animation Studios Pro" />
                 <div className="container">
                     <div className='flex items-center justify-around'>
                         <div className='w-full text-center'>
@@ -29,7 +29,7 @@ const Contact = () => {
                             <Form />
                         </div>
                         <div className={`${styles.imgBefore} relative lg:block hidden`}>
-                            <Image src={contactImg} className="absolute right-[-3.5%] xl:right-[-4%] 2xl:right-[-4%] xxl:right-[-15%] 3xl:right-[-29.5%] top-[-14.5%]" alt="Infinity Animation Pro" />
+                            <Image src={contactImg} className="absolute right-[-3.5%] xl:right-[-4%] 2xl:right-[-4%] xxl:right-[-15%] 3xl:right-[-29.5%] top-[-14.5%]" alt="Animation Studios Pro" />
                         </div>
                     </div>
                 </div>

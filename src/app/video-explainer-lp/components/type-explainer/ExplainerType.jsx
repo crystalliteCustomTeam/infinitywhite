@@ -44,7 +44,7 @@ const ExplainerType = () => {
                     <div className="grid grid-cols-12 gap-6">
                         <div className="col-span-12">
                             <h2 className='text-[#231f20] text-center font-[700] montserrat text-[20px] md:text-[25px] lg:text-[30px]'>Types of Explainer Videos</h2>
-                            <p className='text-[#231f20] text-[16px] lg:text-[18px] montserrat font-[400] py-[17px] text-center lg:w-10/12 mx-auto leading-[22px] pb-[20px] sm:pb-[40px] md:pb-[70px]'>Infinity Animations is a renowned name in the video animation industry. Our experts produce all types of animation videos with the usage of modern devices and techniques, some are discussed below:</p>
+                            <p className='text-[#231f20] text-[16px] lg:text-[18px] montserrat font-[400] py-[17px] text-center lg:w-10/12 mx-auto leading-[22px] pb-[20px] sm:pb-[40px] md:pb-[70px]'>Animation Studioss is a renowned name in the video animation industry. Our experts produce all types of animation videos with the usage of modern devices and techniques, some are discussed below:</p>
                         </div>
                     </div>
                     <div className="lg:block hidden">

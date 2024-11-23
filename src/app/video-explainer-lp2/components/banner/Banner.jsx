@@ -115,7 +115,7 @@ const Banner = () => {
 
                 let bodyContent = JSON.stringify({
                     
-                    Brand: "Infinity Animation",
+                    Brand: "Animation Studios",
                     Page: `${page}`,
                     Date: setDate,
                     Time: setTime,

@@ -11,9 +11,9 @@ import { Navbar, Collapse, List, Menu, MenuHandler, MenuList, MenuItem, } from "
 import { ChevronDownIcon, Bars3Icon, XMarkIcon, ChevronRightIcon, } from "@heroicons/react/24/outline";
 import { Bars4Icon, GlobeAmericasIcon, NewspaperIcon, PhoneIcon, RectangleGroupIcon, SquaresPlusIcon, SunIcon, TagIcon, UserGroupIcon, } from "@heroicons/react/24/solid";
 // Import Images
-import logo from "media/images/logo.gif";
+import logo from "media/images/logo.png";
 import telephone from "media/icons/call.png";
-import logoWhite from "media/images/logo-white.gif";
+import logoWhite from "media/images/logo.png";
 
 // Path
 const megaMenuItems = [
@@ -295,7 +295,7 @@ const Header = () => {
                             variant="h6"
                             className="mr-4 cursor-pointer py-1.5 lg:ml-2 w-[455px] lg:w-[315px]"
                         >
-                            <Image src={router === "/process" || router === "/3d-animation" ? logoWhite : logo} className="w-[85%] md:w-[28%] lg:w-[50%]" alt="Infinity Animation Pro" />
+                            <Image src={router === "/process" || router === "/3d-animation" ? logoWhite : logo} width={80} alt="Animation Studios Pro" />
                         </Link>
                         <div className="hidden lg:flex gap-5">
                             <NavList />
@@ -312,7 +312,7 @@ const Header = () => {
                         <ul className="lg:hidden block w-[550px] md:w-auto">
                             <li>
                                 <Link href="javascript:;" className='flex items-center justify-end gap-x-3 text-black font-sans'>
-                                    <Image src={telephone} loading="lazy" width="56" height="52" className="w-[15px] invert" alt='Infinity Animations Pro' />
+                                    <Image src={telephone} loading="lazy" width="56" height="52" className="w-[15px] invert" alt='Animation Studios' />
                                     833-666-6684
                                 </Link>
                             </li>

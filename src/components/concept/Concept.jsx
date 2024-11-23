@@ -21,7 +21,7 @@ const Concept = ({ content }) => {
                             <div className="absolute top-[50%] w-full h-[1px] bg-black text-black"></div>
                             <div className="sm:p-4">
                                 <div className="flex flex-wrap items-start justify-between mb-3">
-                                    <Image src={icon1} className="w-[20%] xl:w-auto" alt='Infinity Animation' />
+                                    <Image src={icon1} className="w-[20%] xl:w-auto" alt='Animation Studios' />
                                     <div className="border-[1.5px] xl:border-2 border-black rounded-full p-0.5 xl:p-1 w-[30px] h-[30px] xl:w-[40px] xl:h-[40px] flex items-center justify-center">
                                         <span className="w-full h-full flex items-center justify-center bg-primary-100 rounded-full text-md xl:text-[14px] font-sans font-normal text-white">01</span>
                                     </div>
@@ -33,7 +33,7 @@ const Concept = ({ content }) => {
                             </div>
                             <div className="sm:p-4">
                                 <div className="flex flex-wrap items-start justify-between mb-3">
-                                    <Image src={icon2} className="w-[20%] xl:w-auto" alt='Infinity Animation' />
+                                    <Image src={icon2} className="w-[20%] xl:w-auto" alt='Animation Studios' />
                                     <div className="border-[1.5px] xl:border-2 border-black rounded-full p-0.5 xl:p-1 w-[30px] h-[30px] xl:w-[40px] xl:h-[40px] flex items-center justify-center">
                                         <span className="w-full h-full flex items-center justify-center bg-primary-100 rounded-full text-md xl:text-[14px] font-sans font-normal text-white">02</span>
                                     </div>
@@ -45,7 +45,7 @@ const Concept = ({ content }) => {
                             </div>
                             <div className="sm:p-4">
                                 <div className="flex flex-wrap items-start justify-between mb-3">
-                                    <Image src={icon3} className="w-[20%] xl:w-auto" alt='Infinity Animation' />
+                                    <Image src={icon3} className="w-[20%] xl:w-auto" alt='Animation Studios' />
                                     <div className="border-[1.5px] xl:border-2 border-black rounded-full p-0.5 xl:p-1 w-[30px] h-[30px] xl:w-[40px] xl:h-[40px] flex items-center justify-center">
                                         <span className="w-full h-full flex items-center justify-center bg-primary-100 rounded-full text-md xl:text-[14px] font-sans font-normal text-white">03</span>
                                     </div>
@@ -57,7 +57,7 @@ const Concept = ({ content }) => {
                             </div>
                             <div className="sm:p-4">
                                 <div className="flex flex-wrap items-start justify-between mb-3">
-                                    <Image src={icon4} className="w-[20%] xl:w-auto" alt='Infinity Animation' />
+                                    <Image src={icon4} className="w-[20%] xl:w-auto" alt='Animation Studios' />
                                     <div className="border-[1.5px] xl:border-2 border-black rounded-full p-0.5 xl:p-1 w-[30px] h-[30px] xl:w-[40px] xl:h-[40px] flex items-center justify-center">
                                         <span className="w-full h-full flex items-center justify-center bg-primary-100 rounded-full text-md xl:text-[14px] font-sans font-normal text-white">04</span>
                                     </div>

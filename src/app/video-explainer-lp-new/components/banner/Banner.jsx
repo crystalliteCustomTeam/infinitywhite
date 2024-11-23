@@ -106,7 +106,7 @@ const Banner = () => {
 
                 let bodyContent = JSON.stringify({
                     
-                    Brand: "Infinity Animation",
+                    Brand: "Animation Studios",
                     Page: `${page}`,
                     Date: setDate,
                     Time: setTime,
@@ -207,7 +207,7 @@ const Banner = () => {
                                     <button type='submit' className='bg-[#A70A0E] hover:bg-[#1c2a49] text-white text-[16px] font-[700] montserrat uppercase mt-[10px] py-[13px] px-[8px] shadow-lg w-full duration-700 transition-all hover:duration-700 hover:transition-all' onClick={handleFormSubmit} disabled={isDisabled}>{formStatus}</button>
                                 </div>
                                 <div>
-                                    <Image src={discount} alt='Infinity Animation' className={`${styles.discountbg}`} />
+                                    <Image src={discount} alt='Animation Studios' className={`${styles.discountbg}`} />
                                 </div>
                             </form>
                         </div>

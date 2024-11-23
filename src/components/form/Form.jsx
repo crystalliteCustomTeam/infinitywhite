@@ -116,7 +116,7 @@ const Form = () => {
                 };
                 let bodyContent = JSON.stringify({
                     IP: `${ip.ip} - ${ip.country_name} - ${ip.city_name}`,
-                    Brand: "Infinity Animations",
+                    Brand: "Animation Studioss",
                     Page: `${page}`,
                     Date: setDate,
                     Time: setTime,
@@ -175,7 +175,7 @@ const Form = () => {
                                 return (
                                     <li key={i} className="bg-second hover:bg-[#22212D] w-[45px] h-[45px] rounded-[5px] flex items-center justify-center p-1 hover:bg-second">
                                         <Link href={e.link} target="_blank">
-                                            <Image src={e.icon} className="w-[20px]" alt="Infinity Animation Pro" />
+                                            <Image src={e.icon} className="w-[20px]" alt="Animation Studios Pro" />
                                         </Link>
                                     </li>
                                 );

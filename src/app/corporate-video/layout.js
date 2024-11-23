@@ -1,16 +1,16 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Corporate Videos | Infinity Animations Pro",
-    description: "Corporate Videos | Infinity Animations Pro",
+    title: "Corporate Videos | Animation Studios",
+    description: "Corporate Videos | Animation Studios",
     // Canonical
     alternates: { canonical: 'https://infinityanimationspro.com/corporate-video/' },
     // OG Metas
     openGraph: {
         title: 'Unearth Unlimited Potential with Our 2D Animation Services',
-        description: 'Corporate Videos | Infinity Animations Pro',
+        description: 'Corporate Videos | Animation Studios',
         url: 'https://infinityanimationspro.com/corporate-video/',
-        siteName: 'Infinity Animations Pro',
+        siteName: 'Animation Studios',
         locale: 'en_US',
         type: 'website',
     },

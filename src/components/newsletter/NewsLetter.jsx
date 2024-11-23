@@ -18,7 +18,7 @@ const NewsLetter = () => {
                                             <input type="text" placeholder='Type your email' className='w-8/12 border-2 border-white rounded-l-[5px] h-[50px] bg-transparent placeholder:opacity-[0.8] focus:outline-none font-sans text-white px-4 placeholder:font-[400] placeholder:text-red-100' />
                                             <button type='submit' className='bg-white rounded-r-[5px] font-semibold text-[18px] text-[#FB1F32] font-sans h-[50px] w-[160px] flex items-center justify-center gap-2 lg:gap-2'>
                                                 Subscribe
-                                                <Image src={ButtonIcon} alt='Infinity Animation' className='bg-white rounded-full w-[30px] p-2 shadow-sm shadow-black' />
+                                                <Image src={ButtonIcon} alt='Animation Studios' className='bg-white rounded-full w-[30px] p-2 shadow-sm shadow-black' />
                                             </button>
                                         </form>
                                     </div>

@@ -69,7 +69,7 @@ const Packages = () => {
                                         </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className='flex items-center justify-between text-[16px] text-black group-hover:text-white font-[700] poppins bg-transparent group-hover:bg-[#231f20] border border-[#231f20] py-[12px] px-3 xl:px-5 w-[45%] xl:w-[45%] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             <span className='text-[16px]'>Live Chat</span>
-                                            <Image src={chat} alt='Infinity Animation' className='w-[18%] md:w-[12%] lg:w-[20%] group-hover:brightness-[50] group-hover:invert-1' />
+                                            <Image src={chat} alt='Animation Studios' className='w-[18%] md:w-[12%] lg:w-[20%] group-hover:brightness-[50] group-hover:invert-1' />
                                         </a>
                                     </div>
                                 </div>
@@ -124,7 +124,7 @@ const Packages = () => {
                                         </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className='flex items-center justify-between text-[16px] text-black group-hover:text-white font-[700] poppins bg-transparent group-hover:bg-[#231f20] border border-[#231f20] py-[12px] px-3 xl:px-5 w-[45%] xl:w-[45%] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             <span className='text-[16px]'>Live Chat</span>
-                                            <Image src={chat} alt='Infinity Animation' className='w-[18%] md:w-[12%] lg:w-[20%] group-hover:brightness-[50] group-hover:invert-1' />
+                                            <Image src={chat} alt='Animation Studios' className='w-[18%] md:w-[12%] lg:w-[20%] group-hover:brightness-[50] group-hover:invert-1' />
                                         </a>
                                     </div>
                                 </div>
@@ -179,7 +179,7 @@ const Packages = () => {
                                         </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className='flex items-center justify-between text-[16px] text-black group-hover:text-white font-[700] poppins bg-transparent group-hover:bg-[#231f20] border border-[#231f20] py-[12px] px-3 xl:px-5 w-[45%] xl:w-[45%] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             <span className='text-[16px]'>Live Chat</span>
-                                            <Image src={chat} alt='Infinity Animation' className='w-[18%] md:w-[12%] lg:w-[20%] group-hover:brightness-[50] group-hover:invert-1' />
+                                            <Image src={chat} alt='Animation Studios' className='w-[18%] md:w-[12%] lg:w-[20%] group-hover:brightness-[50] group-hover:invert-1' />
                                         </a>
                                     </div>
                                 </div>

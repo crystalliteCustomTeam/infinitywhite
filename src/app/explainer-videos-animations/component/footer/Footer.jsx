@@ -76,7 +76,7 @@ const Video = () => {
 
         let bodyContent = JSON.stringify({
             "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
-            "Brand": "Infinity Animations",
+            "Brand": "Animation Studioss",
             "Page": pagenewurl,
             "Date": currentdate,
             "Time": currentdate,
@@ -126,14 +126,14 @@ const Video = () => {
                                 <li className="fontmontserratregular text-white pb-3"><IoCall /><a className="text-white" href="tel:833-666-6684">  833-666-6684</a></li>
                                 <li className="fontmontserratregular text-white pb-3"><MdEmail /><a className="text-white" href="mailto:queries@infinityanimations.com">  queries@infinityanimations.com</a></li>
                                 <li className="fontmontserratregular text-white pb-3"><FaGlobe /><a className="text-white" href="https://infinityanimations.com/">  www.infinityanimationspro.com</a></li>
-                                <li><Image src={payment} className="img-fluid" alt="Infinity Animations Pro" /></li>
+                                <li><Image src={payment} className="img-fluid" alt="Animation Studios" /></li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
                 <a className={styles.animatio} href="#header">
-                    <Image src={top} alt="Infinity Animations Pro" />
+                    <Image src={top} alt="Animation Studios" />
                 </a>
             </section>
             <section className={styles.longton}>
